@@ -134,7 +134,7 @@ class PokemonUseCase @Inject constructor(
                     pokemon.types?.find { type ->
                         type.slot == 1
                     }?.id
-                ) || selectIdsSlot2.contains(
+                ) && selectIdsSlot2.contains(
                     pokemon.types?.find { type ->
                         type.slot == 2
                     }?.id

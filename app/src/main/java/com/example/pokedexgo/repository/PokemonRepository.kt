@@ -6,5 +6,5 @@ import javax.inject.Inject
 class PokemonRepository  @Inject constructor(
     private val pokemonDAO: PokemonDAO
 ) {
-    fun getAllPokemon() = pokemonDAO.getAllPokemonList()
+    fun getAllPokemonWithFilter() = pokemonDAO.getAllPokemonWithFilterList()
 }

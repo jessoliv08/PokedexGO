@@ -10,6 +10,8 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.systemBars
+import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material3.MaterialTheme
@@ -69,11 +71,9 @@ fun PokemonList(viewModel : PokemonViewModel) {
                     )
                 }
                 is ResultPokemon.Success -> {
-                    val result = (viewState as ResultPokemon.Success).data
-                    Column(
-                        modifier = Modifier.verticalScroll(rememberScrollState())
-                    ) {
-                        for (data in result) {
+                    val result = (viewState as ResultPokemon.Success).dataWithFilter
+                    LazyColumn {
+                        items(result) { data ->
                             PokemonElement(pokemon = data)
                         }
                     }

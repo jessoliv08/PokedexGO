@@ -1,6 +1,7 @@
 package com.example.pokedex.DAO
 
 import android.content.Context
+import android.util.Log
 import com.google.gson.Gson
 import java.io.IOException
 import java.lang.reflect.Type

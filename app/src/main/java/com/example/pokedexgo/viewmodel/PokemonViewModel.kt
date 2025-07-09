@@ -3,6 +3,7 @@ package com.example.pokedexgo.viewmodel
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.example.pokedexgo.R
 import com.example.pokedexgo.model.PokemonSummary
 import com.example.pokedexgo.model.generic.ResultPokemon
@@ -11,6 +12,7 @@ import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 @HiltViewModel
@@ -25,12 +27,14 @@ class PokemonViewModel @Inject constructor(
     val querySearch = _querySearch.asStateFlow()
 
     fun getAllPokemon() {
-        val result = pokemonUseCase.getAllPokemon()
-        if (result is ResultPokemon.Success) {
-            localPokemonList = result.data
-        }
-        _viewState.update {
-            result
+        viewModelScope.launch {
+            val result = pokemonUseCase.getAllPokemonWithFilter()
+            if (result is ResultPokemon.Success) {
+                localPokemonList = result.dataWithFilter
+            }
+            _viewState.update {
+                result
+            }
         }
     }
 

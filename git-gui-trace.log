@@ -1,0 +1,2 @@
+12:24:25.078723 git.c:742               trace: exec: git-gui
+12:24:25.078770 run-command.c:668       trace: run_command: git-gui

@@ -23,7 +23,6 @@ import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.example.pokedexgo.R
 import com.example.pokedexgo.model.PokemonSummary
-import com.example.pokedexgo.model.generic.Name
 import com.example.pokedexgo.model.generic.TypeStructure
 
 @Composable
@@ -103,9 +102,7 @@ fun PreviewPokemonElement() {
     PokemonElement(
         pokemon = PokemonSummary(
             id = 1,
-            names = arrayOf(
-                Name("Bulbasaur", "en")
-            ),
+            name = "Bulbasaur",
             types = arrayOf(
                 TypeStructure(1, 1),
                 TypeStructure(5, 2)

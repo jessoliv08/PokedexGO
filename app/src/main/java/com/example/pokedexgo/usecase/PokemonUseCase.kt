@@ -9,9 +9,9 @@ import javax.inject.Inject
 class PokemonUseCase @Inject constructor(
     private val pokemonRepository: PokemonRepository
 ) {
-    fun getAllPokemon(): ResultPokemon {
+    fun getAllPokemonWithFilter(): ResultPokemon {
         try {
-            pokemonRepository.getAllPokemon()?.let { allPokemon ->
+            pokemonRepository.getAllPokemonWithFilter()?.let { allPokemon ->
                 if (allPokemon.isNotEmpty()) {
                     return ResultPokemon.Success(
                         allPokemon.toList()

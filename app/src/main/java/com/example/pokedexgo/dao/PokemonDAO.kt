@@ -11,8 +11,8 @@ import javax.inject.Inject
 class PokemonDAO @Inject constructor(
     @ApplicationContext private val context: Context
 ) {
-    fun getAllPokemonList(): Array<PokemonSummary>? {
+    fun getAllPokemonWithFilterList(): Array<PokemonSummary>? {
         val pokemonSummaryArrayType = object : TypeToken<Array<PokemonSummary>>() {}.type
-        return getAllJsonList(context, Constants.POKEMON_LIST, pokemonSummaryArrayType)
+        return getAllJsonList(context, Constants.POKEMON_LIST_WITH_FILTERS, pokemonSummaryArrayType)
     }
 }

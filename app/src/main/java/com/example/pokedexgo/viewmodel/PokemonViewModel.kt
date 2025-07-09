@@ -53,6 +53,9 @@ class PokemonViewModel @Inject constructor(
                 val allGeneration = localPokemonList.mapNotNull {
                     it.generation?.toUpperCase(Locale.current)?.split("-")?.last()
                 }.distinct()
+                val allHabitat = localPokemonList.map {
+                    it.habitat ?: "NONE"
+                }.distinct()
                 _filterDataViewState.update {
                     FilterDataViewState(
                         shouldShowModal = false,
@@ -61,7 +64,9 @@ class PokemonViewModel @Inject constructor(
                         allTypes = allTypesStr,
                         allTypesWithId = allTypesMap,
                         allGeneration = allGeneration,
-                        selectedGeneration = allGeneration
+                        selectedGeneration = allGeneration,
+                        allHabitat = allHabitat,
+                        selectedHabitat = allHabitat
                     )
                 }
             }
@@ -94,12 +99,17 @@ class PokemonViewModel @Inject constructor(
         val selectedGeneration = filterData.selectedGeneration.map {
             "GENERATION-$it".toLowerCase(Locale.current)
         }
-        val tempList = localPokemonList.filter { pokemon ->
+        val filterByGeneration = localPokemonList.filter { pokemon ->
             selectedGeneration.contains(
                 pokemon.generation
             )
         }
-        filteredSubList = tempList
+        val filterByHabitat = filterByGeneration.filter { pokemon ->
+            filterData.selectedHabitat.contains(
+                pokemon.habitat ?: "NONE"
+            )
+        }
+        filteredSubList = filterByHabitat
             .filter { pokemon ->
             selectIdsSlot1.contains(
                 pokemon.types?.find { type ->

@@ -7,5 +7,7 @@ data class FilterDataViewState(
     val allTypes: List<String>,
     val allTypesWithId: Map<Int, String>,
     val allGeneration: List<String>,
-    val selectedGeneration: List<String>
+    val selectedGeneration: List<String>,
+    val allHabitat: List<String>,
+    val selectedHabitat: List<String>
 )

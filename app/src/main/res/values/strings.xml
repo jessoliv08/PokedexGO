@@ -8,4 +8,5 @@
     <string name="filter_type_select_none">None</string>
     <string name="filter_apply">Apply Filter</string>
     <string name="filter_generation">Filter generation</string>
+    <string name="filter_habitat">Filter habitat</string>
 </resources>

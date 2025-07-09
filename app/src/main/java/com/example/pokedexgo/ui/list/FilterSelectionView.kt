@@ -107,6 +107,19 @@ fun FilterSelectionView(
                 numberToBreak = 6
             )
 
+            val selectedHabitat =
+                remember { mutableStateListOf<String>().also { it.addAll(filterData.selectedHabitat) } }
+            TitleAndSelectAllOrNone(
+                title = stringResource(R.string.filter_habitat),
+                selectAll = { selectedHabitat.addAll(filterData.allHabitat) },
+                removeAll = { selectedHabitat.removeAll(filterData.allHabitat) }
+            )
+            CustomFilterChipsExample(
+                selectedFilters = selectedHabitat,
+                filters = filterData.allHabitat,
+                numberToBreak = 3
+            )
+
             Button(
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 16.dp),
                 onClick = {
@@ -115,6 +128,7 @@ fun FilterSelectionView(
                             slot1Selected = selectedFiltersSlot1,
                             slot2Selected = selectedFiltersSlot2,
                             selectedGeneration = selectedGeneration,
+                            selectedHabitat = selectedHabitat,
                             shouldShowModal = false
                         )
                     )
@@ -232,8 +246,10 @@ fun CustomFilterChipsExamplePreview() {
                 allTypes = listOf("Grass", "Fire", "Water", "Normal", "Poison"),
                 shouldShowModal = false,
                 allTypesWithId = emptyMap(),
-                allGeneration = listOf("I", "II", "III"),
-                selectedGeneration = listOf("I"),
+                allGeneration = emptyList(),
+                selectedGeneration = emptyList(),
+                allHabitat = emptyList(),
+                selectedHabitat = emptyList()
             )
         )
     }

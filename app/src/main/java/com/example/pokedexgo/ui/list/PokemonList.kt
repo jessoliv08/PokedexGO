@@ -30,10 +30,7 @@ import com.example.pokedexgo.viewmodel.PokemonViewModel
 @Composable
 fun PokemonList(viewModel : PokemonViewModel) {
     LaunchedEffect(Unit) {
-        viewModel.getAllPokemon()
-    }
-    LaunchedEffect(Unit) {
-        viewModel.setupInitialFilter()
+        viewModel.setupInitialInfo()
     }
     Scaffold(
         modifier = Modifier.fillMaxSize(),
@@ -76,16 +73,16 @@ fun PokemonList(viewModel : PokemonViewModel) {
                     }
                 }
             }
-            val filterData by viewModel.filterDataViewState.collectAsState()
-            filterData?.let {
-                FilterBottomModalWithAnimation(
-                    shouldShow = it.shouldShowModal,
-                    filterData = it,
-                    onApplyFilter = { viewModel.onApplyFilter(it) },
-                    onHideModal = { viewModel.shouldShowFilterModal(false) }
-                )
-            }
         }
+    }
+    val filterData by viewModel.filterDataViewState.collectAsState()
+    filterData?.let {
+        FilterBottomModalWithAnimation(
+            shouldShow = it.shouldShowModal,
+            filterData = it,
+            onApplyFilter = { viewModel.onApplyFilter(it) },
+            onHideModal = { viewModel.shouldShowFilterModal(false) }
+        )
     }
 }
 

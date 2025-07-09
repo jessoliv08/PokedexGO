@@ -5,5 +5,7 @@ data class FilterDataViewState(
     val slot1Selected: List<String>,
     val slot2Selected: List<String>,
     val allTypes: List<String>,
-    val allTypesWithId: Map<Int, String>
+    val allTypesWithId: Map<Int, String>,
+    val allGeneration: List<String>,
+    val selectedGeneration: List<String>
 )

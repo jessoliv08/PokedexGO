@@ -2,6 +2,7 @@ package com.example.pokedexgo.viewmodel
 
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
+import androidx.compose.ui.text.toUpperCase
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pokedexgo.R
@@ -30,8 +31,9 @@ class PokemonViewModel @Inject constructor(
     private val _filterDataViewState = MutableStateFlow<FilterDataViewState?>(null)
     val filterDataViewState = _filterDataViewState.asStateFlow()
 
-    fun getAllPokemon() {
+    fun setupInitialInfo() {
         viewModelScope.launch {
+            // setup Pokemon
             val result = pokemonUseCase.getAllPokemonWithFilter()
             if (result is ResultPokemon.Success) {
                 localPokemonList = result.dataWithFilter
@@ -40,11 +42,7 @@ class PokemonViewModel @Inject constructor(
                 result
             }
             filteredSubList = localPokemonList
-        }
-    }
-
-    fun setupInitialFilter() {
-        viewModelScope.launch {
+            // setup Filters
             pokemonUseCase.getAllTypesList()?.let { allTypes->
                 val allTypesStr = allTypes.map {
                     it.name
@@ -52,13 +50,18 @@ class PokemonViewModel @Inject constructor(
                 val allTypesMap = allTypes.associate {
                     it.id to it.name
                 }
+                val allGeneration = localPokemonList.mapNotNull {
+                    it.generation?.toUpperCase(Locale.current)?.split("-")?.last()
+                }.distinct()
                 _filterDataViewState.update {
                     FilterDataViewState(
                         shouldShowModal = false,
                         slot1Selected = allTypesStr,
                         slot2Selected = allTypesStr,
                         allTypes = allTypesStr,
-                        allTypesWithId = allTypesMap
+                        allTypesWithId = allTypesMap,
+                        allGeneration = allGeneration,
+                        selectedGeneration = allGeneration
                     )
                 }
             }
@@ -88,7 +91,16 @@ class PokemonViewModel @Inject constructor(
                 it.value == typeString
             }.map { it.key }.first()
         }
-        filteredSubList = localPokemonList.filter { pokemon ->
+        val selectedGeneration = filterData.selectedGeneration.map {
+            "GENERATION-$it".toLowerCase(Locale.current)
+        }
+        val tempList = localPokemonList.filter { pokemon ->
+            selectedGeneration.contains(
+                pokemon.generation
+            )
+        }
+        filteredSubList = tempList
+            .filter { pokemon ->
             selectIdsSlot1.contains(
                 pokemon.types?.find { type ->
                     type.slot == 1

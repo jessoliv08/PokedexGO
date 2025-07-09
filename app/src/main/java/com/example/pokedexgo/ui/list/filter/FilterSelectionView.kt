@@ -1,9 +1,8 @@
-package com.example.pokedexgo.ui.list
+package com.example.pokedexgo.ui.list.filter
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
@@ -11,34 +10,23 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Check
 import androidx.compose.material3.Button
-import androidx.compose.material3.FilterChip
-import androidx.compose.material3.FilterChipDefaults
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
-import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateListOf
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
-import androidx.compose.runtime.snapshots.SnapshotStateList
-import androidx.compose.ui.Alignment
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalConfiguration
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.text.intl.Locale
-import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.pokedexgo.R
 import com.example.pokedexgo.model.FilterDataViewState
-import com.example.pokedexgo.ui.theme.LightGray
-import com.example.pokedexgo.ui.theme.PokemonSectionColor
 
 @Composable
 fun FilterSelectionView(
@@ -120,6 +108,32 @@ fun FilterSelectionView(
                 numberToBreak = 3
             )
 
+            var rangeHeight by remember {
+                mutableStateOf(
+                    value = filterData.minHeight.toFloat()..filterData.maxHeight.toFloat()
+                )
+            }
+            RangeSliderFilter(
+                title = stringResource(R.string.filter_height),
+                initialRange = rangeHeight,
+                maxValue = 201f
+            ) { newValue ->
+                rangeHeight = newValue
+            }
+
+            var rangeWeight by remember {
+                mutableStateOf(
+                    value = filterData.minWeight.toFloat()..filterData.maxWeight.toFloat()
+                )
+            }
+            RangeSliderFilter(
+                title = stringResource(R.string.filter_weight),
+                initialRange = rangeWeight,
+                maxValue = 10000f
+            ) { newValue ->
+                rangeWeight = newValue
+            }
+
             Button(
                 modifier = Modifier.fillMaxWidth().padding(horizontal = 16.dp).padding(bottom = 16.dp),
                 onClick = {
@@ -129,7 +143,11 @@ fun FilterSelectionView(
                             slot2Selected = selectedFiltersSlot2,
                             selectedGeneration = selectedGeneration,
                             selectedHabitat = selectedHabitat,
-                            shouldShowModal = false
+                            shouldShowModal = false,
+                            minHeight = rangeHeight.start.toInt(),
+                            maxHeight = rangeHeight.endInclusive.toInt(),
+                            minWeight = rangeWeight.start.toInt(),
+                            maxWeight = rangeWeight.endInclusive.toInt()
                         )
                     )
                 },
@@ -140,98 +158,6 @@ fun FilterSelectionView(
                 )
             }
         }
-    }
-}
-
-@Composable
-private fun TitleAndSelectAllOrNone(
-    title: String,
-    selectAll: () -> Unit,
-    removeAll: () -> Unit,
-    modifier: Modifier = Modifier
-) {
-    Row(
-        modifier = modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceBetween,
-        verticalAlignment = Alignment.CenterVertically
-    ) {
-        Text(
-            title,
-            style = MaterialTheme.typography.bodyLarge,
-            color = MaterialTheme.colorScheme.onBackground
-        )
-        Row(
-            horizontalArrangement = Arrangement.spacedBy(4.dp)
-        ) {
-            TextButton(
-                onClick = selectAll,
-            ) {
-                Text(stringResource(R.string.filter_type_select_all))
-            }
-
-            TextButton(
-                onClick = removeAll,
-            ) {
-                Text(stringResource(R.string.filter_type_select_none))
-            }
-        }
-    }
-}
-
-@Composable
-fun CustomFilterChipsExample(
-    selectedFilters: SnapshotStateList<String>,
-    filters: List<String>,
-    numberToBreak: Int
-) {
-    Column(modifier = Modifier.padding(4.dp)) {
-        filters.chunked(numberToBreak).forEach { rowFilters ->
-            Row(modifier = Modifier.padding(top = 8.dp)) {
-                rowFilters.forEach { filter ->
-                    FilterChip(
-                        selected = selectedFilters.contains(filter),
-                        onClick = {
-                            if (selectedFilters.contains(filter)) {
-                                selectedFilters.remove(filter)
-                            } else {
-                                selectedFilters.add(filter)
-                            }
-                        },
-                        label = { Text(filter) },
-                        leadingIcon = {
-                            if (selectedFilters.contains(filter)) {
-                                Icon(
-                                    Icons.Filled.Check,
-                                    contentDescription = null,
-                                    tint = Color.Black
-                                )
-                            }
-                        },
-                        colors = FilterChipDefaults.filterChipColors(
-                            selectedContainerColor = matchColor(filter.toLowerCase(Locale.current)),
-                            selectedLabelColor = Color.Black,
-                            containerColor = LightGray,
-                            labelColor = Color.Black
-                        ),
-                        modifier = Modifier.padding(end = 8.dp)
-                    )
-                }
-            }
-        }
-
-    }
-}
-
-@Composable
-private fun matchColor(resourceName: String): Color {
-    val context = LocalContext.current
-    val resId = remember(resourceName) {
-        context.resources.getIdentifier(resourceName, "color", context.packageName)
-    }
-    return if (resId != 0) {
-        colorResource(resId)
-    } else {
-        PokemonSectionColor
     }
 }
 
@@ -249,7 +175,11 @@ fun CustomFilterChipsExamplePreview() {
                 allGeneration = emptyList(),
                 selectedGeneration = emptyList(),
                 allHabitat = emptyList(),
-                selectedHabitat = emptyList()
+                selectedHabitat = emptyList(),
+                minHeight = 0,
+                maxHeight = 1000,
+                minWeight = 0,
+                maxWeight = 1000
             )
         )
     }

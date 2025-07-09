@@ -9,5 +9,9 @@ data class FilterDataViewState(
     val allGeneration: List<String>,
     val selectedGeneration: List<String>,
     val allHabitat: List<String>,
-    val selectedHabitat: List<String>
+    val selectedHabitat: List<String>,
+    val minHeight: Int,
+    val maxHeight: Int,
+    val minWeight: Int,
+    val maxWeight: Int
 )

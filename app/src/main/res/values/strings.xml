@@ -9,4 +9,6 @@
     <string name="filter_apply">Apply Filter</string>
     <string name="filter_generation">Filter generation</string>
     <string name="filter_habitat">Filter habitat</string>
+    <string name="filter_height">Select your range Height</string>
+    <string name="filter_weight">Select your range Weight</string>
 </resources>

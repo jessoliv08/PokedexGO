@@ -2,7 +2,6 @@ package com.example.pokedexgo.viewmodel
 
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
-import androidx.compose.ui.text.toUpperCase
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pokedexgo.R
@@ -43,31 +42,11 @@ class PokemonViewModel @Inject constructor(
             }
             filteredSubList = localPokemonList
             // setup Filters
-            pokemonUseCase.getAllTypesList()?.let { allTypes->
-                val allTypesStr = allTypes.map {
-                    it.name
-                }
-                val allTypesMap = allTypes.associate {
-                    it.id to it.name
-                }
-                val allGeneration = localPokemonList.mapNotNull {
-                    it.generation?.toUpperCase(Locale.current)?.split("-")?.last()
-                }.distinct()
-                val allHabitat = localPokemonList.map {
-                    it.habitat ?: "NONE"
-                }.distinct()
+            pokemonUseCase.createFilterDataDefault(
+                localPokemonList = localPokemonList
+            )?.let { filter->
                 _filterDataViewState.update {
-                    FilterDataViewState(
-                        shouldShowModal = false,
-                        slot1Selected = allTypesStr,
-                        slot2Selected = allTypesStr,
-                        allTypes = allTypesStr,
-                        allTypesWithId = allTypesMap,
-                        allGeneration = allGeneration,
-                        selectedGeneration = allGeneration,
-                        allHabitat = allHabitat,
-                        selectedHabitat = allHabitat
-                    )
+                    filter
                 }
             }
         }
@@ -86,41 +65,10 @@ class PokemonViewModel @Inject constructor(
             filterData
         }
         _querySearch.value = ""
-        val selectIdsSlot1 = filterData.slot1Selected.map { typeString ->
-            filterData.allTypesWithId.filter {
-                it.value == typeString
-            }.map { it.key }.first()
-        }
-        val selectIdsSlot2 = filterData.slot2Selected.map { typeString ->
-            filterData.allTypesWithId.filter {
-                it.value == typeString
-            }.map { it.key }.first()
-        }
-        val selectedGeneration = filterData.selectedGeneration.map {
-            "GENERATION-$it".toLowerCase(Locale.current)
-        }
-        val filterByGeneration = localPokemonList.filter { pokemon ->
-            selectedGeneration.contains(
-                pokemon.generation
-            )
-        }
-        val filterByHabitat = filterByGeneration.filter { pokemon ->
-            filterData.selectedHabitat.contains(
-                pokemon.habitat ?: "NONE"
-            )
-        }
-        filteredSubList = filterByHabitat
-            .filter { pokemon ->
-            selectIdsSlot1.contains(
-                pokemon.types?.find { type ->
-                    type.slot == 1
-                }?.id
-            ) || selectIdsSlot2.contains(
-                pokemon.types?.find { type ->
-                    type.slot == 2
-                }?.id
-            )
-        }
+        filteredSubList = pokemonUseCase.filterList(
+            localPokemonList = localPokemonList,
+            filterData = filterData
+        )
         _viewState.update {
             ResultPokemon.Success(filteredSubList)
         }

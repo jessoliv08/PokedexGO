@@ -3,6 +3,9 @@ package com.example.pokedexgo.ui.theme
 import androidx.compose.ui.graphics.Color
 
 val Gray = Color(0xFF686868)
+val LightGray = Color(0xFFa9b5aa)
+val LighterGray = Color(0xFFd3d3d3)
+val DarkerGray = Color(0xFF434343)
 val Clear = Color(0xFFD7D7D7)
 
 val DarkGrey = Color(0xFF5b715d)

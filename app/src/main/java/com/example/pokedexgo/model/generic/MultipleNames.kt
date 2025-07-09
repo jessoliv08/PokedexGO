@@ -1,12 +1,9 @@
-package com.example.pokedexgo.model
+package com.example.pokedexgo.model.generic
 
 import com.example.pokedex.util.Constants
-import com.example.pokedexgo.model.generic.Name
-import com.example.pokedexgo.util.toFilledId
 import java.util.*
 
-open class Trigger(
-    val id: Int,
+open class MultipleNames(
     val names: Array<Name>
 ) {
     val name: String
@@ -23,10 +20,5 @@ open class Trigger(
                 }[0]
             }
             return nameSelected.name
-        }
-
-    val idLabel: String
-        get() {
-            return "#${id.toFilledId()}"
         }
 }

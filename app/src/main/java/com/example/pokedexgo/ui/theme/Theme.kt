@@ -10,15 +10,16 @@ private val DarkColorScheme = darkColorScheme(
     primary = PokemonSectionColorDarker,
     secondary = Gray,
     tertiary = Clear,
-    surface = PokemonSectionColor
-
+    surface = PokemonSectionColor,
+    surfaceVariant = DarkerGray
 )
 
 private val LightColorScheme = lightColorScheme(
     primary = PokemonSectionColorDarker,
     secondary = DarkGrey,
     tertiary = Pink40,
-    surface = PokemonSectionColor
+    surface = PokemonSectionColor,
+    surfaceVariant = LighterGray
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),

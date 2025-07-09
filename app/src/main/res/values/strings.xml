@@ -2,4 +2,9 @@
     <string name="app_name">PokedexGO</string>
     <string name="empty_message">Oh no, pokedex could not find any result. Please change any filter to try again.</string>
     <string name="error_message">Oh no, something went wrong and pokedex could not find any result. Please restart pokedex.</string>
+    <string name="filter_type_slot_1">Filter types in slot 1</string>
+    <string name="filter_type_slot_2">Filter types in slot 2</string>
+    <string name="filter_type_select_all">All</string>
+    <string name="filter_type_select_none">None</string>
+    <string name="filter_apply">Apply Filter</string>
 </resources>

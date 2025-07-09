@@ -4,6 +4,7 @@ import android.content.Context
 import com.example.pokedex.DAO.getAllJsonList
 import com.example.pokedex.util.Constants
 import com.example.pokedexgo.model.PokemonSummary
+import com.example.pokedexgo.model.PokemonType
 import com.google.gson.reflect.TypeToken
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject
@@ -14,5 +15,10 @@ class PokemonDAO @Inject constructor(
     fun getAllPokemonWithFilterList(): Array<PokemonSummary>? {
         val pokemonSummaryArrayType = object : TypeToken<Array<PokemonSummary>>() {}.type
         return getAllJsonList(context, Constants.POKEMON_LIST_WITH_FILTERS, pokemonSummaryArrayType)
+    }
+
+    fun getAllTypesList(): Array<PokemonType>? {
+        val typeArrayType = object : TypeToken<Array<PokemonType>>() {}.type
+        return getAllJsonList(context, Constants.TYPE_LIST, typeArrayType)
     }
 }

@@ -4,6 +4,7 @@ import com.example.pokedexgo.R
 import com.example.pokedexgo.model.generic.ResultPokemon
 import com.example.pokedexgo.repository.PokemonRepository
 import android.util.Log
+import com.example.pokedexgo.model.PokemonType
 import javax.inject.Inject
 
 class PokemonUseCase @Inject constructor(
@@ -22,6 +23,15 @@ class PokemonUseCase @Inject constructor(
         } catch (ex: Exception) {
             Log.e(TAG, "Error parsing pokemon list", ex)
             return ResultPokemon.Error(R.string.error_message)
+        }
+    }
+
+    fun getAllTypesList(): List<PokemonType>? {
+        try {
+            return pokemonRepository.getAllTypesList()?.toList()
+        } catch (ex: Exception) {
+            Log.e(TAG, "Error parsing types from json", ex)
+            return emptyList()
         }
     }
 

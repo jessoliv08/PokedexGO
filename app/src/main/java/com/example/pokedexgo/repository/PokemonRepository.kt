@@ -7,4 +7,5 @@ class PokemonRepository  @Inject constructor(
     private val pokemonDAO: PokemonDAO
 ) {
     fun getAllPokemonWithFilter() = pokemonDAO.getAllPokemonWithFilterList()
+    fun getAllTypesList() = pokemonDAO.getAllTypesList()
 }

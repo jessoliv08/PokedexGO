@@ -127,19 +127,23 @@ class PokemonUseCase @Inject constructor(
                 it.value == typeString
             }.map { it.key }.first()
         }
-
-        return localPokemonList
+        val slot1Filter = localPokemonList
             .filter { pokemon ->
                 selectIdsSlot1.contains(
                     pokemon.types?.find { type ->
                         type.slot == 1
                     }?.id
-                ) && selectIdsSlot2.contains(
-                    pokemon.types?.find { type ->
-                        type.slot == 2
-                    }?.id
                 )
             }
+        return  slot1Filter.filter { pokemon ->
+            pokemon.types?.find { type ->
+                type.slot == 2
+            }?.id?.let { toFilter ->
+                selectIdsSlot2.contains(
+                    toFilter
+                )
+            } ?: true
+        }
     }
 
     private fun filterByWeight(
@@ -148,8 +152,9 @@ class PokemonUseCase @Inject constructor(
         maxWeight: Int
     ): List<PokemonSummary> {
         return localPokemonList.filter {
-            val weight = it.weight ?: 0
-            weight in (minWeight + 1)..<maxWeight
+            it.weight?.let { weight ->
+                weight in minWeight..<maxWeight+1
+            } ?: true
         }
     }
 
@@ -159,8 +164,9 @@ class PokemonUseCase @Inject constructor(
         maxHeight: Int
     ): List<PokemonSummary> {
         return localPokemonList.filter {
-            val height = it.height ?: 0
-            height in (minHeight + 1)..<maxHeight
+            it.height?.let { height ->
+                height in (minHeight)..<maxHeight+1
+            } ?: true
         }
     }
 

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PokedexGO</string>
+    <string name="empty_message">Oh no, pokedex could not find any result. Please change any filter to try again.</string>
+    <string name="error_message">Oh no, something went wrong and pokedex could not find any result. Please restart pokedex.</string>
+</resources>

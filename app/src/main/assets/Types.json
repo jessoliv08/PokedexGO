@@ -1,0 +1,1088 @@
+[
+  {
+    "id": 1,
+    "names": [
+      {
+        "name": "노말",
+        "language": "ko"
+      },
+      {
+        "name": "Normal",
+        "language": "fr"
+      },
+      {
+        "name": "Normal",
+        "language": "de"
+      },
+      {
+        "name": "Normal",
+        "language": "es"
+      },
+      {
+        "name": "Normale",
+        "language": "it"
+      },
+      {
+        "name": "Normal",
+        "language": "en"
+      },
+      {
+        "name": "ノーマル",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "id": 8
+      }
+    ],
+    "half_damage_from": [],
+    "double_damage_from": [
+      {
+        "id": 2
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "names": [
+      {
+        "name": "격투",
+        "language": "ko"
+      },
+      {
+        "name": "Combat",
+        "language": "fr"
+      },
+      {
+        "name": "Kampf",
+        "language": "de"
+      },
+      {
+        "name": "Lucha",
+        "language": "es"
+      },
+      {
+        "name": "Lotta",
+        "language": "it"
+      },
+      {
+        "name": "Fighting",
+        "language": "en"
+      },
+      {
+        "name": "かくとう",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 6
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 17
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 3
+      },
+      {
+        "id": 14
+      },
+      {
+        "id": 18
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "names": [
+      {
+        "name": "비행",
+        "language": "ko"
+      },
+      {
+        "name": "Vol",
+        "language": "fr"
+      },
+      {
+        "name": "Flug",
+        "language": "de"
+      },
+      {
+        "name": "Volador",
+        "language": "es"
+      },
+      {
+        "name": "Volante",
+        "language": "it"
+      },
+      {
+        "name": "Flying",
+        "language": "en"
+      },
+      {
+        "name": "ひこう",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "id": 5
+      }
+    ],
+    "half_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 12
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 6
+      },
+      {
+        "id": 13
+      },
+      {
+        "id": 15
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "names": [
+      {
+        "name": "독",
+        "language": "ko"
+      },
+      {
+        "name": "Poison",
+        "language": "fr"
+      },
+      {
+        "name": "Gift",
+        "language": "de"
+      },
+      {
+        "name": "Veneno",
+        "language": "es"
+      },
+      {
+        "name": "Veleno",
+        "language": "it"
+      },
+      {
+        "name": "Poison",
+        "language": "en"
+      },
+      {
+        "name": "どく",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 4
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 18
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 5
+      },
+      {
+        "id": 14
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "names": [
+      {
+        "name": "땅",
+        "language": "ko"
+      },
+      {
+        "name": "Sol",
+        "language": "fr"
+      },
+      {
+        "name": "Boden",
+        "language": "de"
+      },
+      {
+        "name": "Tierra",
+        "language": "es"
+      },
+      {
+        "name": "Terra",
+        "language": "it"
+      },
+      {
+        "name": "Ground",
+        "language": "en"
+      },
+      {
+        "name": "じめん",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "id": 13
+      }
+    ],
+    "half_damage_from": [
+      {
+        "id": 4
+      },
+      {
+        "id": 6
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 11
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 15
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "names": [
+      {
+        "name": "바위",
+        "language": "ko"
+      },
+      {
+        "name": "Roche",
+        "language": "fr"
+      },
+      {
+        "name": "Gestein",
+        "language": "de"
+      },
+      {
+        "name": "Roca",
+        "language": "es"
+      },
+      {
+        "name": "Roccia",
+        "language": "it"
+      },
+      {
+        "name": "Rock",
+        "language": "en"
+      },
+      {
+        "name": "いわ",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 1
+      },
+      {
+        "id": 3
+      },
+      {
+        "id": 4
+      },
+      {
+        "id": 10
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 12
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "names": [
+      {
+        "name": "벌레",
+        "language": "ko"
+      },
+      {
+        "name": "Insecte",
+        "language": "fr"
+      },
+      {
+        "name": "Käfer",
+        "language": "de"
+      },
+      {
+        "name": "Bicho",
+        "language": "es"
+      },
+      {
+        "name": "Coleottero",
+        "language": "it"
+      },
+      {
+        "name": "Bug",
+        "language": "en"
+      },
+      {
+        "name": "むし",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": 12
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 3
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 10
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "names": [
+      {
+        "name": "고스트",
+        "language": "ko"
+      },
+      {
+        "name": "Spectre",
+        "language": "fr"
+      },
+      {
+        "name": "Geist",
+        "language": "de"
+      },
+      {
+        "name": "Fantasma",
+        "language": "es"
+      },
+      {
+        "name": "Spettro",
+        "language": "it"
+      },
+      {
+        "name": "Ghost",
+        "language": "en"
+      },
+      {
+        "name": "ゴースト",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "id": 1
+      },
+      {
+        "id": 2
+      }
+    ],
+    "half_damage_from": [
+      {
+        "id": 4
+      },
+      {
+        "id": 7
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 8
+      },
+      {
+        "id": 17
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "names": [
+      {
+        "name": "강철",
+        "language": "ko"
+      },
+      {
+        "name": "Acier",
+        "language": "fr"
+      },
+      {
+        "name": "Stahl",
+        "language": "de"
+      },
+      {
+        "name": "Acero",
+        "language": "es"
+      },
+      {
+        "name": "Acciaio",
+        "language": "it"
+      },
+      {
+        "name": "Steel",
+        "language": "en"
+      },
+      {
+        "name": "はがね",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "id": 4
+      }
+    ],
+    "half_damage_from": [
+      {
+        "id": 1
+      },
+      {
+        "id": 3
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 14
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 16
+      },
+      {
+        "id": 18
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": 10
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "names": [
+      {
+        "name": "불꽃",
+        "language": "ko"
+      },
+      {
+        "name": "Feu",
+        "language": "fr"
+      },
+      {
+        "name": "Feuer",
+        "language": "de"
+      },
+      {
+        "name": "Fuego",
+        "language": "es"
+      },
+      {
+        "name": "Fuoco",
+        "language": "it"
+      },
+      {
+        "name": "Fire",
+        "language": "en"
+      },
+      {
+        "name": "ほのお",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 7
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 18
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 5
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 11
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "names": [
+      {
+        "name": "물",
+        "language": "ko"
+      },
+      {
+        "name": "Eau",
+        "language": "fr"
+      },
+      {
+        "name": "Wasser",
+        "language": "de"
+      },
+      {
+        "name": "Agua",
+        "language": "es"
+      },
+      {
+        "name": "Acqua",
+        "language": "it"
+      },
+      {
+        "name": "Water",
+        "language": "en"
+      },
+      {
+        "name": "みず",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 15
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 12
+      },
+      {
+        "id": 13
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "names": [
+      {
+        "name": "풀",
+        "language": "ko"
+      },
+      {
+        "name": "Plante",
+        "language": "fr"
+      },
+      {
+        "name": "Pflanze",
+        "language": "de"
+      },
+      {
+        "name": "Planta",
+        "language": "es"
+      },
+      {
+        "name": "Erba",
+        "language": "it"
+      },
+      {
+        "name": "Grass",
+        "language": "en"
+      },
+      {
+        "name": "くさ",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 5
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 13
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 3
+      },
+      {
+        "id": 4
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "names": [
+      {
+        "name": "전기",
+        "language": "ko"
+      },
+      {
+        "name": "Électrik",
+        "language": "fr"
+      },
+      {
+        "name": "Elektro",
+        "language": "de"
+      },
+      {
+        "name": "Eléctrico",
+        "language": "es"
+      },
+      {
+        "name": "Elettro",
+        "language": "it"
+      },
+      {
+        "name": "Electric",
+        "language": "en"
+      },
+      {
+        "name": "でんき",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 3
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 13
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 5
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "names": [
+      {
+        "name": "에스퍼",
+        "language": "ko"
+      },
+      {
+        "name": "Psy",
+        "language": "fr"
+      },
+      {
+        "name": "Psycho",
+        "language": "de"
+      },
+      {
+        "name": "Psíquico",
+        "language": "es"
+      },
+      {
+        "name": "Psico",
+        "language": "it"
+      },
+      {
+        "name": "Psychic",
+        "language": "en"
+      },
+      {
+        "name": "エスパー",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 14
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 7
+      },
+      {
+        "id": 8
+      },
+      {
+        "id": 17
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "names": [
+      {
+        "name": "얼음",
+        "language": "ko"
+      },
+      {
+        "name": "Glace",
+        "language": "fr"
+      },
+      {
+        "name": "Eis",
+        "language": "de"
+      },
+      {
+        "name": "Hielo",
+        "language": "es"
+      },
+      {
+        "name": "Ghiaccio",
+        "language": "it"
+      },
+      {
+        "name": "Ice",
+        "language": "en"
+      },
+      {
+        "name": "こおり",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 15
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "names": [
+      {
+        "name": "드래곤",
+        "language": "ko"
+      },
+      {
+        "name": "Dragon",
+        "language": "fr"
+      },
+      {
+        "name": "Drache",
+        "language": "de"
+      },
+      {
+        "name": "Dragón",
+        "language": "es"
+      },
+      {
+        "name": "Drago",
+        "language": "it"
+      },
+      {
+        "name": "Dragon",
+        "language": "en"
+      },
+      {
+        "name": "ドラゴン",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [
+      {
+        "id": 10
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 13
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 15
+      },
+      {
+        "id": 16
+      },
+      {
+        "id": 18
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "names": [
+      {
+        "name": "악",
+        "language": "ko"
+      },
+      {
+        "name": "Ténèbres",
+        "language": "fr"
+      },
+      {
+        "name": "Unlicht",
+        "language": "de"
+      },
+      {
+        "name": "Siniestro",
+        "language": "es"
+      },
+      {
+        "name": "Buio",
+        "language": "it"
+      },
+      {
+        "name": "Dark",
+        "language": "en"
+      },
+      {
+        "name": "あく",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "id": 14
+      }
+    ],
+    "half_damage_from": [
+      {
+        "id": 8
+      },
+      {
+        "id": 17
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 18
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "names": [
+      {
+        "name": "페어리",
+        "language": "ko"
+      },
+      {
+        "name": "Fée",
+        "language": "fr"
+      },
+      {
+        "name": "Fee",
+        "language": "de"
+      },
+      {
+        "name": "Hada",
+        "language": "es"
+      },
+      {
+        "name": "Folletto",
+        "language": "it"
+      },
+      {
+        "name": "Fairy",
+        "language": "en"
+      },
+      {
+        "name": "フェアリー",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [
+      {
+        "id": 16
+      }
+    ],
+    "half_damage_from": [
+      {
+        "id": 2
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 17
+      }
+    ],
+    "double_damage_from": [
+      {
+        "id": 4
+      },
+      {
+        "id": 9
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "names": [
+      {
+        "name": " 스텔라",
+        "language": "ko"
+      },
+      {
+        "name": "Stellaire",
+        "language": "fr"
+      },
+      {
+        "name": "Stellar",
+        "language": "de"
+      },
+      {
+        "name": "Astral",
+        "language": "es"
+      },
+      {
+        "name": "Astrale",
+        "language": "it"
+      },
+      {
+        "name": "Stellar",
+        "language": "en"
+      },
+      {
+        "name": "ステラ",
+        "language": "ja"
+      }
+    ],
+    "no_damage_from": [],
+    "half_damage_from": [],
+    "double_damage_from": []
+  }
+]

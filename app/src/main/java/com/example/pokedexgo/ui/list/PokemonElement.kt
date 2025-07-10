@@ -1,6 +1,7 @@
 package com.example.pokedexgo.ui.list
 
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -26,9 +27,14 @@ import com.example.pokedexgo.model.PokemonSummary
 import com.example.pokedexgo.model.generic.TypeStructure
 
 @Composable
-fun PokemonElement(pokemon: PokemonSummary) {
+fun PokemonElement(
+    pokemon: PokemonSummary,
+    onPokemonSelected: () -> Unit = {}
+) {
     Column(
-        modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
+        modifier = Modifier
+            .padding(horizontal = 16.dp, vertical = 4.dp)
+            .clickable { onPokemonSelected() },
         verticalArrangement = Arrangement.spacedBy(4.dp)
     ) {
         Row(

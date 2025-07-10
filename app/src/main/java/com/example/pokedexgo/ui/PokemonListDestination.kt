@@ -1,5 +1,10 @@
-package com.example.pokedexgo.ui.list
+package com.example.pokedexgo.ui
 
-import com.example.pokedexgo.ui.PokemonDestination
+import kotlinx.serialization.Serializable
 
-object PokemonListDestination: PokemonDestination
+@Serializable
+data object PokemonListDestination: PokemonDestination {
+    override fun toString(): String {
+        return super.toString()
+    }
+}

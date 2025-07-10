@@ -2,7 +2,9 @@ package com.example.pokedexgo.dao
 
 import android.content.Context
 import com.example.pokedex.DAO.getAllJsonList
+import com.example.pokedex.DAO.getSingleJsonList
 import com.example.pokedex.util.Constants
+import com.example.pokedexgo.model.PokemonDetails
 import com.example.pokedexgo.model.PokemonSummary
 import com.example.pokedexgo.model.PokemonType
 import com.google.gson.reflect.TypeToken
@@ -20,5 +22,11 @@ class PokemonDAO @Inject constructor(
     fun getAllTypesList(): Array<PokemonType>? {
         val typeArrayType = object : TypeToken<Array<PokemonType>>() {}.type
         return getAllJsonList(context, Constants.TYPE_LIST, typeArrayType)
+    }
+
+    fun getPokemonById(id: Int): PokemonDetails? {
+        val pokemonType = object : TypeToken<PokemonDetails>() {}.type
+        val path = "${Constants.POKEMON_PATH}$id${Constants.JSON}"
+        return getSingleJsonList(context, path, pokemonType)
     }
 }

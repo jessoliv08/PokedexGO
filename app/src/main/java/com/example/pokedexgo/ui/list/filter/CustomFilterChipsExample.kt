@@ -19,8 +19,8 @@ import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.unit.dp
+import com.example.pokedexgo.ui.generic.MatchColor
 import com.example.pokedexgo.ui.theme.LightGray
-import com.example.pokedexgo.ui.theme.PokemonSectionColor
 
 
 @Composable
@@ -53,7 +53,7 @@ fun CustomFilterChipsExample(
                             }
                         },
                         colors = FilterChipDefaults.filterChipColors(
-                            selectedContainerColor = matchColor(filter.toLowerCase(Locale.current)),
+                            selectedContainerColor = MatchColor(filter.toLowerCase(Locale.current)),
                             selectedLabelColor = Color.Black,
                             containerColor = LightGray,
                             labelColor = Color.Black
@@ -67,15 +67,3 @@ fun CustomFilterChipsExample(
     }
 }
 
-@Composable
-private fun matchColor(resourceName: String): Color {
-    val context = LocalContext.current
-    val resId = remember(resourceName) {
-        context.resources.getIdentifier(resourceName, "color", context.packageName)
-    }
-    return if (resId != 0) {
-        colorResource(resId)
-    } else {
-        PokemonSectionColor
-    }
-}

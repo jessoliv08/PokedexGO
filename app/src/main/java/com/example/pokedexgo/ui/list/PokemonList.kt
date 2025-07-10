@@ -29,7 +29,10 @@ import com.example.pokedexgo.ui.theme.PokemonSectionColor
 import com.example.pokedexgo.viewmodel.PokemonViewModel
 
 @Composable
-fun PokemonList(viewModel : PokemonViewModel) {
+fun PokemonList(
+    viewModel : PokemonViewModel,
+    onPokemonSelected: (Int) -> Unit = {}
+) {
     LaunchedEffect(Unit) {
         viewModel.setupInitialInfo()
     }
@@ -63,13 +66,16 @@ fun PokemonList(viewModel : PokemonViewModel) {
                     )
                 }
                 ResultPokemon.Loading -> {
-                    PokemonListLoading(Modifier.align(Alignment.Center))
+                    PokemonLoading(Modifier.align(Alignment.Center))
                 }
                 is ResultPokemon.Success -> {
                     val result = (viewState as ResultPokemon.Success).dataWithFilter
                     LazyColumn {
                         items(result) { data ->
-                            PokemonElement(pokemon = data)
+                            PokemonElement(
+                                pokemon = data,
+                                onPokemonSelected = { onPokemonSelected(data.id) }
+                            )
                         }
                     }
                 }

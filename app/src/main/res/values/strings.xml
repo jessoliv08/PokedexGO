@@ -11,4 +11,11 @@
     <string name="filter_habitat">Filter habitat</string>
     <string name="filter_height">Select your range Height</string>
     <string name="filter_weight">Select your range Weight</string>
+    <string name="pokemon_details_error">Something went wrong to see this pokemon. Come back and try later</string>
+    <string name="pokemon_details_title">Pokemon Details</string>
+    <string name="pokemon_details_section_main">MAIN</string>
+    <string name="pokemon_details_status">STATUS</string>
+    <string name="pokemon_details_abilities">ABILITIES</string>
+    <string name="pokemon_details_moves">MOVES</string>
+    <string name="pokemon_details_INFO">info</string>
 </resources>

@@ -1,3 +1,6 @@
 package com.example.pokedexgo.ui
 
-data class PokemoDestination()
+import kotlinx.serialization.Serializable
+
+@Serializable
+sealed interface PokemonDestination

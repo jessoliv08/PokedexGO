@@ -1,7 +1,6 @@
 package com.example.pokedexgo.ui.list
 
 import androidx.compose.animation.core.FastOutSlowInEasing
-import androidx.compose.animation.core.LinearEasing
 import androidx.compose.animation.core.RepeatMode
 import androidx.compose.animation.core.animateFloat
 import androidx.compose.animation.core.infiniteRepeatable
@@ -14,7 +13,6 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.heightIn
-import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -30,7 +28,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
 @Composable
-fun PokemonListLoading(modifier: Modifier) {
+fun PokemonLoading(modifier: Modifier) {
     Column(
         modifier = modifier.fillMaxWidth().heightIn(max = 300.dp),
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -120,5 +118,5 @@ fun MovingPokeball() {
 @Preview(showBackground = false)
 @Composable
 fun PreviewPokemonListLoading() {
-    PokemonListLoading(Modifier)
+    PokemonLoading(Modifier)
 }

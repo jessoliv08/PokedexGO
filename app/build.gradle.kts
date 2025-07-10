@@ -70,7 +70,6 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     // Compose BOM to manage versions consistently
-    implementation(platform("androidx.compose:compose-bom:2023.06.01"))
 
     // Material3
     implementation("androidx.compose.material3:material3")

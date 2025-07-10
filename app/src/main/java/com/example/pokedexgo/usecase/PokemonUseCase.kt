@@ -8,8 +8,10 @@ import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.text.toUpperCase
 import com.example.pokedexgo.model.FilterDataViewState
+import com.example.pokedexgo.model.PokemonDetails
 import com.example.pokedexgo.model.PokemonSummary
 import com.example.pokedexgo.model.PokemonType
+import com.example.pokedexgo.model.generic.ResultPokemonDetail
 import javax.inject.Inject
 
 class PokemonUseCase @Inject constructor(
@@ -38,6 +40,20 @@ class PokemonUseCase @Inject constructor(
             Log.e(TAG, "Error parsing types from json", ex)
             return emptyList()
         }
+    }
+
+    fun getPokemonById(id: Int): ResultPokemonDetail {
+        try {
+            pokemonRepository.getPokemonById(id)?.let {
+                return ResultPokemonDetail.Success(it)
+            } ?: {
+                Log.w(TAG, "Pokemon is NULL!!")
+            }
+
+        } catch (ex: Exception) {
+            Log.e(TAG, "Error parsing types from json", ex)
+        }
+        return ResultPokemonDetail.Error(R.string.pokemon_details_error)
     }
 
     fun createFilterDataDefault(

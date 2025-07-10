@@ -1,0 +1,12 @@
+{
+  "id": 841,
+  "name": "bitter-malice",
+  "type": "ghost",
+  "power": 75,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

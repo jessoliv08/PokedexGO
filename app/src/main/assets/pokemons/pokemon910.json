@@ -1,0 +1,368 @@
+{
+    "id": 910,
+    "egg_groups": [
+        "ground"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/66/",
+                "name": "blaze",
+                "id": 66
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/109/",
+                "name": "unaware",
+                "id": 109
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 81
+        },
+        {
+            "id": 2,
+            "base_stat": 55
+        },
+        {
+            "id": 3,
+            "base_stat": 78
+        },
+        {
+            "id": 4,
+            "base_stat": 90
+        },
+        {
+            "id": 5,
+            "base_stat": 58
+        },
+        {
+            "id": 6,
+            "base_stat": 49
+        }
+    ],
+    "habitat": null,
+    "weight": 307,
+    "generation": "generation-ix",
+    "base_happiness": 50,
+    "height": 10,
+    "evolution_chain": 479,
+    "capture_rate": 45,
+    "base_experience": 144,
+    "names": [
+        {
+            "name": "Achigator",
+            "language": "roomaji"
+        },
+        {
+            "name": "악뜨거",
+            "language": "ko"
+        },
+        {
+            "name": "Crocogril",
+            "language": "fr"
+        },
+        {
+            "name": "Lokroko",
+            "language": "de"
+        },
+        {
+            "name": "Crocalor",
+            "language": "es"
+        },
+        {
+            "name": "Crocalor",
+            "language": "it"
+        },
+        {
+            "name": "Crocalor",
+            "language": "en"
+        },
+        {
+            "name": "アチゲータ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+        "name": "medium-slow"
+    },
+    "gender_rate": 1,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "tackle",
+            "id": "33"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "body-slam",
+            "id": "34"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "leer",
+            "id": "43"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 12,
+            "name": "bite",
+            "id": "44"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 28,
+            "name": "roar",
+            "id": "46"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "ember",
+            "id": "52"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 32,
+            "name": "flamethrower",
+            "id": "53"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fire-spin",
+            "id": "83"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dig",
+            "id": "91"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 7,
+            "name": "lick",
+            "id": "122"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 47,
+            "name": "fire-blast",
+            "id": "126"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "curse",
+            "id": "174"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "mud-slap",
+            "id": "189"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "outrage",
+            "id": "200"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sunny-day",
+            "id": "241"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "crunch",
+            "id": "242"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "heat-wave",
+            "id": "257"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 42,
+            "name": "will-o-wisp",
+            "id": "261"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "helping-hand",
+            "id": "270"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 15,
+            "name": "yawn",
+            "id": "281"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 38,
+            "name": "hyper-voice",
+            "id": "304"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "overheat",
+            "id": "315"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "flare-blitz",
+            "id": "394"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "seed-bomb",
+            "id": "402"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thunder-fang",
+            "id": "422"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fire-fang",
+            "id": "424"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "zen-headbutt",
+            "id": "428"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "flame-charge",
+            "id": "488"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 10,
+            "name": "round",
+            "id": "496"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 17,
+            "name": "incinerate",
+            "id": "510"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fire-pledge",
+            "id": "519"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 24,
+            "name": "snarl",
+            "id": "555"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "disarming-voice",
+            "id": "574"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "stomping-tantrum",
+            "id": "707"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "temper-flare",
+            "id": "915"
+        }
+    ],
+    "flavor_text": "The combination of Crocalor’s fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon’s head.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 10
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/910.png"
+}

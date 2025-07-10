@@ -1,0 +1,12 @@
+{
+  "id": 382,
+  "name": "me-first",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Uses the target's move against it before it attacks, with power increased by half."
+}

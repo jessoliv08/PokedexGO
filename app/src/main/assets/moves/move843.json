@@ -1,0 +1,12 @@
+{
+  "id": 843,
+  "name": "triple-arrows",
+  "type": "fighting",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

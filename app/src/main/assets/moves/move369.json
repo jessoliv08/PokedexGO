@@ -1,0 +1,12 @@
+{
+  "id": 369,
+  "name": "u-turn",
+  "type": "bug",
+  "power": 70,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User must switch out after attacking."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 497,
+  "name": "echoed-voice",
+  "type": "normal",
+  "power": 40,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200."
+}

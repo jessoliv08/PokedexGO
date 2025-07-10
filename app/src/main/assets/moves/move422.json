@@ -1,0 +1,12 @@
+{
+  "id": 422,
+  "name": "thunder-fang",
+  "type": "electric",
+  "power": 65,
+  "pp": 15,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to paralyze the target and a 10% chance to make the target flinch."
+}

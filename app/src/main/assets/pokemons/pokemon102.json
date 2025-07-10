@@ -1,0 +1,642 @@
+{
+    "id": 102,
+    "egg_groups": [
+        "plant"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/34/",
+                "name": "chlorophyll",
+                "id": 34
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/139/",
+                "name": "harvest",
+                "id": 139
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 60
+        },
+        {
+            "id": 2,
+            "base_stat": 40
+        },
+        {
+            "id": 3,
+            "base_stat": 80
+        },
+        {
+            "id": 4,
+            "base_stat": 60
+        },
+        {
+            "id": 5,
+            "base_stat": 45
+        },
+        {
+            "id": 6,
+            "base_stat": 40
+        }
+    ],
+    "habitat": "forest",
+    "weight": 25,
+    "generation": "generation-i",
+    "base_happiness": 70,
+    "height": 4,
+    "evolution_chain": 45,
+    "capture_rate": 90,
+    "base_experience": 65,
+    "names": [
+        {
+            "name": "Tamatama",
+            "language": "roomaji"
+        },
+        {
+            "name": "아라리",
+            "language": "ko"
+        },
+        {
+            "name": "Noeunoeuf",
+            "language": "fr"
+        },
+        {
+            "name": "Owei",
+            "language": "de"
+        },
+        {
+            "name": "Exeggcute",
+            "language": "es"
+        },
+        {
+            "name": "Exeggcute",
+            "language": "it"
+        },
+        {
+            "name": "Exeggcute",
+            "language": "en"
+        },
+        {
+            "name": "タマタマ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+        "name": "slow"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swords-dance",
+            "id": "14"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "headbutt",
+            "id": "29"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-edge",
+            "id": "38"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 27,
+            "name": "psybeam",
+            "id": "60"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "strength",
+            "id": "70"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "absorb",
+            "id": "71"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "mega-drain",
+            "id": "72"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 28,
+            "name": "leech-seed",
+            "id": "73"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 42,
+            "name": "solar-beam",
+            "id": "76"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 37,
+            "name": "poison-powder",
+            "id": "77"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 32,
+            "name": "stun-spore",
+            "id": "78"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 48,
+            "name": "sleep-powder",
+            "id": "79"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "toxic",
+            "id": "92"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 19,
+            "name": "confusion",
+            "id": "93"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psychic",
+            "id": "94"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "hypnosis",
+            "id": "95"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rage",
+            "id": "99"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "teleport",
+            "id": "100"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "mimic",
+            "id": "102"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-team",
+            "id": "104"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "light-screen",
+            "id": "113"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 25,
+            "name": "reflect",
+            "id": "115"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "bide",
+            "id": "117"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "self-destruct",
+            "id": "120"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "egg-bomb",
+            "id": "121"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dream-eater",
+            "id": "138"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "barrage",
+            "id": "140"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "flash",
+            "id": "148"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psywave",
+            "id": "149"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "explosion",
+            "id": "153"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thief",
+            "id": "168"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "nightmare",
+            "id": "171"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "snore",
+            "id": "173"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "curse",
+            "id": "174"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sludge-bomb",
+            "id": "188"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "giga-drain",
+            "id": "202"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rollout",
+            "id": "205"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swagger",
+            "id": "207"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "attract",
+            "id": "213"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "return",
+            "id": "216"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "frustration",
+            "id": "218"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "synthesis",
+            "id": "235"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "moonlight",
+            "id": "236"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hidden-power",
+            "id": "237"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sunny-day",
+            "id": "241"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psych-up",
+            "id": "244"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "ancient-power",
+            "id": "246"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "uproar",
+            "id": "253"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "nature-power",
+            "id": "267"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "helping-hand",
+            "id": "270"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "trick",
+            "id": "271"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "ingrain",
+            "id": "275"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "skill-swap",
+            "id": "285"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "imprison",
+            "id": "286"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "secret-power",
+            "id": "290"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 47,
+            "name": "extrasensory",
+            "id": "326"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "bullet-seed",
+            "id": "331"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "block",
+            "id": "335"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "gravity",
+            "id": "356"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 37,
+            "name": "natural-gift",
+            "id": "363"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "lucky-chant",
+            "id": "381"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "power-swap",
+            "id": "384"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 33,
+            "name": "worry-seed",
+            "id": "388"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "seed-bomb",
+            "id": "402"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "energy-ball",
+            "id": "412"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "zen-headbutt",
+            "id": "428"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "trick-room",
+            "id": "433"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "leaf-storm",
+            "id": "437"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "captivate",
+            "id": "445"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "grass-knot",
+            "id": "447"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psyshock",
+            "id": "473"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "telekinesis",
+            "id": "477"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "round",
+            "id": "496"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "stored-power",
+            "id": "500"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 53,
+            "name": "bestow",
+            "id": "516"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "grassy-terrain",
+            "id": "580"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "confide",
+            "id": "590"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "infestation",
+            "id": "611"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "grassy-glide",
+            "id": "803"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psychic-noise",
+            "id": "917"
+        }
+    ],
+    "flavor_text": "Often mistaken for eggs. When disturbed, they quickly gather and attack in swarms.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 12
+        },
+        {
+            "slot": 2,
+            "id": 14
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/102.png"
+}

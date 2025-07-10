@@ -1,0 +1,12 @@
+{
+  "id": 902,
+  "name": "matcha-gotcha",
+  "type": "grass",
+  "power": 80,
+  "pp": 15,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

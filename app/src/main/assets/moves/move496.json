@@ -1,0 +1,12 @@
+{
+  "id": 496,
+  "name": "round",
+  "type": "normal",
+  "power": 60,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Has double power if it's used more than once per turn."
+}

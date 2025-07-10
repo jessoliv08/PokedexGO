@@ -1,0 +1,464 @@
+{
+    "id": 368,
+    "egg_groups": [
+        "water1"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/33/",
+                "name": "swift-swim",
+                "id": 33
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/93/",
+                "name": "hydration",
+                "id": 93
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 55
+        },
+        {
+            "id": 2,
+            "base_stat": 84
+        },
+        {
+            "id": 3,
+            "base_stat": 105
+        },
+        {
+            "id": 4,
+            "base_stat": 114
+        },
+        {
+            "id": 5,
+            "base_stat": 75
+        },
+        {
+            "id": 6,
+            "base_stat": 52
+        }
+    ],
+    "habitat": "sea",
+    "weight": 226,
+    "generation": "generation-iii",
+    "base_happiness": 70,
+    "height": 18,
+    "evolution_chain": 188,
+    "capture_rate": 60,
+    "base_experience": 170,
+    "names": [
+        {
+            "name": "Sakurabyss",
+            "language": "roomaji"
+        },
+        {
+            "name": "분홍장이",
+            "language": "ko"
+        },
+        {
+            "name": "Rosabyss",
+            "language": "fr"
+        },
+        {
+            "name": "Saganabyss",
+            "language": "de"
+        },
+        {
+            "name": "Gorebyss",
+            "language": "es"
+        },
+        {
+            "name": "Gorebyss",
+            "language": "it"
+        },
+        {
+            "name": "Gorebyss",
+            "language": "en"
+        },
+        {
+            "name": "サクラビス",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/5/",
+        "name": "slow-then-very-fast"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "bind",
+            "id": "20"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "body-slam",
+            "id": "34"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "double-edge",
+            "id": "38"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "water-gun",
+            "id": "55"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 50,
+            "name": "hydro-pump",
+            "id": "56"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "surf",
+            "id": "57"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "ice-beam",
+            "id": "58"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "blizzard",
+            "id": "59"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hyper-beam",
+            "id": "63"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "toxic",
+            "id": "92"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 8,
+            "name": "confusion",
+            "id": "93"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 36,
+            "name": "psychic",
+            "id": "94"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 15,
+            "name": "agility",
+            "id": "97"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "mimic",
+            "id": "102"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-team",
+            "id": "104"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "waterfall",
+            "id": "127"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "swift",
+            "id": "129"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 29,
+            "name": "amnesia",
+            "id": "133"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "snore",
+            "id": "173"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "mud-slap",
+            "id": "189"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "icy-wind",
+            "id": "196"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "swagger",
+            "id": "207"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "attract",
+            "id": "213"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "return",
+            "id": "216"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "frustration",
+            "id": "218"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "safeguard",
+            "id": "219"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 43,
+            "name": "baton-pass",
+            "id": "226"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hidden-power",
+            "id": "237"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psych-up",
+            "id": "244"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "shadow-ball",
+            "id": "247"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "whirlpool",
+            "id": "250"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hail",
+            "id": "258"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "secret-power",
+            "id": "290"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dive",
+            "id": "291"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "signal-beam",
+            "id": "324"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "iron-defense",
+            "id": "334"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "bounce",
+            "id": "340"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 5,
+            "name": "water-sport",
+            "id": "346"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 22,
+            "name": "water-pulse",
+            "id": "352"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "brine",
+            "id": "362"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "natural-gift",
+            "id": "363"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 24,
+            "name": "aqua-ring",
+            "id": "392"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 46,
+            "name": "aqua-tail",
+            "id": "401"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "giga-impact",
+            "id": "416"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 28,
+            "name": "captivate",
+            "id": "445"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 45,
+            "name": "coil",
+            "id": "489"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "round",
+            "id": "496"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "scald",
+            "id": "503"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "shell-smash",
+            "id": "504"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 11,
+            "name": "draining-kiss",
+            "id": "577"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "confide",
+            "id": "590"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "infestation",
+            "id": "611"
+        }
+    ],
+    "flavor_text": "GOREBYSS lives in the southern seas at extreme depths. Its body is built to withstand the enormous pressure of water at incredible depths. Because of this, this POKéMON’s body is unharmed by ordinary attacks.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 11
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/368.png"
+}

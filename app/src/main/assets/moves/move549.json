@@ -1,0 +1,12 @@
+{
+  "id": 549,
+  "name": "glaciate",
+  "type": "ice",
+  "power": 65,
+  "pp": 10,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 100,
+  "effect": "Lowers the target's Speed by one stage."
+}

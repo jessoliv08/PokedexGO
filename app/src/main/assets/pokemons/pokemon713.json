@@ -1,0 +1,564 @@
+{
+    "id": 713,
+    "egg_groups": [
+        "monster",
+        "mineral"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/20/",
+                "name": "own-tempo",
+                "id": 20
+            }
+        },
+        {
+            "slot": 2,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/115/",
+                "name": "ice-body",
+                "id": 115
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/5/",
+                "name": "sturdy",
+                "id": 5
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 95
+        },
+        {
+            "id": 2,
+            "base_stat": 117
+        },
+        {
+            "id": 3,
+            "base_stat": 184
+        },
+        {
+            "id": 4,
+            "base_stat": 44
+        },
+        {
+            "id": 5,
+            "base_stat": 46
+        },
+        {
+            "id": 6,
+            "base_stat": 28
+        }
+    ],
+    "habitat": null,
+    "weight": 5050,
+    "generation": "generation-vi",
+    "base_happiness": 70,
+    "height": 20,
+    "evolution_chain": 366,
+    "capture_rate": 55,
+    "base_experience": 180,
+    "names": [
+        {
+            "name": "Crebase",
+            "language": "roomaji"
+        },
+        {
+            "name": "크레베이스",
+            "language": "ko"
+        },
+        {
+            "name": "Séracrawl",
+            "language": "fr"
+        },
+        {
+            "name": "Arktilas",
+            "language": "de"
+        },
+        {
+            "name": "Avalugg",
+            "language": "es"
+        },
+        {
+            "name": "Avalugg",
+            "language": "it"
+        },
+        {
+            "name": "Avalugg",
+            "language": "en"
+        },
+        {
+            "name": "クレベース",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/2/",
+        "name": "medium"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "tackle",
+            "id": "33"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 0,
+            "name": "body-slam",
+            "id": "34"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 15,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 56,
+            "name": "double-edge",
+            "id": "38"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "bite",
+            "id": "44"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "roar",
+            "id": "46"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hydro-pump",
+            "id": "56"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "surf",
+            "id": "57"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "ice-beam",
+            "id": "58"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 46,
+            "name": "blizzard",
+            "id": "59"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hyper-beam",
+            "id": "63"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "strength",
+            "id": "70"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "earthquake",
+            "id": "89"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "toxic",
+            "id": "92"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-team",
+            "id": "104"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 51,
+            "name": "recover",
+            "id": "105"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "harden",
+            "id": "106"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "skull-bash",
+            "id": "130"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "flash",
+            "id": "148"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-slide",
+            "id": "157"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 20,
+            "name": "sharpen",
+            "id": "159"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "snore",
+            "id": "173"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 22,
+            "name": "curse",
+            "id": "174"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 5,
+            "name": "powder-snow",
+            "id": "181"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "scary-face",
+            "id": "184"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 10,
+            "name": "icy-wind",
+            "id": "196"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swagger",
+            "id": "207"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "attract",
+            "id": "213"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "return",
+            "id": "216"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "frustration",
+            "id": "218"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "safeguard",
+            "id": "219"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 35,
+            "name": "rapid-spin",
+            "id": "229"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hidden-power",
+            "id": "237"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "crunch",
+            "id": "242"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-smash",
+            "id": "249"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hail",
+            "id": "258"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "superpower",
+            "id": "276"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "secret-power",
+            "id": "290"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 30,
+            "name": "ice-ball",
+            "id": "301"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-tomb",
+            "id": "317"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "icicle-spear",
+            "id": "333"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "iron-defense",
+            "id": "334"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "block",
+            "id": "335"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "water-pulse",
+            "id": "352"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "gyro-ball",
+            "id": "360"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-polish",
+            "id": "397"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "giga-impact",
+            "id": "416"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 42,
+            "name": "avalanche",
+            "id": "419"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 26,
+            "name": "ice-fang",
+            "id": "423"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "flash-cannon",
+            "id": "430"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "iron-head",
+            "id": "442"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "stone-edge",
+            "id": "444"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "wide-guard",
+            "id": "469"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "heavy-slam",
+            "id": "484"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "after-you",
+            "id": "495"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "round",
+            "id": "496"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "bulldoze",
+            "id": "523"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "frost-breath",
+            "id": "524"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 51,
+            "name": "icicle-crash",
+            "id": "556"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "confide",
+            "id": "590"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "high-horsepower",
+            "id": "667"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "stomping-tantrum",
+            "id": "707"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "body-press",
+            "id": "776"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "ice-spinner",
+            "id": "861"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "snowscape",
+            "id": "883"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "chilling-water",
+            "id": "886"
+        }
+    ],
+    "flavor_text": "Its ice-covered body is as hard as steel. Its cumbersome frame crushes anything that stands in its way.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 15
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/713.png"
+}

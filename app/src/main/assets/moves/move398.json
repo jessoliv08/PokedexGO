@@ -1,0 +1,12 @@
+{
+  "id": 398,
+  "name": "poison-jab",
+  "type": "poison",
+  "power": 80,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to poison the target."
+}

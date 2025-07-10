@@ -1,0 +1,12 @@
+{
+  "id": 507,
+  "name": "sky-drop",
+  "type": "flying",
+  "power": 60,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Carries the target high into the air, dodging all attacks against either, and drops it next turn."
+}

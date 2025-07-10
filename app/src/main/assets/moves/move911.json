@@ -1,0 +1,12 @@
+{
+  "id": 911,
+  "name": "tachyon-cutter",
+  "type": "steel",
+  "power": 50,
+  "pp": 10,
+  "accuracy": 0,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

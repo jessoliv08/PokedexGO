@@ -1,0 +1,12 @@
+{
+  "id": 748,
+  "name": "no-retreat",
+  "type": "fighting",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": 100,
+  "effect": "Hits twice in one turn, with a 100% chance to make the target flinch."
+}

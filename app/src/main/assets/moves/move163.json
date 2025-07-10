@@ -1,0 +1,12 @@
+{
+  "id": 163,
+  "name": "slash",
+  "type": "normal",
+  "power": 70,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Has an increased chance for a critical hit."
+}

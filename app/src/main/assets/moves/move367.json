@@ -1,0 +1,12 @@
+{
+  "id": 367,
+  "name": "acupressure",
+  "type": "normal",
+  "power": null,
+  "pp": 30,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Raises one of a friendly Pokémon's stats at random by two stages."
+}

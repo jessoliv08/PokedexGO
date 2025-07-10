@@ -1,0 +1,12 @@
+{
+  "id": 504,
+  "name": "shell-smash",
+  "type": "normal",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage."
+}

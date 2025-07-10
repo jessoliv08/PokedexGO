@@ -1,0 +1,711 @@
+{
+    "id": 142,
+    "egg_groups": [
+        "flying"
+    ],
+    "hatch_counter": 35,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/69/",
+                "name": "rock-head",
+                "id": 69
+            }
+        },
+        {
+            "slot": 2,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/46/",
+                "name": "pressure",
+                "id": 46
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/127/",
+                "name": "unnerve",
+                "id": 127
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 80
+        },
+        {
+            "id": 2,
+            "base_stat": 105
+        },
+        {
+            "id": 3,
+            "base_stat": 65
+        },
+        {
+            "id": 4,
+            "base_stat": 60
+        },
+        {
+            "id": 5,
+            "base_stat": 75
+        },
+        {
+            "id": 6,
+            "base_stat": 130
+        }
+    ],
+    "habitat": "mountain",
+    "weight": 590,
+    "generation": "generation-i",
+    "base_happiness": 70,
+    "height": 18,
+    "evolution_chain": 71,
+    "capture_rate": 45,
+    "base_experience": 180,
+    "names": [
+        {
+            "name": "Ptera",
+            "language": "roomaji"
+        },
+        {
+            "name": "프테라",
+            "language": "ko"
+        },
+        {
+            "name": "Ptéra",
+            "language": "fr"
+        },
+        {
+            "name": "Aerodactyl",
+            "language": "de"
+        },
+        {
+            "name": "Aerodactyl",
+            "language": "es"
+        },
+        {
+            "name": "Aerodactyl",
+            "language": "it"
+        },
+        {
+            "name": "Aerodactyl",
+            "language": "en"
+        },
+        {
+            "name": "プテラ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+        "name": "slow"
+    },
+    "gender_rate": 1,
+    "moves": [
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "razor-wind",
+            "id": "13"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "wing-attack",
+            "id": "17"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "whirlwind",
+            "id": "18"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fly",
+            "id": "19"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "headbutt",
+            "id": "29"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 45,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-edge",
+            "id": "38"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 38,
+            "name": "bite",
+            "id": "44"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "roar",
+            "id": "46"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 33,
+            "name": "supersonic",
+            "id": "48"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "flamethrower",
+            "id": "53"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 54,
+            "name": "hyper-beam",
+            "id": "63"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "strength",
+            "id": "70"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dragon-rage",
+            "id": "82"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 21,
+            "name": "rock-throw",
+            "id": "88"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "earthquake",
+            "id": "89"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "toxic",
+            "id": "92"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "agility",
+            "id": "97"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rage",
+            "id": "99"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "mimic",
+            "id": "102"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-team",
+            "id": "104"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "reflect",
+            "id": "115"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "bide",
+            "id": "117"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fire-blast",
+            "id": "126"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swift",
+            "id": "129"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sky-attack",
+            "id": "143"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "rock-slide",
+            "id": "157"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thief",
+            "id": "168"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "snore",
+            "id": "173"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "curse",
+            "id": "174"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 36,
+            "name": "scary-face",
+            "id": "184"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "foresight",
+            "id": "193"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "detect",
+            "id": "197"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sandstorm",
+            "id": "201"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swagger",
+            "id": "207"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "steel-wing",
+            "id": "211"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "attract",
+            "id": "213"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "return",
+            "id": "216"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "frustration",
+            "id": "218"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dragon-breath",
+            "id": "225"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "pursuit",
+            "id": "228"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "iron-tail",
+            "id": "231"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hidden-power",
+            "id": "237"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "twister",
+            "id": "239"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sunny-day",
+            "id": "241"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 33,
+            "name": "crunch",
+            "id": "242"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 29,
+            "name": "ancient-power",
+            "id": "246"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-smash",
+            "id": "249"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "heat-wave",
+            "id": "257"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "torment",
+            "id": "259"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "taunt",
+            "id": "269"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "secret-power",
+            "id": "290"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "air-cutter",
+            "id": "314"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-tomb",
+            "id": "317"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "aerial-ace",
+            "id": "332"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dragon-claw",
+            "id": "337"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dragon-dance",
+            "id": "349"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-blast",
+            "id": "350"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "roost",
+            "id": "355"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "natural-gift",
+            "id": "363"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "tailwind",
+            "id": "366"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "payback",
+            "id": "371"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "assurance",
+            "id": "372"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-polish",
+            "id": "397"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "aqua-tail",
+            "id": "401"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dragon-pulse",
+            "id": "406"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "earth-power",
+            "id": "414"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 73,
+            "name": "giga-impact",
+            "id": "416"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "thunder-fang",
+            "id": "422"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "ice-fang",
+            "id": "423"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "fire-fang",
+            "id": "424"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "defog",
+            "id": "432"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 49,
+            "name": "iron-head",
+            "id": "442"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "stone-edge",
+            "id": "444"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "captivate",
+            "id": "445"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "stealth-rock",
+            "id": "446"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "ominous-wind",
+            "id": "466"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hone-claws",
+            "id": "468"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "wide-guard",
+            "id": "469"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "smack-down",
+            "id": "479"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "round",
+            "id": "496"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 49,
+            "name": "sky-drop",
+            "id": "507"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "incinerate",
+            "id": "510"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "bulldoze",
+            "id": "523"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hurricane",
+            "id": "542"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "confide",
+            "id": "590"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "laser-focus",
+            "id": "673"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "brutal-swing",
+            "id": "693"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psychic-fangs",
+            "id": "706"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "meteor-beam",
+            "id": "800"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "dual-wingbeat",
+            "id": "814"
+        }
+    ],
+    "flavor_text": "A Pokémon that roamed the skies in the dinosaur era. Its teeth are like saw blades.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 6
+        },
+        {
+            "slot": 2,
+            "id": 3
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/142.png"
+}

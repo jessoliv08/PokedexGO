@@ -1,0 +1,12 @@
+{
+  "id": 458,
+  "name": "double-hit",
+  "type": "normal",
+  "power": 35,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits twice in one turn."
+}

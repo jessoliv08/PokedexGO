@@ -1,0 +1,12 @@
+{
+  "id": 700,
+  "name": "stoked-sparksurfer",
+  "type": "electric",
+  "power": 175,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 100,
+  "effect": "Has a 100% chance to paralyze the target."
+}

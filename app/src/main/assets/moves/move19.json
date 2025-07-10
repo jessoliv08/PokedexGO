@@ -1,0 +1,12 @@
+{
+  "id": 19,
+  "name": "fly",
+  "type": "flying",
+  "power": 90,
+  "pp": 15,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User flies high into the air, dodging all attacks, and hits next turn."
+}

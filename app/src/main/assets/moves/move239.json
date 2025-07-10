@@ -1,0 +1,12 @@
+{
+  "id": 239,
+  "name": "twister",
+  "type": "dragon",
+  "power": 40,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 20,
+  "effect": "Has a 20% chance to make the target flinch."
+}

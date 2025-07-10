@@ -1,0 +1,12 @@
+{
+  "id": 247,
+  "name": "shadow-ball",
+  "type": "ghost",
+  "power": 80,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 20,
+  "effect": "Has a 20% chance to lower the target's Special Defense by one stage."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 583,
+  "name": "play-rough",
+  "type": "fairy",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to lower the target's Attack by one stage."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 554,
+  "name": "ice-burn",
+  "type": "ice",
+  "power": 140,
+  "pp": 5,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 30,
+  "effect": "Requires a turn to charge before attacking.  Has a 30% chance to burn the target."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 501,
+  "name": "quick-guard",
+  "type": "fighting",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 3,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Prevents any priority moves from hitting friendly Pokémon this turn."
+}

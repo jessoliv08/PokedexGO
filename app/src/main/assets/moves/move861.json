@@ -1,0 +1,12 @@
+{
+  "id": 861,
+  "name": "ice-spinner",
+  "type": "ice",
+  "power": 80,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

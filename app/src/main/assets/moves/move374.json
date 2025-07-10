@@ -1,0 +1,12 @@
+{
+  "id": 374,
+  "name": "fling",
+  "type": "dark",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Throws held item at the target; power depends on the item."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 24,
+  "name": "double-kick",
+  "type": "fighting",
+  "power": 30,
+  "pp": 30,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits twice in one turn."
+}

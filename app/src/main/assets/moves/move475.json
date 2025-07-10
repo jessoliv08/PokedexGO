@@ -1,0 +1,12 @@
+{
+  "id": 475,
+  "name": "autotomize",
+  "type": "steel",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Raises the user's Speed by two stages and halves the user's weight."
+}

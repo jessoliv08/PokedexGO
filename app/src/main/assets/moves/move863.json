@@ -1,0 +1,12 @@
+{
+  "id": 863,
+  "name": "revival-blessing",
+  "type": "normal",
+  "power": 0,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": null
+}

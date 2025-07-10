@@ -1,0 +1,578 @@
+{
+    "id": 501,
+    "egg_groups": [
+        "ground"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/67/",
+                "name": "torrent",
+                "id": 67
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/75/",
+                "name": "shell-armor",
+                "id": 75
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 55
+        },
+        {
+            "id": 2,
+            "base_stat": 55
+        },
+        {
+            "id": 3,
+            "base_stat": 45
+        },
+        {
+            "id": 4,
+            "base_stat": 63
+        },
+        {
+            "id": 5,
+            "base_stat": 45
+        },
+        {
+            "id": 6,
+            "base_stat": 45
+        }
+    ],
+    "habitat": null,
+    "weight": 59,
+    "generation": "generation-v",
+    "base_happiness": 70,
+    "height": 5,
+    "evolution_chain": 258,
+    "capture_rate": 45,
+    "base_experience": 62,
+    "names": [
+        {
+            "name": "Mijumaru",
+            "language": "roomaji"
+        },
+        {
+            "name": "수댕이",
+            "language": "ko"
+        },
+        {
+            "name": "Moustillon",
+            "language": "fr"
+        },
+        {
+            "name": "Ottaro",
+            "language": "de"
+        },
+        {
+            "name": "Oshawott",
+            "language": "es"
+        },
+        {
+            "name": "Oshawott",
+            "language": "it"
+        },
+        {
+            "name": "Oshawott",
+            "language": "en"
+        },
+        {
+            "name": "ミジュマル",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+        "name": "medium-slow"
+    },
+    "gender_rate": 1,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 41,
+            "name": "swords-dance",
+            "id": "14"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "cut",
+            "id": "15"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "tackle",
+            "id": "33"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 5,
+            "name": "tail-whip",
+            "id": "39"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 7,
+            "name": "water-gun",
+            "id": "55"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 43,
+            "name": "hydro-pump",
+            "id": "56"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "surf",
+            "id": "57"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "ice-beam",
+            "id": "58"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "blizzard",
+            "id": "59"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dig",
+            "id": "91"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "toxic",
+            "id": "92"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "screech",
+            "id": "103"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-team",
+            "id": "104"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 13,
+            "name": "focus-energy",
+            "id": "116"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "waterfall",
+            "id": "127"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swift",
+            "id": "129"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 25,
+            "name": "slash",
+            "id": "163"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thief",
+            "id": "168"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "snore",
+            "id": "173"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "icy-wind",
+            "id": "196"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "detect",
+            "id": "197"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "false-swipe",
+            "id": "206"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swagger",
+            "id": "207"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 19,
+            "name": "fury-cutter",
+            "id": "210"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "attract",
+            "id": "213"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "return",
+            "id": "216"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "frustration",
+            "id": "218"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 31,
+            "name": "encore",
+            "id": "227"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "iron-tail",
+            "id": "231"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hidden-power",
+            "id": "237"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-smash",
+            "id": "249"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "whirlpool",
+            "id": "250"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hail",
+            "id": "258"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "taunt",
+            "id": "269"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "helping-hand",
+            "id": "270"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 25,
+            "name": "revenge",
+            "id": "279"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "knock-off",
+            "id": "282"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "secret-power",
+            "id": "290"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dive",
+            "id": "291"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "aerial-ace",
+            "id": "332"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "covet",
+            "id": "343"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 11,
+            "name": "water-sport",
+            "id": "346"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 23,
+            "name": "water-pulse",
+            "id": "352"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "brine",
+            "id": "362"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "assurance",
+            "id": "372"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fling",
+            "id": "374"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "trump-card",
+            "id": "376"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "copycat",
+            "id": "383"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "night-slash",
+            "id": "400"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 35,
+            "name": "aqua-tail",
+            "id": "401"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "air-slash",
+            "id": "403"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "x-scissor",
+            "id": "404"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "avalanche",
+            "id": "419"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "grass-knot",
+            "id": "447"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 29,
+            "name": "aqua-jet",
+            "id": "453"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 11,
+            "name": "soak",
+            "id": "487"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "round",
+            "id": "496"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "scald",
+            "id": "503"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 37,
+            "name": "retaliate",
+            "id": "514"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "water-pledge",
+            "id": "518"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "work-up",
+            "id": "526"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "sacred-sword",
+            "id": "533"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 17,
+            "name": "razor-shell",
+            "id": "534"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "confide",
+            "id": "590"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "liquidation",
+            "id": "710"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "flip-turn",
+            "id": "812"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "snowscape",
+            "id": "883"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "chilling-water",
+            "id": "886"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "aqua-cutter",
+            "id": "895"
+        }
+    ],
+    "flavor_text": "It fights using the scalchop on its stomach. In response to an attack, it retaliates immediately by slashing.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 11
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/501.png"
+}

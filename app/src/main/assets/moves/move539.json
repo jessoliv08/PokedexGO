@@ -1,0 +1,12 @@
+{
+  "id": 539,
+  "name": "night-daze",
+  "type": "dark",
+  "power": 85,
+  "pp": 10,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 40,
+  "effect": "Has a 40% chance to lower the target's accuracy by one stage."
+}

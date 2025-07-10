@@ -1,0 +1,12 @@
+{
+  "id": 481,
+  "name": "flame-burst",
+  "type": "fire",
+  "power": 70,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Deals splash damage to Pokémon next to the target."
+}

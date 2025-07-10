@@ -1,0 +1,12 @@
+{
+  "id": 227,
+  "name": "encore",
+  "type": "normal",
+  "power": null,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Forces the target to repeat its last used move every turn for 2 to 6 turns."
+}

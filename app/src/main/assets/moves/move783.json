@@ -1,0 +1,12 @@
+{
+  "id": 783,
+  "name": "aura-wheel",
+  "type": "electric",
+  "power": 110,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": null
+}

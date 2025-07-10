@@ -1,0 +1,12 @@
+{
+  "id": 207,
+  "name": "swagger",
+  "type": "normal",
+  "power": null,
+  "pp": 15,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Raises the target's Attack by two stages and confuses the target."
+}

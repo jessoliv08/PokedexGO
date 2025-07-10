@@ -1,0 +1,12 @@
+{
+  "id": 356,
+  "name": "gravity",
+  "type": "psychic",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Disables moves and immunities that involve flying or levitating for five turns."
+}

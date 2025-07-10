@@ -1,0 +1,12 @@
+{
+  "id": 216,
+  "name": "return",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power increases with happiness, up to a maximum of 102."
+}

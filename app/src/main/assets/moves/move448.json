@@ -1,0 +1,12 @@
+{
+  "id": 448,
+  "name": "chatter",
+  "type": "flying",
+  "power": 65,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 100,
+  "effect": "Has a higher chance to confuse the target when the recorded sound is louder."
+}

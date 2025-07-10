@@ -1,0 +1,12 @@
+{
+  "id": 389,
+  "name": "sucker-punch",
+  "type": "dark",
+  "power": 70,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 1,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Only works if the target is about to use a damaging move."
+}

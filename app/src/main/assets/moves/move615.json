@@ -1,0 +1,12 @@
+{
+  "id": 615,
+  "name": "thousand-waves",
+  "type": "ground",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Prevents the target from leaving battle."
+}

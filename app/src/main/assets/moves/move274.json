@@ -1,0 +1,12 @@
+{
+  "id": 274,
+  "name": "assist",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Randomly selects and uses one of the trainer's other Pokémon's moves."
+}

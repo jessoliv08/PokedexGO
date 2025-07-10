@@ -1,0 +1,12 @@
+{
+  "id": 232,
+  "name": "metal-claw",
+  "type": "steel",
+  "power": 50,
+  "pp": 35,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to raise the user's Attack by one stage."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 206,
+  "name": "false-swipe",
+  "type": "normal",
+  "power": 40,
+  "pp": 40,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Cannot lower the target's HP below 1."
+}

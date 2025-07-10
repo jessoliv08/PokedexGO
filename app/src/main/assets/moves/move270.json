@@ -1,0 +1,12 @@
+{
+  "id": 270,
+  "name": "helping-hand",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 5,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Ally's next move inflicts half more damage."
+}

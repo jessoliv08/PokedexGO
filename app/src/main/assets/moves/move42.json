@@ -1,0 +1,12 @@
+{
+  "id": 42,
+  "name": "pin-missile",
+  "type": "bug",
+  "power": 25,
+  "pp": 20,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits 2-5 times in one turn."
+}

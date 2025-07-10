@@ -1,0 +1,12 @@
+{
+  "id": 725,
+  "name": "menacing-moonraze-maelstrom",
+  "type": "ghost",
+  "power": 200,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Cannot be disrupted by abilities."
+}

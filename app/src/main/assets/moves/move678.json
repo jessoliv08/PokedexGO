@@ -1,0 +1,12 @@
+{
+  "id": 678,
+  "name": "psychic-terrain",
+  "type": "psychic",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%."
+}

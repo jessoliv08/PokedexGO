@@ -1,0 +1,12 @@
+{
+  "id": 375,
+  "name": "psycho-shift",
+  "type": "psychic",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Transfers the user's major status effect to the target."
+}

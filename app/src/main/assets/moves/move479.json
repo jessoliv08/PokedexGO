@@ -1,0 +1,12 @@
+{
+  "id": 479,
+  "name": "smack-down",
+  "type": "rock",
+  "power": 50,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Removes any immunity to Ground damage."
+}

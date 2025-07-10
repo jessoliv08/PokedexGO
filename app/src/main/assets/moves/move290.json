@@ -1,0 +1,12 @@
+{
+  "id": 290,
+  "name": "secret-power",
+  "type": "normal",
+  "power": 70,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to inflict a status effect which depends upon the terrain."
+}

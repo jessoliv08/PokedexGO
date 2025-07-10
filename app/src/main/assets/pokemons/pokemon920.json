@@ -1,0 +1,414 @@
+{
+    "id": 920,
+    "egg_groups": [
+        "bug"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/68/",
+                "name": "swarm",
+                "id": 68
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/110/",
+                "name": "tinted-lens",
+                "id": 110
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 71
+        },
+        {
+            "id": 2,
+            "base_stat": 102
+        },
+        {
+            "id": 3,
+            "base_stat": 78
+        },
+        {
+            "id": 4,
+            "base_stat": 52
+        },
+        {
+            "id": 5,
+            "base_stat": 55
+        },
+        {
+            "id": 6,
+            "base_stat": 92
+        }
+    ],
+    "habitat": null,
+    "weight": 175,
+    "generation": "generation-ix",
+    "base_happiness": 0,
+    "height": 10,
+    "evolution_chain": 483,
+    "capture_rate": 30,
+    "base_experience": 158,
+    "names": [
+        {
+            "name": "Exleg",
+            "language": "roomaji"
+        },
+        {
+            "name": "엑스레그",
+            "language": "ko"
+        },
+        {
+            "name": "Gambex",
+            "language": "fr"
+        },
+        {
+            "name": "Lextremo",
+            "language": "de"
+        },
+        {
+            "name": "Lokix",
+            "language": "es"
+        },
+        {
+            "name": "Lokix",
+            "language": "it"
+        },
+        {
+            "name": "Lokix",
+            "language": "en"
+        },
+        {
+            "name": "エクスレッグ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/2/",
+        "name": "medium"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swords-dance",
+            "id": "14"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 11,
+            "name": "double-kick",
+            "id": "24"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "tackle",
+            "id": "33"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-edge",
+            "id": "38"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "leer",
+            "id": "43"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "low-kick",
+            "id": "67"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 32,
+            "name": "agility",
+            "id": "97"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 14,
+            "name": "screech",
+            "id": "103"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "leech-life",
+            "id": "141"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thief",
+            "id": "168"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "reversal",
+            "id": "179"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "spite",
+            "id": "180"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "scary-face",
+            "id": "184"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "detect",
+            "id": "197"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 18,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sunny-day",
+            "id": "241"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "taunt",
+            "id": "269"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "brick-break",
+            "id": "280"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "knock-off",
+            "id": "282"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 6,
+            "name": "astonish",
+            "id": "310"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "aerial-ace",
+            "id": "332"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 48,
+            "name": "bounce",
+            "id": "340"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 28,
+            "name": "feint",
+            "id": "364"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "u-turn",
+            "id": "369"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 9,
+            "name": "assurance",
+            "id": "372"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fling",
+            "id": "374"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 40,
+            "name": "sucker-punch",
+            "id": "389"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dark-pulse",
+            "id": "399"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "x-scissor",
+            "id": "404"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "bug-buzz",
+            "id": "405"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "giga-impact",
+            "id": "416"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 22,
+            "name": "bug-bite",
+            "id": "450"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "low-sweep",
+            "id": "490"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 4,
+            "name": "struggle-bug",
+            "id": "522"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 44,
+            "name": "first-impression",
+            "id": "660"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 36,
+            "name": "throat-chop",
+            "id": "675"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 0,
+            "name": "lunge",
+            "id": "679"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "skitter-smack",
+            "id": "806"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "lash-out",
+            "id": "808"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 53,
+            "name": "axe-kick",
+            "id": "853"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "pounce",
+            "id": "884"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "trailblaze",
+            "id": "885"
+        }
+    ],
+    "flavor_text": "When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 7
+        },
+        {
+            "slot": 2,
+            "id": 17
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/920.png"
+}

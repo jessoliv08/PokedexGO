@@ -1,0 +1,419 @@
+{
+    "id": 943,
+    "egg_groups": [
+        "ground"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/22/",
+                "name": "intimidate",
+                "id": 22
+            }
+        },
+        {
+            "slot": 2,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/275/",
+                "name": "guard-dog",
+                "id": 275
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/198/",
+                "name": "stakeout",
+                "id": 198
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 80
+        },
+        {
+            "id": 2,
+            "base_stat": 120
+        },
+        {
+            "id": 3,
+            "base_stat": 90
+        },
+        {
+            "id": 4,
+            "base_stat": 60
+        },
+        {
+            "id": 5,
+            "base_stat": 70
+        },
+        {
+            "id": 6,
+            "base_stat": 85
+        }
+    ],
+    "habitat": null,
+    "weight": 610,
+    "generation": "generation-ix",
+    "base_happiness": 50,
+    "height": 11,
+    "evolution_chain": 493,
+    "capture_rate": 75,
+    "base_experience": 177,
+    "names": [
+        {
+            "name": "Mafitiff",
+            "language": "roomaji"
+        },
+        {
+            "name": "마피티프",
+            "language": "ko"
+        },
+        {
+            "name": "Dogrino",
+            "language": "fr"
+        },
+        {
+            "name": "Mastifioso",
+            "language": "de"
+        },
+        {
+            "name": "Mabosstiff",
+            "language": "es"
+        },
+        {
+            "name": "Mabosstiff",
+            "language": "it"
+        },
+        {
+            "name": "Mabosstiff",
+            "language": "en"
+        },
+        {
+            "name": "マフィティフ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+        "name": "medium-slow"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 22,
+            "name": "headbutt",
+            "id": "29"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "tackle",
+            "id": "33"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "body-slam",
+            "id": "34"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 55,
+            "name": "double-edge",
+            "id": "38"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "leer",
+            "id": "43"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 14,
+            "name": "bite",
+            "id": "44"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 18,
+            "name": "roar",
+            "id": "46"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hyper-beam",
+            "id": "63"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dig",
+            "id": "91"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 4,
+            "name": "lick",
+            "id": "122"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thief",
+            "id": "168"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "curse",
+            "id": "174"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 43,
+            "name": "reversal",
+            "id": "179"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "spite",
+            "id": "180"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "scary-face",
+            "id": "184"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 60,
+            "name": "outrage",
+            "id": "200"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "charm",
+            "id": "204"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 39,
+            "name": "swagger",
+            "id": "207"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "pain-split",
+            "id": "220"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sunny-day",
+            "id": "241"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 34,
+            "name": "crunch",
+            "id": "242"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "taunt",
+            "id": "269"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "helping-hand",
+            "id": "270"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endeavor",
+            "id": "283"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hyper-voice",
+            "id": "304"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fake-tears",
+            "id": "313"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 26,
+            "name": "payback",
+            "id": "371"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dark-pulse",
+            "id": "399"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "giga-impact",
+            "id": "416"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thunder-fang",
+            "id": "422"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "ice-fang",
+            "id": "423"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fire-fang",
+            "id": "424"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 10,
+            "name": "hone-claws",
+            "id": "468"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "wild-charge",
+            "id": "528"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 7,
+            "name": "snarl",
+            "id": "555"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "play-rough",
+            "id": "583"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psychic-fangs",
+            "id": "706"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 48,
+            "name": "jaw-lock",
+            "id": "746"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "lash-out",
+            "id": "808"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "trailblaze",
+            "id": "885"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 0,
+            "name": "comeuppance",
+            "id": "894"
+        }
+    ],
+    "flavor_text": "This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 17
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/943.png"
+}

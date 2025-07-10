@@ -1,0 +1,12 @@
+{
+  "id": 18,
+  "name": "whirlwind",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": -6,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Immediately ends wild battles.  Forces trainers to switch Pokémon."
+}

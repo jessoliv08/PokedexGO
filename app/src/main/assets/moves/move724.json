@@ -1,0 +1,12 @@
+{
+  "id": 724,
+  "name": "searing-sunraze-smash",
+  "type": "steel",
+  "power": 200,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Cannot be disrupted by abilities."
+}

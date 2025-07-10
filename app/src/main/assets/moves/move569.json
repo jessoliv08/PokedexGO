@@ -1,0 +1,12 @@
+{
+  "id": 569,
+  "name": "ion-deluge",
+  "type": "electric",
+  "power": null,
+  "pp": 25,
+  "accuracy": null,
+  "priority": 1,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Changes all normal moves to electric moves for the rest of the turn."
+}

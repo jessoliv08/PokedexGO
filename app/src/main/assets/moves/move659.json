@@ -1,0 +1,12 @@
+{
+  "id": 659,
+  "name": "shore-up",
+  "type": "ground",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Heals the user for ½ its max HP, or ⅔ during a sandstorm."
+}

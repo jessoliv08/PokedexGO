@@ -1,0 +1,12 @@
+{
+  "id": 547,
+  "name": "relic-song",
+  "type": "normal",
+  "power": 75,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to put the target to sleep."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 6,
+  "name": "pay-day",
+  "type": "normal",
+  "power": 40,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Scatters money on the ground worth five times the user's level."
+}

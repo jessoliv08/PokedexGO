@@ -1,0 +1,12 @@
+{
+  "id": 690,
+  "name": "beak-blast",
+  "type": "flying",
+  "power": 100,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": -3,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Inflicts a burn on any Pokémon that makes contact before the attack."
+}

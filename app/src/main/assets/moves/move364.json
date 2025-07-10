@@ -1,0 +1,12 @@
+{
+  "id": 364,
+  "name": "feint",
+  "type": "normal",
+  "power": 30,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 2,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits through Protect and Detect."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 263,
+  "name": "facade",
+  "type": "normal",
+  "power": 70,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power doubles if user is burned, paralyzed, or poisoned."
+}

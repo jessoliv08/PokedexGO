@@ -1,0 +1,12 @@
+{
+  "id": 836,
+  "name": "mountain-gale",
+  "type": "ice",
+  "power": 100,
+  "pp": 10,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": 784,
+  "name": "breaking-swipe",
+  "type": "dragon",
+  "power": 60,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Lowers the target's Attack by one stage after inflicting damage."
+}

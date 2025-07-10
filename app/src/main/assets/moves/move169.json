@@ -1,0 +1,12 @@
+{
+  "id": 169,
+  "name": "spider-web",
+  "type": "bug",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Prevents the target from leaving battle."
+}

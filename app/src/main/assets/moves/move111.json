@@ -1,0 +1,12 @@
+{
+  "id": 111,
+  "name": "defense-curl",
+  "type": "normal",
+  "power": null,
+  "pp": 40,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Raises user's Defense by one stage."
+}

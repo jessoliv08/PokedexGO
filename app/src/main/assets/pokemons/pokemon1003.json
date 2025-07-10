@@ -1,0 +1,381 @@
+{
+    "id": 1003,
+    "egg_groups": [
+        "no-eggs"
+    ],
+    "hatch_counter": 50,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/284/",
+                "name": "vessel-of-ruin",
+                "id": 284
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 155
+        },
+        {
+            "id": 2,
+            "base_stat": 110
+        },
+        {
+            "id": 3,
+            "base_stat": 125
+        },
+        {
+            "id": 4,
+            "base_stat": 55
+        },
+        {
+            "id": 5,
+            "base_stat": 80
+        },
+        {
+            "id": 6,
+            "base_stat": 45
+        }
+    ],
+    "habitat": null,
+    "weight": 6997,
+    "generation": "generation-ix",
+    "base_happiness": 0,
+    "height": 27,
+    "evolution_chain": 531,
+    "capture_rate": 6,
+    "base_experience": 285,
+    "names": [
+        {
+            "name": "Dinlu",
+            "language": "roomaji"
+        },
+        {
+            "name": "딩루",
+            "language": "ko"
+        },
+        {
+            "name": "Dinglu",
+            "language": "fr"
+        },
+        {
+            "name": "Dinglu",
+            "language": "de"
+        },
+        {
+            "name": "Ting-Lu",
+            "language": "es"
+        },
+        {
+            "name": "Ting-Lu",
+            "language": "it"
+        },
+        {
+            "name": "Ting-Lu",
+            "language": "en"
+        },
+        {
+            "name": "ディンルー",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+        "name": "slow"
+    },
+    "gender_rate": -1,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 25,
+            "name": "whirlwind",
+            "id": "18"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 15,
+            "name": "stomp",
+            "id": "23"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "body-slam",
+            "id": "34"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 35,
+            "name": "thrash",
+            "id": "37"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-edge",
+            "id": "38"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hyper-beam",
+            "id": "63"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 70,
+            "name": "earthquake",
+            "id": "89"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 75,
+            "name": "fissure",
+            "id": "90"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "dig",
+            "id": "91"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 60,
+            "name": "rock-slide",
+            "id": "157"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "spite",
+            "id": "180"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "scary-face",
+            "id": "184"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "mud-slap",
+            "id": "189"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 5,
+            "name": "spikes",
+            "id": "191"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sandstorm",
+            "id": "201"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "mean-look",
+            "id": "212"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sunny-day",
+            "id": "241"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 65,
+            "name": "memento",
+            "id": "262"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 30,
+            "name": "taunt",
+            "id": "269"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rock-tomb",
+            "id": "317"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "sand-tomb",
+            "id": "328"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "mud-shot",
+            "id": "341"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 10,
+            "name": "payback",
+            "id": "371"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 40,
+            "name": "dark-pulse",
+            "id": "399"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "earth-power",
+            "id": "414"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "giga-impact",
+            "id": "416"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "zen-headbutt",
+            "id": "428"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "stone-edge",
+            "id": "444"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "stealth-rock",
+            "id": "446"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "heavy-slam",
+            "id": "484"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hex",
+            "id": "506"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 20,
+            "name": "bulldoze",
+            "id": "523"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "snarl",
+            "id": "555"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 55,
+            "name": "throat-chop",
+            "id": "675"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 45,
+            "name": "stomping-tantrum",
+            "id": "707"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "body-press",
+            "id": "776"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "lash-out",
+            "id": "808"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 50,
+            "name": "ruination",
+            "id": "877"
+        }
+    ],
+    "flavor_text": "The fear poured into an ancient ritual vessel has clad itself in rocks and dirt to become a Pokémon.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 17
+        },
+        {
+            "slot": 2,
+            "id": 5
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/1003.png"
+}

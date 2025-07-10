@@ -1,0 +1,12 @@
+{
+  "id": 594,
+  "name": "water-shuriken",
+  "type": "water",
+  "power": 15,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 1,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Hits 2–5 times."
+}

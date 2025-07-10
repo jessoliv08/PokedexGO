@@ -1,0 +1,12 @@
+{
+  "id": 254,
+  "name": "stockpile",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Stores energy up to three times for use with Spit Up and Swallow."
+}

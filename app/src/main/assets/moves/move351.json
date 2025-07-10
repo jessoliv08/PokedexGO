@@ -1,0 +1,12 @@
+{
+  "id": 351,
+  "name": "shock-wave",
+  "type": "electric",
+  "power": 60,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Never misses."
+}

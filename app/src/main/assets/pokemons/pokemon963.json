@@ -1,0 +1,375 @@
+{
+    "id": 963,
+    "egg_groups": [
+        "ground",
+        "water2"
+    ],
+    "hatch_counter": 40,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/41/",
+                "name": "water-veil",
+                "id": 41
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/41/",
+                "name": "water-veil",
+                "id": 41
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 70
+        },
+        {
+            "id": 2,
+            "base_stat": 45
+        },
+        {
+            "id": 3,
+            "base_stat": 40
+        },
+        {
+            "id": 4,
+            "base_stat": 45
+        },
+        {
+            "id": 5,
+            "base_stat": 40
+        },
+        {
+            "id": 6,
+            "base_stat": 75
+        }
+    ],
+    "habitat": null,
+    "weight": 602,
+    "generation": "generation-ix",
+    "base_happiness": 50,
+    "height": 13,
+    "evolution_chain": 504,
+    "capture_rate": 200,
+    "base_experience": 63,
+    "names": [
+        {
+            "name": "Namiiruka",
+            "language": "roomaji"
+        },
+        {
+            "name": "맨돌핀",
+            "language": "ko"
+        },
+        {
+            "name": "Dofin",
+            "language": "fr"
+        },
+        {
+            "name": "Normifin",
+            "language": "de"
+        },
+        {
+            "name": "Finizen",
+            "language": "es"
+        },
+        {
+            "name": "Finizen",
+            "language": "it"
+        },
+        {
+            "name": "Finizen",
+            "language": "en"
+        },
+        {
+            "name": "ナミイルカ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+        "name": "slow"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "body-slam",
+            "id": "34"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "take-down",
+            "id": "36"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "supersonic",
+            "id": "48"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 44,
+            "name": "mist",
+            "id": "54"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "water-gun",
+            "id": "55"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 50,
+            "name": "hydro-pump",
+            "id": "56"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "surf",
+            "id": "57"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "ice-beam",
+            "id": "58"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "blizzard",
+            "id": "59"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "counter",
+            "id": "68"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "agility",
+            "id": "97"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "haze",
+            "id": "114"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 10,
+            "name": "focus-energy",
+            "id": "116"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "waterfall",
+            "id": "127"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swift",
+            "id": "129"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "icy-wind",
+            "id": "196"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 25,
+            "name": "charm",
+            "id": "204"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 34,
+            "name": "encore",
+            "id": "227"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "psych-up",
+            "id": "244"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "helping-hand",
+            "id": "270"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 21,
+            "name": "dive",
+            "id": "291"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 7,
+            "name": "astonish",
+            "id": "310"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "tickle",
+            "id": "321"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "bounce",
+            "id": "340"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "water-pulse",
+            "id": "352"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "fling",
+            "id": "374"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 39,
+            "name": "aqua-tail",
+            "id": "401"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "zen-headbutt",
+            "id": "428"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 13,
+            "name": "aqua-jet",
+            "id": "453"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 17,
+            "name": "double-hit",
+            "id": "458"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 29,
+            "name": "acrobatics",
+            "id": "512"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "disarming-voice",
+            "id": "574"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "draining-kiss",
+            "id": "577"
+        },
+        {
+            "move_learn_method": "egg",
+            "level_learned_at": 0,
+            "name": "boomburst",
+            "id": "586"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "liquidation",
+            "id": "710"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "chilling-water",
+            "id": "886"
+        }
+    ],
+    "flavor_text": "It likes playing with others of its kind using the water ring on its tail. It uses ultrasonic waves to sense the emotions of other living creatures.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 11
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/963.png"
+}

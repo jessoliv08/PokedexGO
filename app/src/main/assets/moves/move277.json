@@ -1,0 +1,12 @@
+{
+  "id": 277,
+  "name": "magic-coat",
+  "type": "psychic",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 4,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Reflects back the first effect move used on the user this turn."
+}

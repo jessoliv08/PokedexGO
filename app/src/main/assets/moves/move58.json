@@ -1,0 +1,12 @@
+{
+  "id": 58,
+  "name": "ice-beam",
+  "type": "ice",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to freeze the target."
+}

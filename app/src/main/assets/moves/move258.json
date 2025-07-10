@@ -1,0 +1,12 @@
+{
+  "id": 258,
+  "name": "hail",
+  "type": "ice",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Changes the weather to a hailstorm for five turns."
+}

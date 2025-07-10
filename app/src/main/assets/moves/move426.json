@@ -1,0 +1,12 @@
+{
+  "id": 426,
+  "name": "mud-bomb",
+  "type": "ground",
+  "power": 65,
+  "pp": 10,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to lower the target's accuracy by one stage."
+}

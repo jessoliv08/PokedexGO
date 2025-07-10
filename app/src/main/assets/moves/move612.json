@@ -1,0 +1,12 @@
+{
+  "id": 612,
+  "name": "power-up-punch",
+  "type": "fighting",
+  "power": 40,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Raises the user's Attack by one stage after inflicting damage."
+}

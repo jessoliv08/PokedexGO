@@ -1,0 +1,12 @@
+{
+  "id": 415,
+  "name": "switcheroo",
+  "type": "dark",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "User and target swap items."
+}

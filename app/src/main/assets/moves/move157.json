@@ -1,0 +1,12 @@
+{
+  "id": 157,
+  "name": "rock-slide",
+  "type": "rock",
+  "power": 75,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to make the target flinch."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 360,
+  "name": "gyro-ball",
+  "type": "steel",
+  "power": null,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power raises when the user has lower Speed, up to a maximum of 150."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 282,
+  "name": "knock-off",
+  "type": "dark",
+  "power": 65,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Target drops its held item."
+}

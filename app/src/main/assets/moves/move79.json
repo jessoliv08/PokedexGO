@@ -1,0 +1,12 @@
+{
+  "id": 79,
+  "name": "sleep-powder",
+  "type": "grass",
+  "power": null,
+  "pp": 15,
+  "accuracy": 75,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Puts the target to sleep."
+}

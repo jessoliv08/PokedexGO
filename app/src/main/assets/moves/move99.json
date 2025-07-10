@@ -1,0 +1,12 @@
+{
+  "id": 99,
+  "name": "rage",
+  "type": "normal",
+  "power": 20,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "If the user is hit after using this move, its Attack rises by one stage."
+}

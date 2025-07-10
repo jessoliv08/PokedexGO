@@ -1,0 +1,12 @@
+{
+  "id": 167,
+  "name": "triple-kick",
+  "type": "fighting",
+  "power": 10,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits three times, increasing power by 100% with each successful hit."
+}

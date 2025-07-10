@@ -1,0 +1,12 @@
+{
+  "id": 520,
+  "name": "grass-pledge",
+  "type": "grass",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "With Fire Pledge, damages opposing Pokémon for 1/8 their max HP every turn for four turns."
+}

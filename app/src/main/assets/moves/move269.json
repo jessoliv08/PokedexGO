@@ -1,0 +1,12 @@
+{
+  "id": 269,
+  "name": "taunt",
+  "type": "dark",
+  "power": null,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "For the next few turns, the target can only use damaging moves."
+}

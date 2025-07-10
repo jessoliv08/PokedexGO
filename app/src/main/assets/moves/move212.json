@@ -1,0 +1,12 @@
+{
+  "id": 212,
+  "name": "mean-look",
+  "type": "normal",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Prevents the target from leaving battle."
+}

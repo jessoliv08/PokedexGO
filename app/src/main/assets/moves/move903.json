@@ -1,0 +1,12 @@
+{
+  "id": 903,
+  "name": "syrup-bomb",
+  "type": "grass",
+  "power": 60,
+  "pp": 10,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

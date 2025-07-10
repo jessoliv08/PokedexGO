@@ -1,0 +1,12 @@
+{
+  "id": 792,
+  "name": "obstruct",
+  "type": "dark",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 4,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": null
+}

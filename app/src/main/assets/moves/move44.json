@@ -1,0 +1,12 @@
+{
+  "id": 44,
+  "name": "bite",
+  "type": "dark",
+  "power": 60,
+  "pp": 25,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to make the target flinch."
+}

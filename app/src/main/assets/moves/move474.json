@@ -1,0 +1,12 @@
+{
+  "id": 474,
+  "name": "venoshock",
+  "type": "poison",
+  "power": 65,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Inflicts double damage if the target is Poisoned."
+}

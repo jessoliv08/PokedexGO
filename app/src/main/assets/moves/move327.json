@@ -1,0 +1,12 @@
+{
+  "id": 327,
+  "name": "sky-uppercut",
+  "type": "fighting",
+  "power": 85,
+  "pp": 15,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Inflicts regular damage and can hit Bounce and Fly users."
+}

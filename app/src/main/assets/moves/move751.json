@@ -1,0 +1,12 @@
+{
+  "id": 751,
+  "name": "dragon-darts",
+  "type": "dragon",
+  "power": 50,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": 500,
+  "name": "stored-power",
+  "type": "psychic",
+  "power": 20,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Power is higher the more the user's stats have been raised, to a maximum of 31×."
+}

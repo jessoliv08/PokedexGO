@@ -1,0 +1,12 @@
+{
+  "id": 502,
+  "name": "ally-switch",
+  "type": "psychic",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 2,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "User switches places with the friendly Pokémon opposite it."
+}

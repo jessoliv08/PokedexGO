@@ -1,0 +1,12 @@
+{
+  "id": 544,
+  "name": "gear-grind",
+  "type": "steel",
+  "power": 50,
+  "pp": 15,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits twice in one turn."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 521,
+  "name": "volt-switch",
+  "type": "electric",
+  "power": 70,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "User must switch out after attacking."
+}

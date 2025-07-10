@@ -1,0 +1,12 @@
+{
+  "id": 665,
+  "name": "ice-hammer",
+  "type": "ice",
+  "power": 100,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Lowers user's Speed by one stage."
+}

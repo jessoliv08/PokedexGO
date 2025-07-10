@@ -1,0 +1,12 @@
+{
+  "id": 186,
+  "name": "sweet-kiss",
+  "type": "fairy",
+  "power": null,
+  "pp": 10,
+  "accuracy": 75,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Confuses the target."
+}

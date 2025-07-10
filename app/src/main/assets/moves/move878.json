@@ -1,0 +1,12 @@
+{
+  "id": 878,
+  "name": "collision-course",
+  "type": "fighting",
+  "power": 100,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

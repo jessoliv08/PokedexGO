@@ -1,0 +1,12 @@
+{
+  "id": 661,
+  "name": "baneful-bunker",
+  "type": "poison",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 4,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Grants the user protection for the rest of the turn and poisons any Pokémon that tries to use a contact move on it."
+}

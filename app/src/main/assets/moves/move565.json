@@ -1,0 +1,12 @@
+{
+  "id": 565,
+  "name": "fell-stinger",
+  "type": "bug",
+  "power": 50,
+  "pp": 25,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Raises the user's Attack by two stages if it KOs the target."
+}

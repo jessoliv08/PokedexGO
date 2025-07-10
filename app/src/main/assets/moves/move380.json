@@ -1,0 +1,12 @@
+{
+  "id": 380,
+  "name": "gastro-acid",
+  "type": "poison",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Nullifies target's ability until it leaves battle."
+}

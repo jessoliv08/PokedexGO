@@ -1,0 +1,12 @@
+{
+  "id": 860,
+  "name": "population-bomb",
+  "type": "normal",
+  "power": 20,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

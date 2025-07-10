@@ -1,0 +1,12 @@
+{
+  "id": 262,
+  "name": "memento",
+  "type": "dark",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Lowers the target's Attack and Special Attack by two stages.  User faints."
+}

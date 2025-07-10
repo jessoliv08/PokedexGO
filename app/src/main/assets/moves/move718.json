@@ -1,0 +1,12 @@
+{
+  "id": 718,
+  "name": "multi-attack",
+  "type": "normal",
+  "power": 120,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "If the user is holding a appropriate plate or drive, the damage inflicted will match it."
+}

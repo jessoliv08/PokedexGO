@@ -1,0 +1,12 @@
+{
+  "id": 567,
+  "name": "trick-or-treat",
+  "type": "ghost",
+  "power": null,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Adds ghost to the target's types."
+}

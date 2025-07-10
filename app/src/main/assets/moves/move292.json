@@ -1,0 +1,12 @@
+{
+  "id": 292,
+  "name": "arm-thrust",
+  "type": "fighting",
+  "power": 15,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits 2-5 times in one turn."
+}

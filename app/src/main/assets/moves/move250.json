@@ -1,0 +1,12 @@
+{
+  "id": 250,
+  "name": "whirlpool",
+  "type": "water",
+  "power": 35,
+  "pp": 15,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 100,
+  "effect": "Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns."
+}

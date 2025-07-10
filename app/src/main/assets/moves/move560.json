@@ -1,0 +1,12 @@
+{
+  "id": 560,
+  "name": "flying-press",
+  "type": "fighting",
+  "power": 100,
+  "pp": 10,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Deals both fighting and flying-type damage."
+}

@@ -1,0 +1,377 @@
+{
+    "id": 939,
+    "egg_groups": [
+        "water1"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/280/",
+                "name": "electromorphosis",
+                "id": 280
+            }
+        },
+        {
+            "slot": 2,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/9/",
+                "name": "static",
+                "id": 9
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/6/",
+                "name": "damp",
+                "id": 6
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 109
+        },
+        {
+            "id": 2,
+            "base_stat": 64
+        },
+        {
+            "id": 3,
+            "base_stat": 91
+        },
+        {
+            "id": 4,
+            "base_stat": 103
+        },
+        {
+            "id": 5,
+            "base_stat": 83
+        },
+        {
+            "id": 6,
+            "base_stat": 45
+        }
+    ],
+    "habitat": null,
+    "weight": 1130,
+    "generation": "generation-ix",
+    "base_happiness": 50,
+    "height": 12,
+    "evolution_chain": 491,
+    "capture_rate": 50,
+    "base_experience": 173,
+    "names": [
+        {
+            "name": "Harabarie",
+            "language": "roomaji"
+        },
+        {
+            "name": "찌리배리",
+            "language": "ko"
+        },
+        {
+            "name": "Ampibidou",
+            "language": "fr"
+        },
+        {
+            "name": "Wampitz",
+            "language": "de"
+        },
+        {
+            "name": "Bellibolt",
+            "language": "es"
+        },
+        {
+            "name": "Bellibolt",
+            "language": "it"
+        },
+        {
+            "name": "Bellibolt",
+            "language": "en"
+        },
+        {
+            "name": "ハラバリー",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/2/",
+        "name": "medium"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "tackle",
+            "id": "33"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 11,
+            "name": "water-gun",
+            "id": "55"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hyper-beam",
+            "id": "63"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 7,
+            "name": "thunder-shock",
+            "id": "84"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thunderbolt",
+            "id": "85"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thunder-wave",
+            "id": "86"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "thunder",
+            "id": "87"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "toxic",
+            "id": "92"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "confuse-ray",
+            "id": "109"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "light-screen",
+            "id": "113"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "reflect",
+            "id": "115"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swift",
+            "id": "129"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 25,
+            "name": "flail",
+            "id": "175"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "mud-slap",
+            "id": "189"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 50,
+            "name": "zap-cannon",
+            "id": "192"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 21,
+            "name": "spark",
+            "id": "209"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 17,
+            "name": "charge",
+            "id": "268"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "slack-off",
+            "id": "303"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hyper-voice",
+            "id": "304"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 36,
+            "name": "weather-ball",
+            "id": "311"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "muddy-water",
+            "id": "330"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 24,
+            "name": "mud-shot",
+            "id": "341"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "water-pulse",
+            "id": "352"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 45,
+            "name": "sucker-punch",
+            "id": "389"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "giga-impact",
+            "id": "416"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 32,
+            "name": "discharge",
+            "id": "435"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "charge-beam",
+            "id": "451"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "electro-ball",
+            "id": "486"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "acid-spray",
+            "id": "491"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "volt-switch",
+            "id": "521"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "electroweb",
+            "id": "527"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "wild-charge",
+            "id": "528"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "eerie-impulse",
+            "id": "598"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 40,
+            "name": "electric-terrain",
+            "id": "604"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "chilling-water",
+            "id": "886"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "supercell-slam",
+            "id": "916"
+        }
+    ],
+    "flavor_text": "When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 13
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/939.png"
+}

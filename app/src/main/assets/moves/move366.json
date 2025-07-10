@@ -1,0 +1,12 @@
+{
+  "id": 366,
+  "name": "tailwind",
+  "type": "flying",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "For three turns, friendly Pokémon have doubled Speed."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 788,
+  "name": "grav-apple",
+  "type": "grass",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Lowers the target's Defense by one stage after inflicting damage."
+}

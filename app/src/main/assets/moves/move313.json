@@ -1,0 +1,12 @@
+{
+  "id": 313,
+  "name": "fake-tears",
+  "type": "dark",
+  "power": null,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Lowers the target's Special Defense by two stages."
+}

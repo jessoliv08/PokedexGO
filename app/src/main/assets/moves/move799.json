@@ -1,0 +1,12 @@
+{
+  "id": 799,
+  "name": "scale-shot",
+  "type": "dragon",
+  "power": 25,
+  "pp": 20,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Boosts the user's Speed and lowers their Defense by one stage after inflicting damage two to five times in a row."
+}

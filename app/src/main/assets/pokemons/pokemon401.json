@@ -1,0 +1,200 @@
+{
+    "id": 401,
+    "egg_groups": [
+        "bug"
+    ],
+    "hatch_counter": 15,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/61/",
+                "name": "shed-skin",
+                "id": 61
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/50/",
+                "name": "run-away",
+                "id": 50
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 37
+        },
+        {
+            "id": 2,
+            "base_stat": 25
+        },
+        {
+            "id": 3,
+            "base_stat": 41
+        },
+        {
+            "id": 4,
+            "base_stat": 25
+        },
+        {
+            "id": 5,
+            "base_stat": 41
+        },
+        {
+            "id": 6,
+            "base_stat": 25
+        }
+    ],
+    "habitat": null,
+    "weight": 22,
+    "generation": "generation-iv",
+    "base_happiness": 70,
+    "height": 3,
+    "evolution_chain": 208,
+    "capture_rate": 255,
+    "base_experience": 39,
+    "names": [
+        {
+            "name": "Korobohshi",
+            "language": "roomaji"
+        },
+        {
+            "name": "귀뚤뚜기",
+            "language": "ko"
+        },
+        {
+            "name": "Crikzik",
+            "language": "fr"
+        },
+        {
+            "name": "Zirpurze",
+            "language": "de"
+        },
+        {
+            "name": "Kricketot",
+            "language": "es"
+        },
+        {
+            "name": "Kricketot",
+            "language": "it"
+        },
+        {
+            "name": "Kricketot",
+            "language": "en"
+        },
+        {
+            "name": "コロボーシ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/4/",
+        "name": "medium-slow"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "pound",
+            "id": "1"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 5,
+            "name": "tackle",
+            "id": "33"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "growl",
+            "id": "45"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "absorb",
+            "id": "71"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "string-shot",
+            "id": "81"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "bide",
+            "id": "117"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "snore",
+            "id": "173"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "mud-slap",
+            "id": "189"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "uproar",
+            "id": "253"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "endeavor",
+            "id": "283"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 16,
+            "name": "bug-bite",
+            "id": "450"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 6,
+            "name": "struggle-bug",
+            "id": "522"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "lunge",
+            "id": "679"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "skitter-smack",
+            "id": "806"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "tera-blast",
+            "id": "851"
+        }
+    ],
+    "flavor_text": "It shakes its head back to front, causing its antennae to hit each other and sound like a xylophone.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 7
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/401.png"
+}

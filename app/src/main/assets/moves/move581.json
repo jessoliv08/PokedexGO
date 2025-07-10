@@ -1,0 +1,12 @@
+{
+  "id": 581,
+  "name": "misty-terrain",
+  "type": "fairy",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves."
+}

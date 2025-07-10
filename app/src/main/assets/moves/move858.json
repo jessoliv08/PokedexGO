@@ -1,0 +1,12 @@
+{
+  "id": 858,
+  "name": "spicy-extract",
+  "type": "grass",
+  "power": 0,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": null
+}

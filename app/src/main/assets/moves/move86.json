@@ -1,0 +1,12 @@
+{
+  "id": 86,
+  "name": "thunder-wave",
+  "type": "electric",
+  "power": null,
+  "pp": 20,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Paralyzes the target."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 50,
+  "name": "disable",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Disables the target's last used move for 1-8 turns."
+}

@@ -1,0 +1,395 @@
+{
+    "id": 583,
+    "egg_groups": [
+        "mineral"
+    ],
+    "hatch_counter": 20,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/115/",
+                "name": "ice-body",
+                "id": 115
+            }
+        },
+        {
+            "slot": 2,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/81/",
+                "name": "snow-cloak",
+                "id": 81
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/133/",
+                "name": "weak-armor",
+                "id": 133
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 51
+        },
+        {
+            "id": 2,
+            "base_stat": 65
+        },
+        {
+            "id": 3,
+            "base_stat": 65
+        },
+        {
+            "id": 4,
+            "base_stat": 80
+        },
+        {
+            "id": 5,
+            "base_stat": 75
+        },
+        {
+            "id": 6,
+            "base_stat": 59
+        }
+    ],
+    "habitat": null,
+    "weight": 410,
+    "generation": "generation-v",
+    "base_happiness": 70,
+    "height": 11,
+    "evolution_chain": 296,
+    "capture_rate": 120,
+    "base_experience": 138,
+    "names": [
+        {
+            "name": "Vanirich",
+            "language": "roomaji"
+        },
+        {
+            "name": "바닐리치",
+            "language": "ko"
+        },
+        {
+            "name": "Sorboul",
+            "language": "fr"
+        },
+        {
+            "name": "Gelatroppo",
+            "language": "de"
+        },
+        {
+            "name": "Vanillish",
+            "language": "es"
+        },
+        {
+            "name": "Vanillish",
+            "language": "it"
+        },
+        {
+            "name": "Vanillish",
+            "language": "en"
+        },
+        {
+            "name": "バニリッチ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/1/",
+        "name": "slow"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 16,
+            "name": "mist",
+            "id": "54"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 36,
+            "name": "ice-beam",
+            "id": "58"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 53,
+            "name": "blizzard",
+            "id": "59"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "toxic",
+            "id": "92"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "double-team",
+            "id": "104"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "harden",
+            "id": "106"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "light-screen",
+            "id": "113"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "self-destruct",
+            "id": "120"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 31,
+            "name": "acid-armor",
+            "id": "151"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "explosion",
+            "id": "153"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rest",
+            "id": "156"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "substitute",
+            "id": "164"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "snore",
+            "id": "173"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 13,
+            "name": "icy-wind",
+            "id": "196"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "endure",
+            "id": "203"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "swagger",
+            "id": "207"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "attract",
+            "id": "213"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "sleep-talk",
+            "id": "214"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "return",
+            "id": "216"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "frustration",
+            "id": "218"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hidden-power",
+            "id": "237"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "rain-dance",
+            "id": "240"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 47,
+            "name": "mirror-coat",
+            "id": "243"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "uproar",
+            "id": "253"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 42,
+            "name": "hail",
+            "id": "258"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "facade",
+            "id": "263"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 22,
+            "name": "taunt",
+            "id": "269"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "magic-coat",
+            "id": "277"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "imprison",
+            "id": "286"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "secret-power",
+            "id": "290"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "hyper-voice",
+            "id": "304"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "astonish",
+            "id": "310"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "signal-beam",
+            "id": "324"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 58,
+            "name": "sheer-cold",
+            "id": "329"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "icicle-spear",
+            "id": "333"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "iron-defense",
+            "id": "334"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "water-pulse",
+            "id": "352"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "magnet-rise",
+            "id": "393"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 19,
+            "name": "avalanche",
+            "id": "419"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 26,
+            "name": "mirror-shot",
+            "id": "429"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "flash-cannon",
+            "id": "430"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "round",
+            "id": "496"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "ally-switch",
+            "id": "502"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "frost-breath",
+            "id": "524"
+        },
+        {
+            "move_learn_method": "machine",
+            "level_learned_at": 0,
+            "name": "confide",
+            "id": "590"
+        }
+    ],
+    "flavor_text": "Snowy mountains are this Pokémon’s habitat. During an ancient ice age, they moved to southern areas.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 15
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/583.png"
+}

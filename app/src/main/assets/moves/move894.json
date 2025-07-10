@@ -1,0 +1,12 @@
+{
+  "id": 894,
+  "name": "comeuppance",
+  "type": "dark",
+  "power": 1,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

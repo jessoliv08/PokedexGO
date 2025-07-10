@@ -1,0 +1,12 @@
+{
+  "id": 7,
+  "name": "fire-punch",
+  "type": "fire",
+  "power": 75,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to burn the target."
+}

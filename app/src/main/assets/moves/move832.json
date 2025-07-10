@@ -1,0 +1,12 @@
+{
+  "id": 832,
+  "name": "mystical-power",
+  "type": "psychic",
+  "power": 70,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

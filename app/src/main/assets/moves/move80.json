@@ -1,0 +1,12 @@
+{
+  "id": 80,
+  "name": "petal-dance",
+  "type": "grass",
+  "power": 120,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Hits every turn for 2-3 turns, then confuses the user."
+}

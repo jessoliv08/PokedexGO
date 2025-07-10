@@ -1,0 +1,12 @@
+{
+  "id": 435,
+  "name": "discharge",
+  "type": "electric",
+  "power": 80,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to paralyze the target."
+}

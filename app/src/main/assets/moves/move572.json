@@ -1,0 +1,12 @@
+{
+  "id": 572,
+  "name": "petal-blizzard",
+  "type": "grass",
+  "power": 90,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Inflicts regular damage."
+}

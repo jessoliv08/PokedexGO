@@ -1,0 +1,12 @@
+{
+  "id": 205,
+  "name": "rollout",
+  "type": "rock",
+  "power": 30,
+  "pp": 20,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power doubles every turn this move is used in succession after the first, resetting after five turns."
+}

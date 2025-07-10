@@ -1,0 +1,12 @@
+{
+  "id": 471,
+  "name": "power-split",
+  "type": "psychic",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Averages Attack and Special Attack with the target."
+}

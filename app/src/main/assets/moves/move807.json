@@ -1,0 +1,12 @@
+{
+  "id": 807,
+  "name": "burning-jealousy",
+  "type": "fire",
+  "power": 70,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 100,
+  "effect": "Inflicts regular damage with no additional effect."
+}

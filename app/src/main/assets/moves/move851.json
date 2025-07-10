@@ -1,0 +1,12 @@
+{
+  "id": 851,
+  "name": "tera-blast",
+  "type": "normal",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

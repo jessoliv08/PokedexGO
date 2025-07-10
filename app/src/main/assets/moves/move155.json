@@ -1,0 +1,12 @@
+{
+  "id": 155,
+  "name": "bonemerang",
+  "type": "ground",
+  "power": 50,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits twice in one turn."
+}

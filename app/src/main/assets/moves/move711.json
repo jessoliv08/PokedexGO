@@ -1,0 +1,12 @@
+{
+  "id": 711,
+  "name": "prismatic-laser",
+  "type": "psychic",
+  "power": 160,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "User foregoes its next turn to recharge."
+}

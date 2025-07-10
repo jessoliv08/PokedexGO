@@ -1,0 +1,12 @@
+{
+  "id": 117,
+  "name": "bide",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 1,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User waits for two turns, then hits back for twice the damage it took."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 60,
+  "name": "psybeam",
+  "type": "psychic",
+  "power": 65,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to confuse the target."
+}

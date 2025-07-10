@@ -1,0 +1,12 @@
+{
+  "id": 505,
+  "name": "heal-pulse",
+  "type": "psychic",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Heals the target for half its max HP."
+}

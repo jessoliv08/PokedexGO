@@ -1,0 +1,12 @@
+{
+  "id": 396,
+  "name": "aura-sphere",
+  "type": "fighting",
+  "power": 80,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Never misses."
+}

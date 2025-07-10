@@ -1,0 +1,12 @@
+{
+  "id": 573,
+  "name": "freeze-dry",
+  "type": "ice",
+  "power": 70,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 10,
+  "effect": "Super-effective against water."
+}

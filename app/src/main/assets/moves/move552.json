@@ -1,0 +1,12 @@
+{
+  "id": 552,
+  "name": "fiery-dance",
+  "type": "fire",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 50,
+  "effect": "Has a 50% chance to raise the user's Special Attack by one stage."
+}

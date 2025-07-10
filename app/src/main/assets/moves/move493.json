@@ -1,0 +1,12 @@
+{
+  "id": 493,
+  "name": "simple-beam",
+  "type": "normal",
+  "power": null,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Changes the target's ability to Simple."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 477,
+  "name": "telekinesis",
+  "type": "psychic",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Moves have 100% accuracy against the target for three turns."
+}

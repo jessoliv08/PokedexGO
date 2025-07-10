@@ -1,0 +1,12 @@
+{
+  "id": 710,
+  "name": "liquidation",
+  "type": "water",
+  "power": 85,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 20,
+  "effect": "Has a 20% chance to lower the target's Defense by one stage."
+}

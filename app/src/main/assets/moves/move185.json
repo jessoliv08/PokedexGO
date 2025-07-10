@@ -1,0 +1,12 @@
+{
+  "id": 185,
+  "name": "feint-attack",
+  "type": "dark",
+  "power": 60,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Never misses."
+}

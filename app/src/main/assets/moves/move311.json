@@ -1,0 +1,12 @@
+{
+  "id": 311,
+  "name": "weather-ball",
+  "type": "normal",
+  "power": 50,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "If there be weather, this move has doubled power and the weather's type."
+}

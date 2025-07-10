@@ -1,0 +1,12 @@
+{
+  "id": 237,
+  "name": "hidden-power",
+  "type": "normal",
+  "power": 60,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Power and type depend upon user's IVs.  Power can range from 30 to 70."
+}

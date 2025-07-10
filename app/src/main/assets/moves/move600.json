@@ -1,0 +1,12 @@
+{
+  "id": 600,
+  "name": "powder",
+  "type": "bug",
+  "power": null,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 1,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Explodes if the target uses a fire move this turn, damaging it for 1/4 its max HP and preventing the move."
+}

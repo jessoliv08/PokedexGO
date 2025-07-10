@@ -1,0 +1,12 @@
+{
+  "id": 570,
+  "name": "parabolic-charge",
+  "type": "electric",
+  "power": 65,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Heals the user for half the total damage dealt to all targets."
+}

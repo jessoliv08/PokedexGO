@@ -1,0 +1,12 @@
+{
+  "id": 231,
+  "name": "iron-tail",
+  "type": "steel",
+  "power": 100,
+  "pp": 15,
+  "accuracy": 75,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to lower the target's Defense by one stage."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 178,
+  "name": "cotton-spore",
+  "type": "grass",
+  "power": null,
+  "pp": 40,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Lowers the target's Speed by two stages."
+}

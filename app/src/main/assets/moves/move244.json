@@ -1,0 +1,12 @@
+{
+  "id": 244,
+  "name": "psych-up",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Discards the user's stat changes and copies the target's."
+}

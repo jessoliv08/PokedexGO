@@ -1,0 +1,12 @@
+{
+  "id": 291,
+  "name": "dive",
+  "type": "water",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User dives underwater, dodging all attacks, and hits next turn."
+}

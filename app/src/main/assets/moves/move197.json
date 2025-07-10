@@ -1,0 +1,12 @@
+{
+  "id": 197,
+  "name": "detect",
+  "type": "fighting",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 4,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Prevents any moves from hitting the user this turn."
+}

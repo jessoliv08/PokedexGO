@@ -1,0 +1,12 @@
+{
+  "id": 13,
+  "name": "razor-wind",
+  "type": "normal",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Requires a turn to charge before attacking."
+}

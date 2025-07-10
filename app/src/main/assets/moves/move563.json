@@ -1,0 +1,12 @@
+{
+  "id": 563,
+  "name": "rototiller",
+  "type": "ground",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": 100,
+  "effect": "Raises the Attack and Special Attack of all grass Pokémon in battle."
+}

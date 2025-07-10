@@ -1,0 +1,12 @@
+{
+  "id": 419,
+  "name": "avalanche",
+  "type": "ice",
+  "power": 60,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": -4,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Inflicts double damage if the user takes damage before attacking this turn."
+}

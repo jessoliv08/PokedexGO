@@ -1,0 +1,12 @@
+{
+  "id": 209,
+  "name": "spark",
+  "type": "electric",
+  "power": 65,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to paralyze the target."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 309,
+  "name": "meteor-mash",
+  "type": "steel",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 20,
+  "effect": "Has a 20% chance to raise the user's Attack by one stage."
+}

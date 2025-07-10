@@ -1,0 +1,12 @@
+{
+  "id": 436,
+  "name": "lava-plume",
+  "type": "fire",
+  "power": 80,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to burn the target."
+}

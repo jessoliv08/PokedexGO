@@ -1,0 +1,12 @@
+{
+  "id": 164,
+  "name": "substitute",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks."
+}

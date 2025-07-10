@@ -1,0 +1,12 @@
+{
+  "id": 589,
+  "name": "play-nice",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": 100,
+  "effect": "Lowers the target's Attack by one stage."
+}

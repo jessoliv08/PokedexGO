@@ -1,0 +1,12 @@
+{
+  "id": 293,
+  "name": "camouflage",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "User's type changes to match the terrain."
+}

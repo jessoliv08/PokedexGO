@@ -1,0 +1,12 @@
+{
+  "id": 328,
+  "name": "sand-tomb",
+  "type": "ground",
+  "power": 35,
+  "pp": 15,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+}

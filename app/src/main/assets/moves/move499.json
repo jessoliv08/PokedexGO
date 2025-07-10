@@ -1,0 +1,12 @@
+{
+  "id": 499,
+  "name": "clear-smog",
+  "type": "poison",
+  "power": 50,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Removes all of the target's stat modifiers."
+}

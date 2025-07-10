@@ -1,0 +1,12 @@
+{
+  "id": 663,
+  "name": "darkest-lariat",
+  "type": "dark",
+  "power": 85,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Ignores the target's stat modifiers."
+}

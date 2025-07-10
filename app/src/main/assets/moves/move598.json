@@ -1,0 +1,12 @@
+{
+  "id": 598,
+  "name": "eerie-impulse",
+  "type": "electric",
+  "power": null,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Lowers the target's Special Attack by two stages."
+}

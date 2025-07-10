@@ -1,0 +1,12 @@
+{
+  "id": 16,
+  "name": "gust",
+  "type": "flying",
+  "power": 40,
+  "pp": 35,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Inflicts regular damage and can hit Pokémon in the air."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 253,
+  "name": "uproar",
+  "type": "normal",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Forced to use this move for several turns.  Pokémon cannot fall asleep in that time."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 433,
+  "name": "trick-room",
+  "type": "psychic",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": -7,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "For five turns, slower Pokémon will act before faster Pokémon."
+}

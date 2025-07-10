@@ -1,0 +1,12 @@
+{
+  "id": 326,
+  "name": "extrasensory",
+  "type": "psychic",
+  "power": 80,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to make the target flinch."
+}

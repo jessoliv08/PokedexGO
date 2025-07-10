@@ -1,0 +1,12 @@
+{
+  "id": 308,
+  "name": "hydro-cannon",
+  "type": "water",
+  "power": 150,
+  "pp": 5,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "User foregoes its next turn to recharge."
+}

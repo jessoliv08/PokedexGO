@@ -1,0 +1,12 @@
+{
+  "id": 89,
+  "name": "earthquake",
+  "type": "ground",
+  "power": 100,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Inflicts regular damage and can hit Dig users."
+}

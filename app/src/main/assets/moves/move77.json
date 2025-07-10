@@ -1,0 +1,12 @@
+{
+  "id": 77,
+  "name": "poison-powder",
+  "type": "poison",
+  "power": null,
+  "pp": 35,
+  "accuracy": 75,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Poisons the target."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 467,
+  "name": "shadow-force",
+  "type": "ghost",
+  "power": 120,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect."
+}

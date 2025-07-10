@@ -1,0 +1,12 @@
+{
+  "id": 35,
+  "name": "wrap",
+  "type": "normal",
+  "power": 15,
+  "pp": 20,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 371,
+  "name": "payback",
+  "type": "dark",
+  "power": 50,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power is doubled if the target has already moved this turn."
+}

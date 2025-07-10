@@ -1,0 +1,12 @@
+{
+  "id": 144,
+  "name": "transform",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "User becomes a copy of the target until it leaves battle."
+}

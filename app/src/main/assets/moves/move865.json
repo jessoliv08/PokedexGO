@@ -1,0 +1,12 @@
+{
+  "id": 865,
+  "name": "triple-dive",
+  "type": "water",
+  "power": 30,
+  "pp": 10,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

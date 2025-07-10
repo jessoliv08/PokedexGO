@@ -1,0 +1,12 @@
+{
+  "id": 75,
+  "name": "razor-leaf",
+  "type": "grass",
+  "power": 55,
+  "pp": 25,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Has an increased chance for a critical hit."
+}

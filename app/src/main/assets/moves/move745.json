@@ -1,0 +1,12 @@
+{
+  "id": 745,
+  "name": "snipe-shot",
+  "type": "water",
+  "power": 80,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Sets Reflect on the user's side of the field after inflicting damage."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 233,
+  "name": "vital-throw",
+  "type": "fighting",
+  "power": 70,
+  "pp": 10,
+  "accuracy": null,
+  "priority": -1,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Never misses."
+}

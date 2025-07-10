@@ -1,0 +1,12 @@
+{
+  "id": 462,
+  "name": "crush-grip",
+  "type": "normal",
+  "power": null,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power increases against targets with more HP remaining, up to a maximum of 121 power."
+}

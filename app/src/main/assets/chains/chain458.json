@@ -1,0 +1,13 @@
+{
+    "id": 458,
+    "baby_trigger_item": null,
+    "chain": {
+        "evolution_details": null,
+        "evolves_to": [],
+        "is_baby": false,
+        "species": {
+            "name": "indeedee",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/876/"
+        }
+    }
+}

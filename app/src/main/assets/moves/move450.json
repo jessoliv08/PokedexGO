@@ -1,0 +1,12 @@
+{
+  "id": 450,
+  "name": "bug-bite",
+  "type": "bug",
+  "power": 60,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "If target has a berry, inflicts double damage and uses the berry."
+}

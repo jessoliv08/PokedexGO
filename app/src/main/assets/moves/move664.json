@@ -1,0 +1,12 @@
+{
+  "id": 664,
+  "name": "sparkling-aria",
+  "type": "water",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Cures the target of burns."
+}

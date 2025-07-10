@@ -1,0 +1,12 @@
+{
+  "id": 120,
+  "name": "self-destruct",
+  "type": "normal",
+  "power": 200,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User faints."
+}

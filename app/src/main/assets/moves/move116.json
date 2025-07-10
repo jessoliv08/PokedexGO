@@ -1,0 +1,12 @@
+{
+  "id": 116,
+  "name": "focus-energy",
+  "type": "normal",
+  "power": null,
+  "pp": 30,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Increases the user's chance to score a critical hit."
+}

@@ -1,0 +1,158 @@
+{
+    "id": 412,
+    "egg_groups": [
+        "bug"
+    ],
+    "hatch_counter": 15,
+    "abilities": [
+        {
+            "slot": 1,
+            "is_hidden": false,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/61/",
+                "name": "shed-skin",
+                "id": 61
+            }
+        },
+        {
+            "slot": 3,
+            "is_hidden": true,
+            "ability": {
+                "url": "https://pokeapi.co/api/v2/ability/142/",
+                "name": "overcoat",
+                "id": 142
+            }
+        }
+    ],
+    "stats": [
+        {
+            "id": 1,
+            "base_stat": 40
+        },
+        {
+            "id": 2,
+            "base_stat": 29
+        },
+        {
+            "id": 3,
+            "base_stat": 45
+        },
+        {
+            "id": 4,
+            "base_stat": 29
+        },
+        {
+            "id": 5,
+            "base_stat": 45
+        },
+        {
+            "id": 6,
+            "base_stat": 36
+        }
+    ],
+    "habitat": null,
+    "weight": 34,
+    "generation": "generation-iv",
+    "base_happiness": 70,
+    "height": 2,
+    "evolution_chain": 213,
+    "capture_rate": 120,
+    "base_experience": 45,
+    "names": [
+        {
+            "name": "Minomucchi",
+            "language": "roomaji"
+        },
+        {
+            "name": "도롱충이",
+            "language": "ko"
+        },
+        {
+            "name": "Cheniti",
+            "language": "fr"
+        },
+        {
+            "name": "Burmy",
+            "language": "de"
+        },
+        {
+            "name": "Burmy",
+            "language": "es"
+        },
+        {
+            "name": "Burmy",
+            "language": "it"
+        },
+        {
+            "name": "Burmy",
+            "language": "en"
+        },
+        {
+            "name": "ミノムッチ",
+            "language": "ja"
+        }
+    ],
+    "growth_rate": {
+        "url": "https://pokeapi.co/api/v2/growth-rate/2/",
+        "name": "medium"
+    },
+    "gender_rate": 4,
+    "moves": [
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 10,
+            "name": "tackle",
+            "id": "33"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "string-shot",
+            "id": "81"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "snore",
+            "id": "173"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "protect",
+            "id": "182"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 20,
+            "name": "hidden-power",
+            "id": "237"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 15,
+            "name": "bug-bite",
+            "id": "450"
+        },
+        {
+            "move_learn_method": "level-up",
+            "level_learned_at": 1,
+            "name": "struggle-bug",
+            "id": "522"
+        },
+        {
+            "move_learn_method": "tutor",
+            "level_learned_at": 0,
+            "name": "electroweb",
+            "id": "527"
+        }
+    ],
+    "flavor_text": "To shelter itself from cold, wintry winds, it covers itself with a cloak made of twigs and leaves.",
+    "types": [
+        {
+            "slot": 1,
+            "id": 7
+        }
+    ],
+    "image": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/412.png"
+}

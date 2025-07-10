@@ -1,0 +1,12 @@
+{
+  "id": 543,
+  "name": "head-charge",
+  "type": "normal",
+  "power": 120,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User receives 1/4 the damage it inflicts in recoil."
+}

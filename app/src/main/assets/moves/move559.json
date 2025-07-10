@@ -1,0 +1,12 @@
+{
+  "id": 559,
+  "name": "fusion-bolt",
+  "type": "electric",
+  "power": 100,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "With Fusion Flare, inflicts double damage."
+}

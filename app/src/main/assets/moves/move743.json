@@ -1,0 +1,12 @@
+{
+  "id": 743,
+  "name": "max-guard",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 4,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Prevents any moves from hitting the user this turn."
+}

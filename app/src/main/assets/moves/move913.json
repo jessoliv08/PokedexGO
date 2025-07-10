@@ -1,0 +1,12 @@
+{
+  "id": 913,
+  "name": "dragon-cheer",
+  "type": "dragon",
+  "power": 0,
+  "pp": 15,
+  "accuracy": 0,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": null
+}

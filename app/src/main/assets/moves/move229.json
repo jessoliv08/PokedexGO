@@ -1,0 +1,12 @@
+{
+  "id": 229,
+  "name": "rapid-spin",
+  "type": "normal",
+  "power": 50,
+  "pp": 40,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Frees the user from binding moves, removes Leech Seed, and blows away Spikes."
+}

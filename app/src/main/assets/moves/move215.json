@@ -1,0 +1,12 @@
+{
+  "id": 215,
+  "name": "heal-bell",
+  "type": "normal",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Cures the entire party of major status effects."
+}

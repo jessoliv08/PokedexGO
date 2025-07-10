@@ -1,0 +1,12 @@
+{
+  "id": 461,
+  "name": "lunar-dance",
+  "type": "psychic",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "User faints, and its replacement is fully healed."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 603,
+  "name": "happy-hour",
+  "type": "normal",
+  "power": null,
+  "pp": 30,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Doubles prize money."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 289,
+  "name": "snatch",
+  "type": "dark",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 4,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Steals the target's move, if it's self-targeted."
+}

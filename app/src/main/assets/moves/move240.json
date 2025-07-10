@@ -1,0 +1,12 @@
+{
+  "id": 240,
+  "name": "rain-dance",
+  "type": "water",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Changes the weather to rain for five turns."
+}

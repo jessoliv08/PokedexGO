@@ -1,0 +1,12 @@
+{
+  "id": 864,
+  "name": "salt-cure",
+  "type": "rock",
+  "power": 40,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": 103,
+  "name": "screech",
+  "type": "normal",
+  "power": null,
+  "pp": 40,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Lowers the target's Defense by two stages."
+}

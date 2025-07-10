@@ -1,0 +1,12 @@
+{
+  "id": 744,
+  "name": "dynamax-cannon",
+  "type": "dragon",
+  "power": 100,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Sets Light Screen on the user's side of the field after inflicting damage."
+}

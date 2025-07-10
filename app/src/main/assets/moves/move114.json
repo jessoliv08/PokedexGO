@@ -1,0 +1,12 @@
+{
+  "id": 114,
+  "name": "haze",
+  "type": "ice",
+  "power": null,
+  "pp": 30,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Resets all Pokémon's stats, accuracy, and evasion."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 694,
+  "name": "aurora-veil",
+  "type": "ice",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Reduces damage five turns, but must be used during hail."
+}

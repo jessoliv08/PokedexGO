@@ -1,0 +1,12 @@
+{
+  "id": 362,
+  "name": "brine",
+  "type": "water",
+  "power": 65,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Has double power against Pokémon that have less than half their max HP remaining."
+}

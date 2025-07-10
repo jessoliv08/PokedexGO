@@ -1,0 +1,12 @@
+{
+  "id": 716,
+  "name": "zing-zap",
+  "type": "electric",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to make the target flinch."
+}

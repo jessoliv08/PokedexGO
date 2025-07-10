@@ -1,0 +1,12 @@
+{
+  "id": 72,
+  "name": "mega-drain",
+  "type": "grass",
+  "power": 40,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Drains half the damage inflicted to heal the user."
+}

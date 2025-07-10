@@ -1,0 +1,12 @@
+{
+  "id": 388,
+  "name": "worry-seed",
+  "type": "grass",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Changes the target's ability to Insomnia."
+}

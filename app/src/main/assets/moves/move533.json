@@ -1,0 +1,12 @@
+{
+  "id": 533,
+  "name": "sacred-sword",
+  "type": "fighting",
+  "power": 90,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Ignores the target's stat modifiers."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 464,
+  "name": "dark-void",
+  "type": "dark",
+  "power": null,
+  "pp": 10,
+  "accuracy": 50,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Puts the target to sleep."
+}

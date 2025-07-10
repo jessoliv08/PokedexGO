@@ -1,0 +1,12 @@
+{
+  "id": 343,
+  "name": "covet",
+  "type": "normal",
+  "power": 60,
+  "pp": 25,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Takes the target's item."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 465,
+  "name": "seed-flare",
+  "type": "grass",
+  "power": 120,
+  "pp": 5,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 40,
+  "effect": "Has a 40% chance to lower the target's Special Defense by two stages."
+}

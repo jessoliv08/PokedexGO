@@ -1,0 +1,12 @@
+{
+  "id": 363,
+  "name": "natural-gift",
+  "type": "normal",
+  "power": null,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power and type depend on the held berry."
+}

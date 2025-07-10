@@ -1,0 +1,12 @@
+{
+  "id": 9,
+  "name": "thunder-punch",
+  "type": "electric",
+  "power": 75,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to paralyze the target."
+}

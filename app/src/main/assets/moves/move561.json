@@ -1,0 +1,12 @@
+{
+  "id": 561,
+  "name": "mat-block",
+  "type": "fighting",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 47,
+  "name": "sing",
+  "type": "normal",
+  "power": null,
+  "pp": 15,
+  "accuracy": 55,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Puts the target to sleep."
+}

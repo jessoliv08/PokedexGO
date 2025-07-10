@@ -1,0 +1,12 @@
+{
+  "id": 259,
+  "name": "torment",
+  "type": "dark",
+  "power": null,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Prevents the target from using the same move twice in a row."
+}

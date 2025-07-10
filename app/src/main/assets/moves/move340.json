@@ -1,0 +1,12 @@
+{
+  "id": 340,
+  "name": "bounce",
+  "type": "flying",
+  "power": 85,
+  "pp": 5,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "User bounces high into the air, dodging all attacks, and hits next turn."
+}

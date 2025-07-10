@@ -1,0 +1,12 @@
+{
+  "id": 165,
+  "name": "struggle",
+  "type": "normal",
+  "power": 50,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User takes 1/4 its max HP in recoil."
+}

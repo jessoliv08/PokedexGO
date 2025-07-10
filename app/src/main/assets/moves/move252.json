@@ -1,0 +1,12 @@
+{
+  "id": 252,
+  "name": "fake-out",
+  "type": "normal",
+  "power": 40,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 3,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Can only be used as the first move after the user enters battle.  Causes the target to flinch."
+}

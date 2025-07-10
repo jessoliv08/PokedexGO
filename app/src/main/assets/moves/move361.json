@@ -1,0 +1,12 @@
+{
+  "id": 361,
+  "name": "healing-wish",
+  "type": "psychic",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "User faints.  Its replacement has its HP fully restored and any major status effect removed."
+}

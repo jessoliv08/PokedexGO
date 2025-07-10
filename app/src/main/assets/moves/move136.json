@@ -1,0 +1,12 @@
+{
+  "id": 136,
+  "name": "high-jump-kick",
+  "type": "fighting",
+  "power": 130,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "If the user misses, it takes half the damage it would have inflicted in recoil."
+}

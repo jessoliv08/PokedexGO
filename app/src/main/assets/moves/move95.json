@@ -1,0 +1,12 @@
+{
+  "id": 95,
+  "name": "hypnosis",
+  "type": "psychic",
+  "power": null,
+  "pp": 20,
+  "accuracy": 60,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Puts the target to sleep."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 876,
+  "name": "hydro-steam",
+  "type": "water",
+  "power": 80,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

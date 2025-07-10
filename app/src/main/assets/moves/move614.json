@@ -1,0 +1,12 @@
+{
+  "id": 614,
+  "name": "thousand-arrows",
+  "type": "ground",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Grounds the target, and hits even Flying-type or levitating Pokémon."
+}

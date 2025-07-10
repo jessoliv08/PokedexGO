@@ -1,0 +1,12 @@
+{
+  "id": 203,
+  "name": "endure",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 4,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Prevents the user's HP from lowering below 1 this turn."
+}

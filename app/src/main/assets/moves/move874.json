@@ -1,0 +1,12 @@
+{
+  "id": 874,
+  "name": "make-it-rain",
+  "type": "steel",
+  "power": 120,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

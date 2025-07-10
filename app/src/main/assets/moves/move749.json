@@ -1,0 +1,12 @@
+{
+  "id": 749,
+  "name": "tar-shot",
+  "type": "rock",
+  "power": null,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": 100,
+  "effect": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": 779,
+  "name": "snap-trap",
+  "type": "grass",
+  "power": 35,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+}

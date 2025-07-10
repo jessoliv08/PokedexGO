@@ -1,0 +1,12 @@
+{
+  "id": 562,
+  "name": "belch",
+  "type": "poison",
+  "power": 120,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Can only be used after the user has eaten a berry."
+}

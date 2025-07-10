@@ -1,0 +1,12 @@
+{
+  "id": 518,
+  "name": "water-pledge",
+  "type": "water",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "With Grass Pledge, halves opposing Pokémon's Speed for four turns."
+}

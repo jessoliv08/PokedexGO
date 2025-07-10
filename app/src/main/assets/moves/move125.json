@@ -1,0 +1,12 @@
+{
+  "id": 125,
+  "name": "bone-club",
+  "type": "ground",
+  "power": 65,
+  "pp": 20,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to make the target flinch."
+}

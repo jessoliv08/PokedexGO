@@ -1,0 +1,12 @@
+{
+  "id": 211,
+  "name": "steel-wing",
+  "type": "steel",
+  "power": 70,
+  "pp": 25,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to raise the user's Defense by one stage."
+}

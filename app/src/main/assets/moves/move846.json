@@ -1,0 +1,12 @@
+{
+  "id": 846,
+  "name": "bleakwind-storm",
+  "type": "flying",
+  "power": 100,
+  "pp": 10,
+  "accuracy": 80,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

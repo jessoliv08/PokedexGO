@@ -1,0 +1,12 @@
+{
+  "id": 870,
+  "name": "flower-trick",
+  "type": "grass",
+  "power": 70,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

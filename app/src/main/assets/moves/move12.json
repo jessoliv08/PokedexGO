@@ -1,0 +1,12 @@
+{
+  "id": 12,
+  "name": "guillotine",
+  "type": "normal",
+  "power": null,
+  "pp": 5,
+  "accuracy": 30,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Causes a one-hit KO."
+}

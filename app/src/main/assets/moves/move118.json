@@ -1,0 +1,12 @@
+{
+  "id": 118,
+  "name": "metronome",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Randomly selects and uses any move in the game."
+}

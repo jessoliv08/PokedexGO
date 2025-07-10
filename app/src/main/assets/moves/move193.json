@@ -1,0 +1,12 @@
+{
+  "id": 193,
+  "name": "foresight",
+  "type": "normal",
+  "power": null,
+  "pp": 40,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost."
+}

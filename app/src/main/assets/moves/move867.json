@@ -1,0 +1,12 @@
+{
+  "id": 867,
+  "name": "doodle",
+  "type": "normal",
+  "power": 0,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": null
+}

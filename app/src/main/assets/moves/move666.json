@@ -1,0 +1,12 @@
+{
+  "id": 666,
+  "name": "floral-healing",
+  "type": "fairy",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Heals the target for ½ its max HP, or ⅔ on Grassy Terrain."
+}

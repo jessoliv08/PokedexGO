@@ -1,0 +1,12 @@
+{
+  "id": 174,
+  "name": "curse",
+  "type": "ghost",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense."
+}

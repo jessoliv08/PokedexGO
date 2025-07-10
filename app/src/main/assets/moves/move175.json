@@ -1,0 +1,12 @@
+{
+  "id": 175,
+  "name": "flail",
+  "type": "normal",
+  "power": null,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Inflicts more damage when the user has less HP remaining, with a maximum of 200 power."
+}

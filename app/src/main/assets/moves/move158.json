@@ -1,0 +1,12 @@
+{
+  "id": 158,
+  "name": "hyper-fang",
+  "type": "normal",
+  "power": 80,
+  "pp": 15,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to make the target flinch."
+}

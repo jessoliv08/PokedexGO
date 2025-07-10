@@ -1,0 +1,12 @@
+{
+  "id": 53,
+  "name": "flamethrower",
+  "type": "fire",
+  "power": 90,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to burn the target."
+}

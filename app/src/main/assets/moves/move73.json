@@ -1,0 +1,12 @@
+{
+  "id": 73,
+  "name": "leech-seed",
+  "type": "grass",
+  "power": null,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Seeds the target, stealing HP from it every turn."
+}

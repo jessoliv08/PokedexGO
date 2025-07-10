@@ -1,0 +1,12 @@
+{
+  "id": 214,
+  "name": "sleep-talk",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Randomly uses one of the user's other three moves.  Only works if the user is sleeping."
+}

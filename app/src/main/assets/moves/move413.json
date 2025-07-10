@@ -1,0 +1,12 @@
+{
+  "id": 413,
+  "name": "brave-bird",
+  "type": "flying",
+  "power": 120,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "User receives 1/3 the damage inflicted in recoil."
+}

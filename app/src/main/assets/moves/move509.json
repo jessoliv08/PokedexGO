@@ -1,0 +1,12 @@
+{
+  "id": 509,
+  "name": "circle-throw",
+  "type": "fighting",
+  "power": 60,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": -6,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Ends wild battles.  Forces trainers to switch Pokémon."
+}

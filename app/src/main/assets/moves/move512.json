@@ -1,0 +1,12 @@
+{
+  "id": 512,
+  "name": "acrobatics",
+  "type": "flying",
+  "power": 55,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Has double power if the user has no held item."
+}

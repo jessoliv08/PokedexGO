@@ -1,0 +1,12 @@
+{
+  "id": 877,
+  "name": "ruination",
+  "type": "dark",
+  "power": 1,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

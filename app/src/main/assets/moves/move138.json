@@ -1,0 +1,12 @@
+{
+  "id": 138,
+  "name": "dream-eater",
+  "type": "psychic",
+  "power": 100,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 535,
+  "name": "heat-crash",
+  "type": "fire",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power is higher when the user weighs more than the target, up to a maximum of 120."
+}

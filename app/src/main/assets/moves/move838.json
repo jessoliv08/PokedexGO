@@ -1,0 +1,12 @@
+{
+  "id": 838,
+  "name": "headlong-rush",
+  "type": "ground",
+  "power": 120,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

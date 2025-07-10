@@ -1,0 +1,12 @@
+{
+  "id": 4,
+  "name": "comet-punch",
+  "type": "normal",
+  "power": 18,
+  "pp": 15,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits 2-5 times in one turn."
+}

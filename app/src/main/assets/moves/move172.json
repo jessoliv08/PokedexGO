@@ -1,0 +1,12 @@
+{
+  "id": 172,
+  "name": "flame-wheel",
+  "type": "fire",
+  "power": 60,
+  "pp": 25,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to burn the target.  Lets frozen Pokémon thaw themselves."
+}

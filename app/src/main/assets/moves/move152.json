@@ -1,0 +1,12 @@
+{
+  "id": 152,
+  "name": "crabhammer",
+  "type": "water",
+  "power": 100,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Has an increased chance for a critical hit."
+}

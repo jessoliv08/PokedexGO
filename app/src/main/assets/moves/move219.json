@@ -1,0 +1,12 @@
+{
+  "id": 219,
+  "name": "safeguard",
+  "type": "normal",
+  "power": null,
+  "pp": 25,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Protects the user's field from major status ailments and confusion for five turns."
+}

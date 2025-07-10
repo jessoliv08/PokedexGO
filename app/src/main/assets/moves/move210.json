@@ -1,0 +1,12 @@
+{
+  "id": 210,
+  "name": "fury-cutter",
+  "type": "bug",
+  "power": 40,
+  "pp": 20,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power doubles every turn this move is used in succession after the first, maxing out after five turns."
+}

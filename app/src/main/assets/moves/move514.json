@@ -1,0 +1,12 @@
+{
+  "id": 514,
+  "name": "retaliate",
+  "type": "normal",
+  "power": 70,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Has double power if a friendly Pokémon fainted last turn."
+}

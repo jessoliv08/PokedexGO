@@ -1,0 +1,12 @@
+{
+  "id": 83,
+  "name": "fire-spin",
+  "type": "fire",
+  "power": 35,
+  "pp": 15,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 100,
+  "effect": "Prevents the target from fleeing and inflicts damage for 2-5 turns."
+}

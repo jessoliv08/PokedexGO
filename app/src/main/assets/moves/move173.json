@@ -1,0 +1,12 @@
+{
+  "id": 173,
+  "name": "snore",
+  "type": "normal",
+  "power": 50,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to make the target flinch.  Only works if the user is sleeping."
+}

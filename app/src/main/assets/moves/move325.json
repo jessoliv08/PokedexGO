@@ -1,0 +1,12 @@
+{
+  "id": 325,
+  "name": "shadow-punch",
+  "type": "ghost",
+  "power": 60,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Never misses."
+}

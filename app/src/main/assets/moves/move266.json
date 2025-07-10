@@ -1,0 +1,12 @@
+{
+  "id": 266,
+  "name": "follow-me",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 2,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Redirects the target's single-target effects to the user for this turn."
+}

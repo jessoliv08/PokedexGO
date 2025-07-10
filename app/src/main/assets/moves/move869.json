@@ -1,0 +1,12 @@
+{
+  "id": 869,
+  "name": "kowtow-cleave",
+  "type": "dark",
+  "power": 85,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

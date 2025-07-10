@@ -1,0 +1,12 @@
+{
+  "id": 524,
+  "name": "frost-breath",
+  "type": "ice",
+  "power": 60,
+  "pp": 10,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 100,
+  "effect": "Always scores a critical hit."
+}

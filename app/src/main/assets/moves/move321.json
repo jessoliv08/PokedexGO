@@ -1,0 +1,12 @@
+{
+  "id": 321,
+  "name": "tickle",
+  "type": "normal",
+  "power": null,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Lowers the target's Attack and Defense by one stage."
+}

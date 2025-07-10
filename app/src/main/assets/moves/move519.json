@@ -1,0 +1,12 @@
+{
+  "id": 519,
+  "name": "fire-pledge",
+  "type": "fire",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "With Water Pledge, doubles the effect chance of friendly Pokémon's moves for four turns."
+}

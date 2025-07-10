@@ -1,0 +1,12 @@
+{
+  "id": 100,
+  "name": "teleport",
+  "type": "psychic",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": -6,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Immediately ends wild battles.  No effect otherwise."
+}

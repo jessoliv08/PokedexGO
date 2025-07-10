@@ -1,0 +1,12 @@
+{
+  "id": 27,
+  "name": "rolling-kick",
+  "type": "fighting",
+  "power": 60,
+  "pp": 15,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to make the target flinch."
+}

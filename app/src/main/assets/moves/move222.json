@@ -1,0 +1,12 @@
+{
+  "id": 222,
+  "name": "magnitude",
+  "type": "ground",
+  "power": null,
+  "pp": 30,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power varies randomly from 10 to 150."
+}

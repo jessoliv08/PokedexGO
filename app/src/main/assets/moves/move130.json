@@ -1,0 +1,12 @@
+{
+  "id": 130,
+  "name": "skull-bash",
+  "type": "normal",
+  "power": 130,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Raises the user's Defense by one stage.  User charges for one turn before attacking."
+}

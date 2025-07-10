@@ -1,0 +1,12 @@
+{
+  "id": 742,
+  "name": "double-iron-bash",
+  "type": "steel",
+  "power": 60,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Hits twice in one turn."
+}

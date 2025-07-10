@@ -1,0 +1,12 @@
+{
+  "id": 113,
+  "name": "light-screen",
+  "type": "psychic",
+  "power": null,
+  "pp": 30,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Reduces damage from special attacks by 50% for five turns."
+}

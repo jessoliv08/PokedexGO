@@ -1,0 +1,12 @@
+{
+  "id": 602,
+  "name": "magnetic-flux",
+  "type": "electric",
+  "power": null,
+  "pp": 20,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Raises the Defense and Special Defense of all friendly Pokémon with plus or minus by one stage."
+}

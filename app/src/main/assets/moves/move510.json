@@ -1,0 +1,12 @@
+{
+  "id": 510,
+  "name": "incinerate",
+  "type": "fire",
+  "power": 60,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Destroys the target's held berry."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 225,
+  "name": "dragon-breath",
+  "type": "dragon",
+  "power": 60,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to paralyze the target."
+}

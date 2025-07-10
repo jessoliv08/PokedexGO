@@ -1,0 +1,12 @@
+{
+  "id": 698,
+  "name": "guardian-of-alola",
+  "type": "fairy",
+  "power": null,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Damages the target for 75% of its remaining HP."
+}

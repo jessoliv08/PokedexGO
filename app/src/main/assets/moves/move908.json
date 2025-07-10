@@ -1,0 +1,12 @@
+{
+  "id": 908,
+  "name": "burning-bulwark",
+  "type": "fire",
+  "power": 0,
+  "pp": 10,
+  "accuracy": 0,
+  "priority": 4,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": null
+}

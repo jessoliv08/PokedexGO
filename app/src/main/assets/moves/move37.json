@@ -1,0 +1,12 @@
+{
+  "id": 37,
+  "name": "thrash",
+  "type": "normal",
+  "power": 120,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Hits every turn for 2-3 turns, then confuses the user."
+}

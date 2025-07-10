@@ -1,0 +1,12 @@
+{
+  "id": 352,
+  "name": "water-pulse",
+  "type": "water",
+  "power": 60,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 20,
+  "effect": "Has a 20% chance to confuse the target."
+}

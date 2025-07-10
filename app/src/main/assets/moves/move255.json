@@ -1,0 +1,12 @@
+{
+  "id": 255,
+  "name": "spit-up",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Power is 100 times the amount of energy Stockpiled."
+}

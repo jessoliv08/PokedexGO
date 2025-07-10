@@ -1,0 +1,12 @@
+{
+  "id": 723,
+  "name": "light-that-burns-the-sky",
+  "type": "psychic",
+  "power": 200,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Inflicts damage using either Attack or Special Attack stat, whichever is higher."
+}

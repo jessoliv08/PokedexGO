@@ -1,0 +1,12 @@
+{
+  "id": 905,
+  "name": "electro-shot",
+  "type": "electric",
+  "power": 130,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": 660,
+  "name": "first-impression",
+  "type": "bug",
+  "power": 90,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 2,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Can only be used as the first move after the user enters battle."
+}

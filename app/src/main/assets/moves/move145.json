@@ -1,0 +1,12 @@
+{
+  "id": 145,
+  "name": "bubble",
+  "type": "water",
+  "power": 40,
+  "pp": 30,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to lower the target's Speed by one stage."
+}

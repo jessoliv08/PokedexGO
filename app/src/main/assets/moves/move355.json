@@ -1,0 +1,12 @@
+{
+  "id": 355,
+  "name": "roost",
+  "type": "flying",
+  "power": null,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Heals the user by half its max HP."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 754,
+  "name": "bolt-beak",
+  "type": "electric",
+  "power": 85,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

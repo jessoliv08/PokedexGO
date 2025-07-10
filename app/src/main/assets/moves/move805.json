@@ -1,0 +1,12 @@
+{
+  "id": 805,
+  "name": "terrain-pulse",
+  "type": "normal",
+  "power": 50,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Inflicts regular damage with no additional effect."
+}

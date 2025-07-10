@@ -1,0 +1,12 @@
+{
+  "id": 93,
+  "name": "confusion",
+  "type": "psychic",
+  "power": 50,
+  "pp": 25,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to confuse the target."
+}

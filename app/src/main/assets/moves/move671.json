@@ -1,0 +1,12 @@
+{
+  "id": 671,
+  "name": "spotlight",
+  "type": "normal",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 3,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Forces the target's opponents to aim at the target for the rest of the turn."
+}

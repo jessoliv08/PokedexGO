@@ -1,0 +1,12 @@
+{
+  "id": 677,
+  "name": "anchor-shot",
+  "type": "steel",
+  "power": 80,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Traps the target."
+}

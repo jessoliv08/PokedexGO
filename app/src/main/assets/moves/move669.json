@@ -1,0 +1,12 @@
+{
+  "id": 669,
+  "name": "solar-blade",
+  "type": "grass",
+  "power": 125,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Requires a turn to charge before attacking."
+}

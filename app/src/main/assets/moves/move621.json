@@ -1,0 +1,12 @@
+{
+  "id": 621,
+  "name": "hyperspace-fury",
+  "type": "dark",
+  "power": 100,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Ignores and destroys protection effects."
+}

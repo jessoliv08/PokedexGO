@@ -1,0 +1,12 @@
+{
+  "id": 132,
+  "name": "constrict",
+  "type": "normal",
+  "power": 10,
+  "pp": 35,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has a 10% chance to lower the target's Speed by one stage."
+}

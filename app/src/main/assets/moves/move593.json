@@ -1,0 +1,12 @@
+{
+  "id": 593,
+  "name": "hyperspace-hole",
+  "type": "psychic",
+  "power": 80,
+  "pp": 5,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Ignores and destroys protection effects."
+}

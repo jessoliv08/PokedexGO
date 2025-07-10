@@ -1,0 +1,12 @@
+{
+  "id": 342,
+  "name": "poison-tail",
+  "type": "poison",
+  "power": 50,
+  "pp": 25,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 10,
+  "effect": "Has an increased chance for a critical hit and a 10% chance to poison the target."
+}

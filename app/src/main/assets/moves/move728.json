@@ -1,0 +1,12 @@
+{
+  "id": 728,
+  "name": "clangorous-soulblaze",
+  "type": "dragon",
+  "power": 185,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 100,
+  "effect": "Inflicts damage to all opposing Pokémon and increases the user's Attack, Defense, Special Attack, Special Defense, and Speed by one stage each."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 432,
+  "name": "defog",
+  "type": "flying",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Lowers the target's evasion by one stage.  Removes field effects from the enemy field."
+}

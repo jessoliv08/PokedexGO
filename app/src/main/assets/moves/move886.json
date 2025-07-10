@@ -1,0 +1,12 @@
+{
+  "id": 886,
+  "name": "chilling-water",
+  "type": "water",
+  "power": 50,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

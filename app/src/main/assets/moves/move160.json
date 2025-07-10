@@ -1,0 +1,12 @@
+{
+  "id": 160,
+  "name": "conversion",
+  "type": "normal",
+  "power": null,
+  "pp": 30,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "User's type changes to the type of one of its moves at random."
+}

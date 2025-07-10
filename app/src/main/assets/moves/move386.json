@@ -1,0 +1,12 @@
+{
+  "id": 386,
+  "name": "punishment",
+  "type": "dark",
+  "power": null,
+  "pp": 5,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Power increases against targets with more raised stats, up to a maximum of 200."
+}

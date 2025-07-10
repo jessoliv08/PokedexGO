@@ -1,0 +1,12 @@
+{
+  "id": 400,
+  "name": "night-slash",
+  "type": "dark",
+  "power": 70,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Has an increased chance for a critical hit."
+}

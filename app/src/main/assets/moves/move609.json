@@ -1,0 +1,12 @@
+{
+  "id": 609,
+  "name": "nuzzle",
+  "type": "electric",
+  "power": 20,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Has a 100% chance to paralyze the target."
+}

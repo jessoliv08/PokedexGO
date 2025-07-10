@@ -1,0 +1,12 @@
+{
+  "id": 226,
+  "name": "baton-pass",
+  "type": "normal",
+  "power": null,
+  "pp": 40,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Allows the trainer to switch out the user and pass effects along to its replacement."
+}

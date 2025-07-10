@@ -1,0 +1,12 @@
+{
+  "id": 689,
+  "name": "instruct",
+  "type": "psychic",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Forces the target to repeat its last used move."
+}

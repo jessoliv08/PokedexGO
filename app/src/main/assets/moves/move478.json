@@ -1,0 +1,12 @@
+{
+  "id": 478,
+  "name": "magic-room",
+  "type": "psychic",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Negates held items for five turns."
+}

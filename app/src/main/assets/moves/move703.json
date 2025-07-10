@@ -1,0 +1,12 @@
+{
+  "id": 703,
+  "name": "genesis-supernova",
+  "type": "psychic",
+  "power": 185,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Changes the terrain to Psychic Terrain after inflicting damage."
+}

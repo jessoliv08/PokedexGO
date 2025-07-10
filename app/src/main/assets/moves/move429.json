@@ -1,0 +1,12 @@
+{
+  "id": 429,
+  "name": "mirror-shot",
+  "type": "steel",
+  "power": 65,
+  "pp": 10,
+  "accuracy": 85,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to lower the target's accuracy by one stage."
+}

@@ -1,0 +1,12 @@
+{
+  "id": 492,
+  "name": "foul-play",
+  "type": "dark",
+  "power": 95,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Calculates damage with the target's attacking stat."
+}

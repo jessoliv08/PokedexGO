@@ -1,0 +1,13 @@
+{
+    "id": 154,
+    "baby_trigger_item": null,
+    "chain": {
+        "evolution_details": null,
+        "evolves_to": [],
+        "is_baby": false,
+        "species": {
+            "name": "plusle",
+            "url": "https://pokeapi.co/api/v2/pokemon-species/311/"
+        }
+    }
+}

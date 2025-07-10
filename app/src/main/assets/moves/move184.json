@@ -1,0 +1,12 @@
+{
+  "id": 184,
+  "name": "scary-face",
+  "type": "normal",
+  "power": null,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Lowers the target's Speed by two stages."
+}

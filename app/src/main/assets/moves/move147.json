@@ -1,0 +1,12 @@
+{
+  "id": 147,
+  "name": "spore",
+  "type": "grass",
+  "power": null,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Puts the target to sleep."
+}

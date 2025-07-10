@@ -1,0 +1,12 @@
+{
+  "id": 106,
+  "name": "harden",
+  "type": "normal",
+  "power": null,
+  "pp": 30,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Raises the user's Defense by one stage."
+}

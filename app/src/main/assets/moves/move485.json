@@ -1,0 +1,12 @@
+{
+  "id": 485,
+  "name": "synchronoise",
+  "type": "psychic",
+  "power": 120,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Hits any Pokémon that shares a type with the user."
+}

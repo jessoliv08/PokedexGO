@@ -1,0 +1,12 @@
+{
+  "id": 456,
+  "name": "heal-order",
+  "type": "bug",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Heals the user by half its max HP."
+}

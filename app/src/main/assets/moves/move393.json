@@ -1,0 +1,12 @@
+{
+  "id": 393,
+  "name": "magnet-rise",
+  "type": "electric",
+  "power": null,
+  "pp": 10,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "User is immune to Ground moves and effects for five turns."
+}

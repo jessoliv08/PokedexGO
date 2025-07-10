@@ -1,0 +1,12 @@
+{
+  "id": 280,
+  "name": "brick-break",
+  "type": "fighting",
+  "power": 75,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Destroys Reflect and Light Screen."
+}

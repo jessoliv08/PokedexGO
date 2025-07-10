@@ -1,0 +1,12 @@
+{
+  "id": 40,
+  "name": "poison-sting",
+  "type": "poison",
+  "power": 15,
+  "pp": 35,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 30,
+  "effect": "Has a 30% chance to poison the target."
+}

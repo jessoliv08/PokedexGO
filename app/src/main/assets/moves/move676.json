@@ -1,0 +1,12 @@
+{
+  "id": 676,
+  "name": "pollen-puff",
+  "type": "bug",
+  "power": 90,
+  "pp": 15,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Damages opponents, but heals allies for 50% of their max HP."
+}

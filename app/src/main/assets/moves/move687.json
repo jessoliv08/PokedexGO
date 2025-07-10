@@ -1,0 +1,12 @@
+{
+  "id": 687,
+  "name": "core-enforcer",
+  "type": "dragon",
+  "power": 100,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Nullifies the target's ability if it moves earlier."
+}

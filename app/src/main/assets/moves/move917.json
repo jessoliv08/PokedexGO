@@ -1,0 +1,12 @@
+{
+  "id": 917,
+  "name": "psychic-noise",
+  "type": "psychic",
+  "power": 75,
+  "pp": 10,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": 407,
+  "name": "dragon-rush",
+  "type": "dragon",
+  "power": 100,
+  "pp": 10,
+  "accuracy": 75,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 20,
+  "effect": "Has a 20% chance to make the target flinch."
+}

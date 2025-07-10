@@ -1,0 +1,12 @@
+{
+  "id": 490,
+  "name": "low-sweep",
+  "type": "fighting",
+  "power": 65,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": 100,
+  "effect": "Lowers the target's Speed by one stage."
+}

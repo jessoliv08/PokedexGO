@@ -1,0 +1,12 @@
+{
+  "id": 346,
+  "name": "water-sport",
+  "type": "water",
+  "power": null,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Halves all Fire-type damage."
+}

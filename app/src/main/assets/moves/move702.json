@@ -1,0 +1,12 @@
+{
+  "id": 702,
+  "name": "extreme-evoboost",
+  "type": "normal",
+  "power": null,
+  "pp": 1,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": 100,
+  "effect": "Raises all of the user's stats by two stages."
+}

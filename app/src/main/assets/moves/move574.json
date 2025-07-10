@@ -1,0 +1,12 @@
+{
+  "id": 574,
+  "name": "disarming-voice",
+  "type": "fairy",
+  "power": 40,
+  "pp": 15,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "special",
+  "effect_chance": null,
+  "effect": "Never misses."
+}

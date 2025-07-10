@@ -1,0 +1,12 @@
+{
+  "id": 895,
+  "name": "aqua-cutter",
+  "type": "water",
+  "power": 70,
+  "pp": 20,
+  "accuracy": 100,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

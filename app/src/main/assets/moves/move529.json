@@ -1,0 +1,12 @@
+{
+  "id": 529,
+  "name": "drill-run",
+  "type": "ground",
+  "power": 80,
+  "pp": 10,
+  "accuracy": 95,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": "Has an increased chance for a critical hit."
+}

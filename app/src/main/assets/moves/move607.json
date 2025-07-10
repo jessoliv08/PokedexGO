@@ -1,0 +1,12 @@
+{
+  "id": 607,
+  "name": "hold-hands",
+  "type": "normal",
+  "power": null,
+  "pp": 40,
+  "accuracy": null,
+  "priority": 0,
+  "damage_class": "status",
+  "effect_chance": null,
+  "effect": "Does nothing."
+}

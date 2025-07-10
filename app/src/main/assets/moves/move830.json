@@ -1,0 +1,12 @@
+{
+  "id": 830,
+  "name": "stone-axe",
+  "type": "rock",
+  "power": 65,
+  "pp": 15,
+  "accuracy": 90,
+  "priority": 0,
+  "damage_class": "physical",
+  "effect_chance": null,
+  "effect": null
+}

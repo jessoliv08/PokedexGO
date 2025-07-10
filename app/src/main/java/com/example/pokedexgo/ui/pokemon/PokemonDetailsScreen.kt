@@ -15,8 +15,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.pokedexgo.model.generic.ResultPokemon
-import com.example.pokedexgo.model.generic.ResultPokemonDetail
+import com.example.pokedexgo.model.state.ResultPokemon
+import com.example.pokedexgo.model.state.ResultPokemonDetail
 import com.example.pokedexgo.ui.list.PokemonLoading
 import com.example.pokedexgo.viewmodel.PokemonDetailViewModel
 

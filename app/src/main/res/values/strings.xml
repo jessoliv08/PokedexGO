@@ -13,9 +13,23 @@
     <string name="filter_weight">Select your range Weight</string>
     <string name="pokemon_details_error">Something went wrong to see this pokemon. Come back and try later</string>
     <string name="pokemon_details_title">Pokemon Details</string>
-    <string name="pokemon_details_section_main">MAIN</string>
-    <string name="pokemon_details_status">STATUS</string>
-    <string name="pokemon_details_abilities">ABILITIES</string>
-    <string name="pokemon_details_moves">MOVES</string>
-    <string name="pokemon_details_INFO">info</string>
+    <string name="pokemon_details_section_main">General</string>
+    <string name="pokemon_details_status">Status</string>
+    <string name="pokemon_details_abilities">Abilities</string>
+    <string name="pokemon_details_moves">Moves</string>
+    <string name="pokemon_details_info">Info</string>
+
+    <string name="min_level">Min Level: %1$s</string>
+    <string name="min_beauty">Min Beauty: %1$s</string>
+    <string name="min_happiness">Min Happiness: %1$s</string>
+    <string name="min_affection">Min Affection: %1$s</string>
+    <string name="time_of_day">Time of day: %1$s</string>
+    <string name="item">Item: %1$s</string>
+    <string name="held_item">Held Item: %1$s</string>
+    <string name="location">Location: %1$s</string>
+    <string name="known_move">Known move: %1$s</string>
+    <string name="known_move_type">Known move type: %1$s</string>
+    <string name="trade_species">Trade Species: %1$s</string>
+    <string name="needs_overworld_rain">Needs overworld rain</string>
+    <string name="turn_upside_down">Turn upside down</string>
 </resources>

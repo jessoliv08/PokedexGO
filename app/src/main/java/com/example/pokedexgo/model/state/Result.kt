@@ -1,4 +1,4 @@
-package com.example.pokedexgo.model.generic
+package com.example.pokedexgo.model.state
 
 import androidx.annotation.StringRes
 import com.example.pokedexgo.model.PokemonDetails

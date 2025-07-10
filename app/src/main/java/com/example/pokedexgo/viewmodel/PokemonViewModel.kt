@@ -5,9 +5,9 @@ import androidx.compose.ui.text.toLowerCase
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pokedexgo.R
-import com.example.pokedexgo.model.FilterDataViewState
+import com.example.pokedexgo.model.state.FilterDataViewState
 import com.example.pokedexgo.model.PokemonSummary
-import com.example.pokedexgo.model.generic.ResultPokemon
+import com.example.pokedexgo.model.state.ResultPokemon
 import com.example.pokedexgo.usecase.PokemonUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow

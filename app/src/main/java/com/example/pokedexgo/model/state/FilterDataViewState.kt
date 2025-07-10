@@ -1,4 +1,4 @@
-package com.example.pokedexgo.model
+package com.example.pokedexgo.model.state
 
 data class FilterDataViewState(
     val shouldShowModal: Boolean = false,

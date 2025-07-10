@@ -23,7 +23,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import com.example.pokedexgo.model.generic.ResultPokemon
+import com.example.pokedexgo.model.state.ResultPokemon
 import com.example.pokedexgo.ui.list.filter.FilterBottomModalWithAnimation
 import com.example.pokedexgo.ui.theme.PokemonSectionColor
 import com.example.pokedexgo.viewmodel.PokemonViewModel

@@ -16,7 +16,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.example.pokedexgo.model.FilterDataViewState
+import com.example.pokedexgo.model.state.FilterDataViewState
 
 
 private const val DELAY_ANIMATION = 200

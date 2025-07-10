@@ -26,7 +26,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.pokedexgo.R
-import com.example.pokedexgo.model.FilterDataViewState
+import com.example.pokedexgo.model.state.FilterDataViewState
 
 @Composable
 fun FilterSelectionView(

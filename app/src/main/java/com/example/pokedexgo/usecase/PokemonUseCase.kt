@@ -1,17 +1,16 @@
 package com.example.pokedexgo.usecase
 
 import com.example.pokedexgo.R
-import com.example.pokedexgo.model.generic.ResultPokemon
+import com.example.pokedexgo.model.state.ResultPokemon
 import com.example.pokedexgo.repository.PokemonRepository
 import android.util.Log
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.text.toUpperCase
-import com.example.pokedexgo.model.FilterDataViewState
-import com.example.pokedexgo.model.PokemonDetails
+import com.example.pokedexgo.model.state.FilterDataViewState
 import com.example.pokedexgo.model.PokemonSummary
 import com.example.pokedexgo.model.PokemonType
-import com.example.pokedexgo.model.generic.ResultPokemonDetail
+import com.example.pokedexgo.model.state.ResultPokemonDetail
 import javax.inject.Inject
 
 class PokemonUseCase @Inject constructor(

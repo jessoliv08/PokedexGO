@@ -11,6 +11,7 @@ class PokemonRepository  @Inject constructor(
 ) {
     fun getAllPokemonWithFilter() = pokemonDAO.getAllPokemonWithFilterList()
     fun getAllTypesList() = pokemonDAO.getAllTypesList()
+    fun getAllTypesDetailedList() = pokemonDAO.getAllTypesDetailedList()
     fun getPokemonById(id: Int) = pokemonDAO.getPokemonById(id)
 
     fun getChainById(id: Int): List<PokemonEvolution>? {

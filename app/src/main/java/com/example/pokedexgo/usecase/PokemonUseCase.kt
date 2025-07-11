@@ -7,6 +7,10 @@ import android.util.Log
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.text.toUpperCase
+import com.example.pokedexgo.model.TypeDamage
+import com.example.pokedexgo.model.TypeDetailed
+import com.example.pokedexgo.model.Damages
+import com.example.pokedexgo.model.generic.Id
 import com.example.pokedexgo.model.state.FilterDataViewState
 import com.example.pokedexgo.model.pokemon.PokemonSummary
 import com.example.pokedexgo.model.pokemon.PokemonType
@@ -35,6 +39,84 @@ class PokemonUseCase @Inject constructor(
     fun getAllTypesList(): List<PokemonType>? {
         try {
             return pokemonRepository.getAllTypesList()?.toList()
+        } catch (ex: Exception) {
+            Log.e(TAG, "Error parsing types from json", ex)
+            return emptyList()
+        }
+    }
+
+    fun processWeakness(
+        slot1: TypeDetailed?,
+        slot2: TypeDetailed?,
+        types: List<PokemonType>
+    ): Damages {
+        val damageMap = mutableMapOf<PokemonType, Double>()
+
+        fun applyDamageEffect(typeList: Array<Id>, multiplier: Double) {
+            typeList.forEach { typeId ->
+                val type = types.find { it.id == typeId.id } ?: return@forEach
+                damageMap[type] = damageMap.getOrDefault(type, 1.0) * multiplier
+            }
+        }
+        slot1?.let {
+            // Apply all damage relations from slot1
+            applyDamageEffect(slot1.no_damage_from, 0.0)
+            applyDamageEffect(slot1.half_damage_from, 0.5)
+            applyDamageEffect(slot1.double_damage_from, 2.0)
+        }
+        slot2?.let {
+            // Apply all damage relations from slot2
+            applyDamageEffect(slot2.no_damage_from, 0.0)
+            applyDamageEffect(slot2.half_damage_from, 0.5)
+            applyDamageEffect(slot2.double_damage_from, 2.0)
+        }
+
+        // Convert to final Strengths object (converting to Int as per your model)
+        val typeDamages = damageMap.map { (type, multiplier) ->
+            TypeDamage(type = type, damage = multiplier)  // or round if needed
+        }
+
+        return Damages(values = typeDamages.sortedByDescending { it.damage })
+    }
+
+    fun processStrengths(
+        slot1: TypeDetailed?,
+        slot2: TypeDetailed?,
+        types: List<PokemonType>
+    ): Damages {
+        val damageMap = mutableMapOf<PokemonType, Double>()
+
+        fun applyDamageEffect(typeList: Array<Id>, multiplier: Double) {
+            typeList.forEach { typeId ->
+                val type = types.find { it.id == typeId.id } ?: return@forEach
+                damageMap[type] = damageMap.getOrDefault(type, 1.0) * multiplier
+            }
+        }
+
+        slot1?.let {
+            // Apply all damage relations from slot1
+            applyDamageEffect(slot1.no_damage_to, 0.0)
+            applyDamageEffect(slot1.half_damage_to, 0.5)
+            applyDamageEffect(slot1.double_damage_to, 2.0)
+        }
+        slot2?.let {
+            // Apply all damage relations from slot2
+            applyDamageEffect(slot2.no_damage_to, 0.0)
+            applyDamageEffect(slot2.half_damage_to, 0.5)
+            applyDamageEffect(slot2.double_damage_to, 2.0)
+        }
+
+        // Convert to final Strengths object (converting to Int as per your model)
+        val typeDamages = damageMap.map { (type, multiplier) ->
+            TypeDamage(type = type, damage = multiplier)  // or round if needed
+        }
+
+        return Damages(values = typeDamages.sortedByDescending { it.damage })
+    }
+
+    fun getAllTypesDetailedList(): List<TypeDetailed>? {
+        try {
+            return pokemonRepository.getAllTypesDetailedList()?.toList()
         } catch (ex: Exception) {
             Log.e(TAG, "Error parsing types from json", ex)
             return emptyList()

@@ -34,7 +34,7 @@
     <string name="pp">PP</string>
     <string name="accuracy">Accuracy</string>
     <string name="priority">Priority</string>
-    <string name="stats">Stats</string>
+    <string name="stats">Stats:</string>
 
     <string name="habitat">Habitat</string>
     <string name="base_experience">Base experience</string>
@@ -52,6 +52,8 @@
     <string name="evolution">Evolution:</string>
     <string name="evolve">Evolve</string>
     <string name="level_up">Level Up</string>
+    <string name="strengths">Strengths:</string>
+    <string name="weakness">Weakness:</string>
 
     <string name="min_level">Min Level: %1$s</string>
     <string name="min_beauty">Min Beauty: %1$s</string>

@@ -4,6 +4,7 @@ import android.content.Context
 import com.example.pokedex.DAO.getAllJsonList
 import com.example.pokedex.DAO.getSingleJsonList
 import com.example.pokedex.util.Constants
+import com.example.pokedexgo.model.TypeDetailed
 import com.example.pokedexgo.model.chain.EvolutionChain
 import com.example.pokedexgo.model.pokemon.PokemonDetails
 import com.example.pokedexgo.model.pokemon.PokemonSummary
@@ -22,6 +23,11 @@ class PokemonDAO @Inject constructor(
 
     fun getAllTypesList(): Array<PokemonType>? {
         val typeArrayType = object : TypeToken<Array<PokemonType>>() {}.type
+        return getAllJsonList(context, Constants.TYPE_LIST, typeArrayType)
+    }
+
+    fun getAllTypesDetailedList(): Array<TypeDetailed>? {
+        val typeArrayType = object : TypeToken<Array<TypeDetailed>>() {}.type
         return getAllJsonList(context, Constants.TYPE_LIST, typeArrayType)
     }
 

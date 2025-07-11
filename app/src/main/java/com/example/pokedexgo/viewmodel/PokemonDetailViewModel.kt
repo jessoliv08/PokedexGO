@@ -140,10 +140,29 @@ class PokemonDetailViewModel @Inject constructor(
                 )
             }
             1 -> {
+                val typesDetailed = pokemonUseCase.getAllTypesDetailedList()
+                val slot1Type = typesDetailed?.find {
+                    it.id == pokemon.types?.find {
+                        it.slot == 1
+                    }?.id
+                }
+                val slot2Type = typesDetailed?.find {
+                    it.id == pokemon.types?.find {
+                        it.slot == 2
+                    }?.id
+                }
                 ContentViewState.PokemonContentStats(
                     stats = pokemon.stats.toList(),
-//                    damageFrom = ,
-//                    damageTo =
+                    strengths = pokemonUseCase.processStrengths(
+                        slot1 = slot1Type,
+                        slot2 = slot2Type,
+                        types = cacheTypes
+                    ),
+                    weakness = pokemonUseCase.processWeakness(
+                        slot1 = slot1Type,
+                        slot2 = slot2Type,
+                        types = cacheTypes
+                    )
                 )
             }
             2 -> {

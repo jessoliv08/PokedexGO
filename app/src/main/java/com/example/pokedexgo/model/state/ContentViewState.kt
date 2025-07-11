@@ -3,6 +3,7 @@ package com.example.pokedexgo.model.state
 import com.example.pokedexgo.model.ability.AbilityStruct
 import com.example.pokedexgo.model.move.MoveStruct
 import com.example.pokedexgo.model.Stat
+import com.example.pokedexgo.model.Damages
 import com.example.pokedexgo.model.ability.Ability
 import com.example.pokedexgo.model.chain.PokemonEvolution
 
@@ -19,8 +20,8 @@ sealed interface ContentViewState {
 
     data class PokemonContentStats(
         val stats: List<Stat>,
-//        val damageFrom: List<PokemonType>,
-//        val damageTo: List<PokemonType>
+        val strengths: Damages,
+        val weakness: Damages
     ): ContentViewState
 
     data class PokemonContentAbilities(

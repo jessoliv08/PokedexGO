@@ -19,6 +19,20 @@
     <string name="pokemon_details_moves">Moves</string>
     <string name="pokemon_details_info">Info</string>
 
+    <string name="habitat">Habitat</string>
+    <string name="base_experience">Base experience</string>
+    <string name="gender">Gender rate</string>
+    <string name="capture">Capture rate</string>
+    <string name="hatch_counter">Hatch Counter</string>
+    <string name="egg_groups">Eggs groups</string>
+    <string name="capturing_data">Capturing:</string>
+    <string name="breeding_data">Breeding:</string>
+    <string name="extra_info">Extra info:</string>
+    <string name="base_happiness">Base happiness</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="generation">generation</string>
+
     <string name="min_level">Min Level: %1$s</string>
     <string name="min_beauty">Min Beauty: %1$s</string>
     <string name="min_happiness">Min Happiness: %1$s</string>

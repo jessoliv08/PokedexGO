@@ -12,6 +12,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import javax.inject.Inject
+import kotlin.math.abs
 
 @HiltViewModel
 class PokemonDetailViewModel @Inject constructor(
@@ -28,7 +29,7 @@ class PokemonDetailViewModel @Inject constructor(
         listOf(
             TabButtonState(
                 id = 0,
-                icon = R.drawable.evolve,
+                icon = R.drawable.pokeball,
                 label = R.string.pokemon_details_section_main,
                 isSelected = true
             ),
@@ -103,7 +104,12 @@ class PokemonDetailViewModel @Inject constructor(
             0 -> {
                 ContentViewState.PokemonContentMain(
 //                    chain = ,
-                    genderRate = pokemon.gender_rate,
+                    genderRate = if (pokemon.gender_rate != -1) {
+                        val femaleRate = ((pokemon.gender_rate / 8f) * 100).toInt()
+                        "${femaleRate}% F / ${abs(femaleRate - 100)}% M"
+                    } else {
+                        "genderless"
+                    },
                     captureRate = pokemon.capture_rate,
                     habitat = pokemon.habitat,
                     eggGroups = pokemon.egg_groups?.toList(),

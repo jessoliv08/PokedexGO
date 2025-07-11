@@ -7,9 +7,9 @@ import com.example.pokedexgo.model.StatStruct
 sealed interface ContentViewState {
     data class PokemonContentMain(
 //        val chain: Chain,
-        val genderRate: Int,
+        val genderRate: String,
         val captureRate: Int,
-        val habitat: String,
+        val habitat: String?,
         val eggGroups: List<String>?,
         val hatchCounter: Int,
         val baseExperience: Int

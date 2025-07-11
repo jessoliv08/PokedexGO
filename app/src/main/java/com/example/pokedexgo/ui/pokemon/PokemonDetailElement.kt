@@ -35,6 +35,7 @@ import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.unit.dp
 import com.example.pokedexgo.R
 import com.example.pokedexgo.model.PokemonDetails
+import com.example.pokedexgo.model.state.ContentViewState
 import com.example.pokedexgo.ui.generic.MatchColor
 import com.example.pokedexgo.ui.theme.DarkerGray
 import com.example.pokedexgo.viewmodel.PokemonDetailViewModel
@@ -45,21 +46,43 @@ fun PokemonDetailElement(
     viewModel: PokemonDetailViewModel,
     onBackButton: () -> Unit = {}
 ) {
+    val resourceColorName = viewModel.getSlot1TypeName()?.toLowerCase(Locale.current)
     Scaffold(
         modifier = Modifier.fillMaxSize(),
         topBar = {
             TopBar(
                 viewModel = viewModel,
                 pokemon = pokemon,
-                resourceName = viewModel.getSlot1TypeName()?.toLowerCase(Locale.current),
+                resourceName = resourceColorName,
                 onBackButton = onBackButton
             )
         },
         bottomBar = {
-            BottomBar(viewModel = viewModel)
+            BottomBar(
+                viewModel = viewModel,
+                resourceName = resourceColorName
+            )
         },
-        content = { padding ->
+        content = { paddingValues ->
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(paddingValues)  // 👈 This is the key
+            ) {
+                val content by viewModel.contentViewState.collectAsState()
+                when (content) {
+                    is ContentViewState.PokemonContentMain -> {
+                        PokemonGeneralContent(content as ContentViewState.PokemonContentMain)
+                    }
+                    is ContentViewState.PokemonContentInfo -> {
+                        PokemonGeneralContent(content as ContentViewState.PokemonContentInfo)
+                    }
 
+                    else -> {
+
+                    }
+                }
+            }
         }
     )
 }
@@ -113,7 +136,10 @@ fun TopBar(
 
 
 @Composable
-fun BottomBar(viewModel: PokemonDetailViewModel) {
+fun BottomBar(
+    viewModel: PokemonDetailViewModel,
+    resourceName: String?,
+) {
     val tabButton by viewModel.bottomButtonViewState.collectAsState()
     val bottomInset = WindowInsets.systemBars.asPaddingValues()
         .calculateBottomPadding()
@@ -123,7 +149,7 @@ fun BottomBar(viewModel: PokemonDetailViewModel) {
             .height(80.dp + bottomInset)
             .background(
                 MatchColor(
-                    viewModel.getSlot1TypeName()?.toLowerCase(Locale.current) ?: ""
+                    resourceName ?: ""
                 )
             ),
         verticalAlignment = Alignment.CenterVertically,

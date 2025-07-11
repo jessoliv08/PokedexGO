@@ -16,7 +16,7 @@ class PokemonDetails(
     val weight: Int,
     val flavor_text: String,
     val generation: String,
-    val habitat: String,
+    val habitat: String?,
     val base_experience: Int,
     names: Array<Name>,
     val types: Array<TypeStructure>?,

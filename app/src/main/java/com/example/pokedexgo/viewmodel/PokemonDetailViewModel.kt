@@ -141,7 +141,7 @@ class PokemonDetailViewModel @Inject constructor(
             }
             1 -> {
                 ContentViewState.PokemonContentStats(
-                    stats = pokemon.stats?.toList(),
+                    stats = pokemon.stats.toList(),
 //                    damageFrom = ,
 //                    damageTo =
                 )

@@ -87,10 +87,13 @@ fun PokemonDetailElement(
                             onMoveClick = { viewModel.shouldShowModal(true, it) }
                         )
                     }
-
-                    else -> {
-
+                    is ContentViewState.PokemonContentStats -> {
+                        PokemonStatsContent(
+                            content = content as ContentViewState.PokemonContentStats
+                        )
                     }
+
+                    else -> {}
                 }
             }
         }

@@ -34,6 +34,7 @@
     <string name="pp">PP</string>
     <string name="accuracy">Accuracy</string>
     <string name="priority">Priority</string>
+    <string name="stats">Stats</string>
 
     <string name="habitat">Habitat</string>
     <string name="base_experience">Base experience</string>

@@ -2,7 +2,7 @@ package com.example.pokedexgo.model.pokemon
 
 import com.example.pokedexgo.model.ability.AbilityStruct
 import com.example.pokedexgo.model.move.MoveStruct
-import com.example.pokedexgo.model.StatStruct
+import com.example.pokedexgo.model.Stat
 import com.example.pokedexgo.model.generic.MultipleNames
 import com.example.pokedexgo.model.generic.Name
 import com.example.pokedexgo.model.generic.TypeStructure
@@ -23,7 +23,7 @@ class PokemonDetails(
     val base_experience: Int,
     names: Array<Name>,
     val types: Array<TypeStructure>?,
-    val stats: Array<StatStruct>?,
+    val stats: Array<Stat>,
     val egg_groups: Array<String>?,
     val abilities: Array<AbilityStruct>?,
     val moves: Array<MoveStruct>?,

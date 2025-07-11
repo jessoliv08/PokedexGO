@@ -36,26 +36,32 @@
     "stats": [
         {
             "id": 1,
+            "name": "hp",
             "base_stat": 63
         },
         {
             "id": 2,
+            "name": "attack",
             "base_stat": 63
         },
         {
             "id": 3,
+            "name": "defense",
             "base_stat": 47
         },
         {
             "id": 4,
+            "name": "special-attack",
             "base_stat": 41
         },
         {
             "id": 5,
+            "name": "special-defense",
             "base_stat": 41
         },
         {
             "id": 6,
+            "name": "speed",
             "base_stat": 74
         }
     ],

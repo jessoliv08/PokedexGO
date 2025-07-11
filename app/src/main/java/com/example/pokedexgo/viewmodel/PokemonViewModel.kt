@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.pokedexgo.R
 import com.example.pokedexgo.model.state.FilterDataViewState
-import com.example.pokedexgo.model.PokemonSummary
+import com.example.pokedexgo.model.pokemon.PokemonSummary
 import com.example.pokedexgo.model.state.ResultPokemon
 import com.example.pokedexgo.usecase.PokemonUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel

@@ -18,6 +18,12 @@
     <string name="pokemon_details_abilities">Abilities</string>
     <string name="pokemon_details_moves">Moves</string>
     <string name="pokemon_details_info">Info</string>
+    <string name="pokemon_slot">Slot: %s</string>
+    <string name="is_hidden">Is hidden</string>
+    <string name="version_group">Version Group:</string>
+    <string name="description_label">Description:</string>
+    <string name="effect_label">Effect:</string>
+    <string name="short_effect_label">Short Effect:</string>
 
     <string name="habitat">Habitat</string>
     <string name="base_experience">Base experience</string>

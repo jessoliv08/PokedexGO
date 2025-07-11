@@ -1,4 +1,4 @@
-package com.example.pokedexgo.model
+package com.example.pokedexgo.model.chain
 
 import android.content.res.Resources
 import com.example.pokedexgo.R

@@ -1,6 +1,5 @@
-package com.example.pokedex.model
+package com.example.pokedexgo.model.chain
 
-import com.example.pokedexgo.model.EvolutionDetails
 import com.example.pokedexgo.model.generic.LinkType
 
 data class Chain(

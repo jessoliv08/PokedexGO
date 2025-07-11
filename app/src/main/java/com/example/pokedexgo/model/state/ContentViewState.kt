@@ -1,8 +1,9 @@
 package com.example.pokedexgo.model.state
 
-import com.example.pokedexgo.model.AbilityStruct
+import com.example.pokedexgo.model.ability.AbilityStruct
 import com.example.pokedexgo.model.MoveStruct
 import com.example.pokedexgo.model.StatStruct
+import com.example.pokedexgo.model.ability.Ability
 
 sealed interface ContentViewState {
     data class PokemonContentMain(
@@ -22,7 +23,8 @@ sealed interface ContentViewState {
     ): ContentViewState
 
     data class PokemonContentAbilities(
-        val abilities: List<AbilityStruct>?
+        val abilities: List<AbilityStruct>?,
+        val abilitiesCompleted: List<Ability>?
     ): ContentViewState
 
     data class PokemonContentMoves(

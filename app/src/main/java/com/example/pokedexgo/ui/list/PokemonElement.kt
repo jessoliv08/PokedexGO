@@ -23,7 +23,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.example.pokedexgo.R
-import com.example.pokedexgo.model.PokemonSummary
+import com.example.pokedexgo.model.pokemon.PokemonSummary
 import com.example.pokedexgo.model.generic.TypeStructure
 
 @Composable

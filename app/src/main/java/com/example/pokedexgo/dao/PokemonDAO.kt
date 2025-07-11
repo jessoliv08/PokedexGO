@@ -4,9 +4,9 @@ import android.content.Context
 import com.example.pokedex.DAO.getAllJsonList
 import com.example.pokedex.DAO.getSingleJsonList
 import com.example.pokedex.util.Constants
-import com.example.pokedexgo.model.PokemonDetails
-import com.example.pokedexgo.model.PokemonSummary
-import com.example.pokedexgo.model.PokemonType
+import com.example.pokedexgo.model.pokemon.PokemonDetails
+import com.example.pokedexgo.model.pokemon.PokemonSummary
+import com.example.pokedexgo.model.pokemon.PokemonType
 import com.google.gson.reflect.TypeToken
 import dagger.hilt.android.qualifiers.ApplicationContext
 import javax.inject.Inject

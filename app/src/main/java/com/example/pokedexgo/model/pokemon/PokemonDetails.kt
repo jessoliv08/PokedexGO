@@ -1,5 +1,8 @@
-package com.example.pokedexgo.model
+package com.example.pokedexgo.model.pokemon
 
+import com.example.pokedexgo.model.ability.AbilityStruct
+import com.example.pokedexgo.model.MoveStruct
+import com.example.pokedexgo.model.StatStruct
 import com.example.pokedexgo.model.generic.MultipleNames
 import com.example.pokedexgo.model.generic.Name
 import com.example.pokedexgo.model.generic.TypeStructure

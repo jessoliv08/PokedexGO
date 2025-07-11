@@ -1,4 +1,4 @@
-package com.example.pokedexgo.model
+package com.example.pokedexgo.model.pokemon
 
 import com.example.pokedex.util.Constants.IMAGE_LINK
 import com.example.pokedexgo.model.generic.TypeStructure

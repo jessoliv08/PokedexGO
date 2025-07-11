@@ -1,4 +1,4 @@
-package com.example.pokedexgo.model
+package com.example.pokedexgo.model.pokemon
 
 import com.example.pokedexgo.model.generic.MultipleNames
 import com.example.pokedexgo.model.generic.Name

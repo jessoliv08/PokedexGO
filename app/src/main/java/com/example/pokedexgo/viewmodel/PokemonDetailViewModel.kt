@@ -2,10 +2,12 @@ package com.example.pokedexgo.viewmodel
 
 import androidx.lifecycle.ViewModel
 import com.example.pokedexgo.R
-import com.example.pokedexgo.model.PokemonType
+import com.example.pokedexgo.model.ability.Ability
+import com.example.pokedexgo.model.pokemon.PokemonType
 import com.example.pokedexgo.model.state.ContentViewState
 import com.example.pokedexgo.model.state.ResultPokemonDetail
 import com.example.pokedexgo.model.state.TabButtonState
+import com.example.pokedexgo.usecase.AbilityUseCase
 import com.example.pokedexgo.usecase.PokemonUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -16,7 +18,8 @@ import kotlin.math.abs
 
 @HiltViewModel
 class PokemonDetailViewModel @Inject constructor(
-    private val pokemonUseCase: PokemonUseCase
+    private val pokemonUseCase: PokemonUseCase,
+    private val abilityUseCase: AbilityUseCase
 ): ViewModel() {
     private var cacheTypes: List<PokemonType> = emptyList()
     private val _viewState = MutableStateFlow<ResultPokemonDetail>(ResultPokemonDetail.Loading)
@@ -125,8 +128,14 @@ class PokemonDetailViewModel @Inject constructor(
                 )
             }
             2 -> {
+                val abilities = pokemon.abilities?.toList()
+                val abilitiesCompleted = abilities?.mapNotNull {
+                    abilityUseCase.getAbilityById(it.ability.id)
+                }
+
                 ContentViewState.PokemonContentAbilities(
-                    abilities = pokemon.abilities?.toList()
+                    abilities = abilities,
+                    abilitiesCompleted = abilitiesCompleted
                 )
             }
             3 -> {

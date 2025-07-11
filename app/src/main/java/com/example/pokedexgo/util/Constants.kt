@@ -8,6 +8,7 @@ public object Constants {
     const val TYPE_LIST = "Types.json"
     const val STATS_LIST = "Stats.json"
     const val POKEMON_PATH = "pokemons/pokemon"
+    const val ABILITIES_PATH = "abilities/ability"
     const val CHAIN_PATH = "chains/chain"
     const val POKEMON_LIST_WITH_FILTERS = "PokemonListWithFilter.json"
     const val MOVES_LIST = "MoveList.json"

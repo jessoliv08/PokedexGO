@@ -8,8 +8,8 @@ import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.text.toUpperCase
 import com.example.pokedexgo.model.state.FilterDataViewState
-import com.example.pokedexgo.model.PokemonSummary
-import com.example.pokedexgo.model.PokemonType
+import com.example.pokedexgo.model.pokemon.PokemonSummary
+import com.example.pokedexgo.model.pokemon.PokemonType
 import com.example.pokedexgo.model.state.ResultPokemonDetail
 import javax.inject.Inject
 

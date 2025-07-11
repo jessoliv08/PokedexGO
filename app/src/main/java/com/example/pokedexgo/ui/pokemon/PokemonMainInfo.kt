@@ -31,8 +31,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
 import com.example.pokedexgo.R
-import com.example.pokedexgo.model.PokemonDetails
-import com.example.pokedexgo.model.PokemonType
+import com.example.pokedexgo.model.pokemon.PokemonDetails
+import com.example.pokedexgo.model.pokemon.PokemonType
 import com.example.pokedexgo.model.generic.Name
 import com.example.pokedexgo.model.generic.TypeStructure
 import com.example.pokedexgo.ui.generic.MatchColor

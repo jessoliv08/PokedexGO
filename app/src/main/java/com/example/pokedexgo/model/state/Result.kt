@@ -1,8 +1,8 @@
 package com.example.pokedexgo.model.state
 
 import androidx.annotation.StringRes
-import com.example.pokedexgo.model.PokemonDetails
-import com.example.pokedexgo.model.PokemonSummary
+import com.example.pokedexgo.model.pokemon.PokemonDetails
+import com.example.pokedexgo.model.pokemon.PokemonSummary
 
 sealed interface ResultPokemon {
     data class Success(val dataWithFilter: List<PokemonSummary>) : ResultPokemon

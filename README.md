@@ -26,4 +26,9 @@ https://pokeapi.co/docs/v2
 
 ## Short video here
 
-<img width="540" height="1200" alt="Screenshot_20250708-213107" src="https://github.com/user-attachments/assets/e8ba5b24-b88c-4f16-8f78-ea9a6146516e" />
+https://github.com/user-attachments/assets/8df6d349-feea-426c-9566-1ef349fe7a73
+
+
+
+https://github.com/user-attachments/assets/aea4d682-4eb9-4ee3-91d8-cea682103d09
+

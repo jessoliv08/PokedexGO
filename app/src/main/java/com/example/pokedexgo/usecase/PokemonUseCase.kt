@@ -55,6 +55,8 @@ class PokemonUseCase @Inject constructor(
         return ResultPokemonDetail.Error(R.string.pokemon_details_error)
     }
 
+    fun getPokemonChain(id: Int) = pokemonRepository.getChainById(id)
+
     fun createFilterDataDefault(
         localPokemonList: List<PokemonSummary>
     ) : FilterDataViewState? {

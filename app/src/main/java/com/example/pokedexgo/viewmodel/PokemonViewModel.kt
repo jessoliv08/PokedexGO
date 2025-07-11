@@ -82,7 +82,7 @@ class PokemonViewModel @Inject constructor(
             }
         } else {
             searchedSubList = filteredSubList.filter {
-                it.name.toLowerCase(Locale.current).contains(query) ||
+                it.nameLocal.toLowerCase(Locale.current).contains(query) ||
                         it.id.toString().contains(query) ||
                         it.idLabel.contains(query) ||
                         it.idLabel.substring(1, it.idLabel.length).contains(query)

@@ -125,7 +125,7 @@ class PokemonDetailViewModel @Inject constructor(
         val content = when (contentId) {
             0 -> {
                 ContentViewState.PokemonContentMain(
-//                    chain = ,
+                    chain = pokemonUseCase.getPokemonChain(pokemon.evolution_chain),
                     genderRate = if (pokemon.gender_rate != -1) {
                         val femaleRate = ((pokemon.gender_rate / 8f) * 100).toInt()
                         "${femaleRate}% F / ${abs(femaleRate - 100)}% M"

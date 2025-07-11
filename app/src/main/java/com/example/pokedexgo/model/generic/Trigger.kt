@@ -5,21 +5,21 @@ import java.util.*
 
 open class Trigger(
     val id: Int,
-    val names: Array<Name>
+    val names: Array<Name>? = null
 ) {
-    val name: String
+    val name: String?
         get() {
             val currentLocale = Locale.getDefault().language
-            val namesFiltered = names.filter { nameInList ->
+            val namesFiltered = names?.filter { nameInList ->
                 nameInList.language == currentLocale
-            }
+            } ?: emptyList()
             val nameSelected = if (namesFiltered.isNotEmpty()) {
                 namesFiltered[0]
             } else {
-                names.filter { nameInList ->
+                names?.find { nameInList ->
                     nameInList.language == Constants.DEFAULT_LANGUAGE
-                }[0]
+                }
             }
-            return nameSelected.name
+            return nameSelected?.name
         }
 }

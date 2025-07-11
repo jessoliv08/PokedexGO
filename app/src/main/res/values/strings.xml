@@ -49,6 +49,9 @@
     <string name="height">Height</string>
     <string name="weight">Weight</string>
     <string name="generation">generation</string>
+    <string name="evolution">Evolution:</string>
+    <string name="evolve">Evolve</string>
+    <string name="level_up">Level Up</string>
 
     <string name="min_level">Min Level: %1$s</string>
     <string name="min_beauty">Min Beauty: %1$s</string>

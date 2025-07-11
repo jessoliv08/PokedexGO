@@ -72,7 +72,9 @@ fun PokemonDetailElement(
                 val content by viewModel.contentViewState.collectAsState()
                 when (content) {
                     is ContentViewState.PokemonContentMain -> {
-                        PokemonGeneralContent(content as ContentViewState.PokemonContentMain)
+                        PokemonGeneralContent(
+                            content = content as ContentViewState.PokemonContentMain,
+                        )
                     }
                     is ContentViewState.PokemonContentInfo -> {
                         PokemonGeneralContent(content as ContentViewState.PokemonContentInfo)

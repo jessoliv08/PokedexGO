@@ -25,6 +25,7 @@ import coil.compose.AsyncImage
 import com.example.pokedexgo.R
 import com.example.pokedexgo.model.pokemon.PokemonSummary
 import com.example.pokedexgo.model.generic.TypeStructure
+import com.example.pokedexgo.ui.pokemon.TypeIcons
 
 @Composable
 fun PokemonElement(
@@ -66,7 +67,7 @@ private fun PokemonInfo(pokemon: PokemonSummary) {
         )
         Column {
             Text(
-                pokemon.name,
+                pokemon.nameLocal,
                 style = MaterialTheme.typography.bodyLarge
             )
             Text(
@@ -74,30 +75,6 @@ private fun PokemonInfo(pokemon: PokemonSummary) {
                 color = MaterialTheme.colorScheme.secondary,
                 style = MaterialTheme.typography.bodyMedium
             )
-        }
-    }
-}
-
-@Composable
-private fun TypeIcons(types: List<TypeStructure>) {
-    val context = LocalContext.current
-    Row(
-        verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(4.dp),
-    ) {
-        for (type in types.sortedBy { it.slot }) {
-            val resourceName = "type${type.id}"
-            val resId = remember(type.id) {
-                context.resources.getIdentifier(resourceName, "drawable", context.packageName)
-            }
-            if (resId != 0) {
-                Image(
-                    painter = painterResource(id = resId),
-                    contentDescription = "Type",
-                    modifier = Modifier.height(34.dp),
-                    contentScale = ContentScale.Fit
-                )
-            }
         }
     }
 }

@@ -4,10 +4,11 @@ import com.example.pokedexgo.model.ability.AbilityStruct
 import com.example.pokedexgo.model.move.MoveStruct
 import com.example.pokedexgo.model.Stat
 import com.example.pokedexgo.model.ability.Ability
+import com.example.pokedexgo.model.chain.PokemonEvolution
 
 sealed interface ContentViewState {
     data class PokemonContentMain(
-//        val chain: Chain,
+        val chain: List<PokemonEvolution>?,
         val genderRate: String,
         val captureRate: Int,
         val habitat: String?,

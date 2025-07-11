@@ -7,19 +7,19 @@ import com.example.pokedexgo.model.generic.Trigger
 
 class EvolutionDetails(
     val trigger: Trigger,
-    val min_level: Int?,
-    val min_beauty: Int?,
-    val min_happiness: Int?,
-    val min_affection: Int?,
-    val time_of_day: String?,
-    val held_item: LinkType?,
-    val item: LinkType?,
-    val known_move: LinkType?,
-    val known_move_type: LinkType?,
-    val trade_species: LinkType?,
+    val min_level: Int? = null,
+    val min_beauty: Int? = null,
+    val min_happiness: Int? = null,
+    val min_affection: Int? = null,
+    val time_of_day: String? = null,
+    val held_item: LinkType? = null,
+    val item: LinkType? = null,
+    val known_move: LinkType? = null,
+    val known_move_type: LinkType? = null,
+    val trade_species: LinkType? = null,
     val needs_overworld_rain: Boolean,
     val turn_upside_down: Boolean,
-    val location: Array<LinkType>?
+    val location: LinkType? = null
 ) {
     fun getDescription(resources: Resources) : String {
         var descriptionStr = ""
@@ -88,13 +88,11 @@ class EvolutionDetails(
                 it.name))
             descriptionStr = descriptionStr.plus("\n")
         }
-        location?.let {
-            for (loc in it) {
-                descriptionStr = descriptionStr.plus(resources.getString(
+        location?.let { loc ->
+            descriptionStr = descriptionStr.plus(resources.getString(
                     R.string.location,
                     loc.name))
-                descriptionStr = descriptionStr.plus("\n")
-            }
+            descriptionStr = descriptionStr.plus("\n")
         }
         if (needs_overworld_rain) {
             descriptionStr = descriptionStr.plus(resources.getString(

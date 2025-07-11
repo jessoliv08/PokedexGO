@@ -18,7 +18,7 @@ https://pokeapi.co/docs/v2
 - Search bar (working for ID and name)
 
 ## Selecting a pokemon
-- General data and Evolution
+- General data and Evolution (and can go inside others pokemons)
 - Stats, Weakness and Strengths
 - Abilities
 - Moves (selecting will show more information)

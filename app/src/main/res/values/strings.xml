@@ -24,6 +24,16 @@
     <string name="description_label">Description:</string>
     <string name="effect_label">Effect:</string>
     <string name="short_effect_label">Short Effect:</string>
+    <string name="name">Name</string>
+    <string name="learn_method">Learn method</string>
+    <string name="level">Level</string>
+    <string name="power">Power</string>
+    <string name="level_number">%s lvl</string>
+    <string name="effect_chance">Effect change:</string>
+    <string name="damage_class">Damage class:</string>
+    <string name="pp">PP</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="priority">Priority</string>
 
     <string name="habitat">Habitat</string>
     <string name="base_experience">Base experience</string>

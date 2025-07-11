@@ -63,7 +63,7 @@ fun FilterSelectionView(
                 selectAll = { selectedFiltersSlot1.addAll(filterData.allTypes) },
                 removeAll = { selectedFiltersSlot1.removeAll(filterData.allTypes) }
             )
-            CustomFilterChipsExample(
+            CustomFilterChips(
                 selectedFilters = selectedFiltersSlot1,
                 filters = filterData.allTypes,
                 numberToBreak = 4
@@ -76,7 +76,7 @@ fun FilterSelectionView(
                 selectAll = { selectedFiltersSlot2.addAll(filterData.allTypes) },
                 removeAll = { selectedFiltersSlot2.removeAll(filterData.allTypes) }
             )
-            CustomFilterChipsExample(
+            CustomFilterChips(
                 selectedFilters = selectedFiltersSlot2,
                 filters = filterData.allTypes,
                 numberToBreak = 4
@@ -89,7 +89,7 @@ fun FilterSelectionView(
                 selectAll = { selectedGeneration.addAll(filterData.allGeneration) },
                 removeAll = { selectedGeneration.removeAll(filterData.allGeneration) }
             )
-            CustomFilterChipsExample(
+            CustomFilterChips(
                 selectedFilters = selectedGeneration,
                 filters = filterData.allGeneration,
                 numberToBreak = 6
@@ -102,7 +102,7 @@ fun FilterSelectionView(
                 selectAll = { selectedHabitat.addAll(filterData.allHabitat) },
                 removeAll = { selectedHabitat.removeAll(filterData.allHabitat) }
             )
-            CustomFilterChipsExample(
+            CustomFilterChips(
                 selectedFilters = selectedHabitat,
                 filters = filterData.allHabitat,
                 numberToBreak = 3

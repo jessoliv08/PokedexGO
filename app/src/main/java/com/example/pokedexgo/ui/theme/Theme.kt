@@ -5,13 +5,15 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.darkColorScheme
 import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.graphics.Color
 
 private val DarkColorScheme = darkColorScheme(
     primary = PokemonSectionColorDarker,
     secondary = Gray,
     tertiary = Clear,
     surface = PokemonSectionColor,
-    surfaceVariant = DarkerGray
+    surfaceVariant = DarkerGray,
+    onPrimary = Color.White
 )
 
 private val LightColorScheme = lightColorScheme(
@@ -19,7 +21,8 @@ private val LightColorScheme = lightColorScheme(
     secondary = DarkGrey,
     tertiary = Pink40,
     surface = PokemonSectionColor,
-    surfaceVariant = LighterGray
+    surfaceVariant = LighterGray,
+    onPrimary = Color.Black
 
     /* Other default colors to override
     background = Color(0xFFFFFBFE),

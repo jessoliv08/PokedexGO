@@ -10,21 +10,17 @@ import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.platform.LocalContext
-import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.text.toLowerCase
 import androidx.compose.ui.unit.dp
 import com.example.pokedexgo.ui.generic.MatchColor
 import com.example.pokedexgo.ui.theme.LightGray
 
-
 @Composable
-fun CustomFilterChipsExample(
+fun CustomFilterChips(
     selectedFilters: SnapshotStateList<String>,
     filters: List<String>,
     numberToBreak: Int

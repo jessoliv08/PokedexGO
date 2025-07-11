@@ -1,13 +1,16 @@
 package com.example.pokedexgo.viewmodel
 
+import androidx.compose.ui.text.intl.Locale
+import androidx.compose.ui.text.toLowerCase
 import androidx.lifecycle.ViewModel
 import com.example.pokedexgo.R
-import com.example.pokedexgo.model.ability.Ability
 import com.example.pokedexgo.model.pokemon.PokemonType
 import com.example.pokedexgo.model.state.ContentViewState
+import com.example.pokedexgo.model.state.MoveViewState
 import com.example.pokedexgo.model.state.ResultPokemonDetail
 import com.example.pokedexgo.model.state.TabButtonState
 import com.example.pokedexgo.usecase.AbilityUseCase
+import com.example.pokedexgo.usecase.MoveUseCase
 import com.example.pokedexgo.usecase.PokemonUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -19,7 +22,8 @@ import kotlin.math.abs
 @HiltViewModel
 class PokemonDetailViewModel @Inject constructor(
     private val pokemonUseCase: PokemonUseCase,
-    private val abilityUseCase: AbilityUseCase
+    private val abilityUseCase: AbilityUseCase,
+    private val moveUseCase: MoveUseCase
 ): ViewModel() {
     private var cacheTypes: List<PokemonType> = emptyList()
     private val _viewState = MutableStateFlow<ResultPokemonDetail>(ResultPokemonDetail.Loading)
@@ -27,6 +31,9 @@ class PokemonDetailViewModel @Inject constructor(
 
     private val _contentViewState = MutableStateFlow<ContentViewState>(ContentViewState.Loading)
     val contentViewState = _contentViewState.asStateFlow()
+
+    private val _modalToShow = MutableStateFlow(MoveViewState())
+    val modalToShow = _modalToShow.asStateFlow()
 
     private val _bottomButtonViewState = MutableStateFlow(
         listOf(
@@ -69,6 +76,18 @@ class PokemonDetailViewModel @Inject constructor(
             pokemonUseCase.getPokemonById(id)
         }
         onContentSelect(0)
+    }
+
+    fun shouldShowModal(shouldShow: Boolean, id: Int? = null) {
+        val move = id?.let { moveUseCase.getMoveById(id) }
+        val type = move?.type?.let { getPokemonType(it) }
+        _modalToShow.update {
+            it.copy(
+                shouldShowModal = shouldShow,
+                move = move,
+                type = type
+            )
+        }
     }
 
     fun getSlot1TypeName(): String? {
@@ -140,7 +159,9 @@ class PokemonDetailViewModel @Inject constructor(
             }
             3 -> {
                 ContentViewState.PokemonContentMoves(
-                    moves = pokemon.moves?.toList()
+                    moves = pokemon.moves?.toList()?.sortedBy {
+                        it.level_learned_at
+                    }
                 )
             }
             4 -> {
@@ -157,5 +178,13 @@ class PokemonDetailViewModel @Inject constructor(
         _contentViewState.update {
             content
         }
+    }
+
+    private fun getPokemonType(typeName: String): PokemonType? {
+        if (cacheTypes.isEmpty()) {
+            cacheTypes = pokemonUseCase.getAllTypesList() ?: emptyList()
+
+        }
+        return cacheTypes.firstOrNull { it.name.toLowerCase(Locale.current) == typeName }
     }
 }

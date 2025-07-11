@@ -1,4 +1,4 @@
-package com.example.pokedexgo.ui.list.filter
+package com.example.pokedexgo.ui.pokemon
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.core.tween
@@ -16,15 +16,13 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import com.example.pokedexgo.model.state.FilterDataViewState
+import com.example.pokedexgo.model.state.MoveViewState
 
 private const val DELAY_ANIMATION = 200
 
 @Composable
-fun FilterBottomModalWithAnimation(
-    shouldShow: Boolean,
-    filterData: FilterDataViewState,
-    onApplyFilter: (FilterDataViewState) -> Unit = {},
+fun MoveBottomModalWithAnimation(
+    modal: MoveViewState,
     onHideModal: () -> Unit
 ) {
     Box(
@@ -32,7 +30,7 @@ fun FilterBottomModalWithAnimation(
         contentAlignment = Alignment.BottomCenter
     ) {
         AnimatedVisibility(
-            visible = shouldShow,
+            visible = modal.shouldShowModal,
             enter = fadeIn(),
             exit = fadeOut(animationSpec = tween(delayMillis = DELAY_ANIMATION)),
             modifier = Modifier,
@@ -49,7 +47,7 @@ fun FilterBottomModalWithAnimation(
             )
         }
         AnimatedVisibility(
-            visible = shouldShow,
+            visible = modal.shouldShowModal,
             enter = slideInVertically(
                 initialOffsetY = { it },
                 animationSpec = tween(delayMillis = DELAY_ANIMATION)
@@ -59,9 +57,8 @@ fun FilterBottomModalWithAnimation(
                 enabled = false,
                 onClick = {}), // Intercept click from scrim to do nothing
         ) {
-            FilterSelectionView(
-                filterData = filterData,
-                onApplyFilter = onApplyFilter
+            MoveModal(
+                modal = modal
             )
         }
     }

@@ -80,6 +80,13 @@ fun PokemonDetailElement(
                     is ContentViewState.PokemonContentAbilities -> {
                         PokemonAbilitiesContent(content as ContentViewState.PokemonContentAbilities)
                     }
+                    is ContentViewState.PokemonContentMoves -> {
+                        PokemonMovesContent(
+                            content = content as ContentViewState.PokemonContentMoves,
+                            resourceName = resourceColorName,
+                            onMoveClick = { viewModel.shouldShowModal(true, it) }
+                        )
+                    }
 
                     else -> {
 
@@ -87,6 +94,11 @@ fun PokemonDetailElement(
                 }
             }
         }
+    )
+    val modalMode by viewModel.modalToShow.collectAsState()
+    MoveBottomModalWithAnimation(
+        modal = modalMode,
+        onHideModal = { viewModel.shouldShowModal(false) }
     )
 }
 
@@ -130,6 +142,7 @@ fun TopBar(
         }
         PokemonMainInfo(
             pokemon = pokemon,
+            resourceName = resourceName,
             getPokemonType = {
                 viewModel.getPokemonType(it)
             }

@@ -1,7 +1,7 @@
 package com.example.pokedexgo.model.state
 
 import com.example.pokedexgo.model.ability.AbilityStruct
-import com.example.pokedexgo.model.MoveStruct
+import com.example.pokedexgo.model.move.MoveStruct
 import com.example.pokedexgo.model.StatStruct
 import com.example.pokedexgo.model.ability.Ability
 

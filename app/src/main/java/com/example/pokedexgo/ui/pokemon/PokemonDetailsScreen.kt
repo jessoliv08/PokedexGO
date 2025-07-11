@@ -24,7 +24,8 @@ import com.example.pokedexgo.viewmodel.PokemonDetailViewModel
 fun PokemonDetailsScreen(
     pokemonId: Int,
     viewModel: PokemonDetailViewModel,
-    onBackButton: () -> Unit = {}
+    onBackButton: () -> Unit = {},
+    onNavigateToNextPokemon: (Int) -> Unit = {}
 ) {
     LaunchedEffect(Unit) {
         viewModel.setupPokemon(pokemonId)
@@ -36,8 +37,8 @@ fun PokemonDetailsScreen(
                 PokemonDetailElement(
                     pokemon = (pokemon as ResultPokemonDetail.Success).pokemon,
                     viewModel = viewModel,
-                    onBackButton = onBackButton
-                )
+                    onBackButton = onBackButton,
+                    onNavigateToNextPokemon = onNavigateToNextPokemon)
             }
             is ResultPokemonDetail.Loading -> {
                 PokemonLoading(Modifier.align(Alignment.Center))

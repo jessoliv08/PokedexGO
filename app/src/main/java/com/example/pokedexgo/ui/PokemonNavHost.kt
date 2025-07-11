@@ -39,6 +39,9 @@ fun PokemonNavHost(
                 viewModel = detailViewModel,
                 onBackButton = {
                     navController.popBackStack()
+                },
+                onNavigateToNextPokemon = { nextPokemon ->
+                    navController.navigate("pokemon_detail/$nextPokemon")
                 }
             )
         }

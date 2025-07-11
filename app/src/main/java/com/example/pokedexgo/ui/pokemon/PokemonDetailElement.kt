@@ -44,7 +44,8 @@ import com.example.pokedexgo.viewmodel.PokemonDetailViewModel
 fun PokemonDetailElement(
     pokemon: PokemonDetails,
     viewModel: PokemonDetailViewModel,
-    onBackButton: () -> Unit = {}
+    onBackButton: () -> Unit = {},
+    onNavigateToNextPokemon: (Int) -> Unit = {}
 ) {
     val resourceColorName = viewModel.getSlot1TypeName()?.toLowerCase(Locale.current)
     Scaffold(
@@ -74,6 +75,7 @@ fun PokemonDetailElement(
                     is ContentViewState.PokemonContentMain -> {
                         PokemonGeneralContent(
                             content = content as ContentViewState.PokemonContentMain,
+                            onNavigateToNextPokemon = onNavigateToNextPokemon
                         )
                     }
                     is ContentViewState.PokemonContentInfo -> {

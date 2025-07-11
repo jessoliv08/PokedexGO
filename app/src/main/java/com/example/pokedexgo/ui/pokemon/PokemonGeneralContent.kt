@@ -1,5 +1,6 @@
 package com.example.pokedexgo.ui.pokemon
 
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -29,6 +30,7 @@ import com.example.pokedexgo.model.state.ContentViewState
 @Composable
 fun PokemonGeneralContent(
     content: ContentViewState.PokemonContentMain,
+    onNavigateToNextPokemon: (Int) -> Unit = {}
 ) {
     Column(
         modifier = Modifier
@@ -90,13 +92,17 @@ fun PokemonGeneralContent(
             value = content.hatchCounter.toString()
         )
         HorizontalDivider(modifier = Modifier.padding(start = 12.dp).padding(bottom = 16.dp))
-        EvolutionChain(content)
+        EvolutionChain(
+            content = content,
+            onNavigateToNextPokemon = onNavigateToNextPokemon
+        )
     }
 }
 
 @Composable
 private fun EvolutionChain(
     content: ContentViewState.PokemonContentMain,
+    onNavigateToNextPokemon: (Int) -> Unit
 ) {
     content.chain?.let { evolutions ->
         if (evolutions.isEmpty()) return
@@ -114,8 +120,10 @@ private fun EvolutionChain(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     PokemonSummaryMainInfo(
-                        pokemon = evolution.fromPokemonId,
-                        modifier = Modifier.weight(1f)
+                        pokemon = evolution.fromPokemon,
+                        modifier = Modifier.weight(1f).clickable {
+                            onNavigateToNextPokemon(evolution.fromPokemon.id)
+                        }
                     )
                     Column(
                         modifier = Modifier.weight(1f).fillMaxHeight(),
@@ -146,8 +154,10 @@ private fun EvolutionChain(
                         )
                     }
                     PokemonSummaryMainInfo(
-                        modifier = Modifier.weight(1f),
-                        pokemon = evolution.toPokemonId,
+                        modifier = Modifier.weight(1f).clickable {
+                            onNavigateToNextPokemon(evolution.toPokemon.id)
+                        },
+                        pokemon = evolution.toPokemon,
                     )
                 }
                 HorizontalDivider()

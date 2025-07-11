@@ -35,8 +35,8 @@ class PokemonRepository  @Inject constructor(
                     pokemonOrigin.name = getName(isBaby, pokemonOrigin)
                     pokemonEvolv.name = getName(evoltInd.is_baby, pokemonEvolv)
                     val pokemonEvolution = PokemonEvolution(
-                        fromPokemonId = pokemonOrigin,
-                        toPokemonId = pokemonEvolv,
+                        fromPokemon = pokemonOrigin,
+                        toPokemon = pokemonEvolv,
                         descriptionDetails = evoltInd.evolution_details
                     )
                     setupTypes(pokemonEvolution, pokemonOrigin, 0)

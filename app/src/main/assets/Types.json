@@ -41,7 +41,21 @@
       {
         "id": 2
       }
-    ]
+    ],
+    "no_damage_to": [
+      {
+        "id": 8
+      }
+    ],
+    "half_damage_to": [
+      {
+        "id": 6
+      },
+      {
+        "id": 9
+      }
+    ],
+    "double_damage_to": []
   },
   {
     "id": 2,
@@ -96,6 +110,45 @@
       },
       {
         "id": 18
+      }
+    ],
+    "no_damage_to": [
+      {
+        "id": 8
+      }
+    ],
+    "half_damage_to": [
+      {
+        "id": 3
+      },
+      {
+        "id": 4
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 14
+      },
+      {
+        "id": 18
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 1
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 17
       }
     ]
   },
@@ -157,6 +210,29 @@
       {
         "id": 15
       }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 6
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 13
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 2
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 12
+      }
     ]
   },
   {
@@ -216,6 +292,33 @@
       {
         "id": 14
       }
+    ],
+    "no_damage_to": [
+      {
+        "id": 9
+      }
+    ],
+    "half_damage_to": [
+      {
+        "id": 4
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 8
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 12
+      },
+      {
+        "id": 18
+      }
     ]
   },
   {
@@ -272,6 +375,36 @@
       },
       {
         "id": 15
+      }
+    ],
+    "no_damage_to": [
+      {
+        "id": 3
+      }
+    ],
+    "half_damage_to": [
+      {
+        "id": 7
+      },
+      {
+        "id": 12
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 4
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 13
       }
     ]
   },
@@ -338,6 +471,32 @@
       {
         "id": 12
       }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 2
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": 9
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 3
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 15
+      }
     ]
   },
   {
@@ -393,6 +552,41 @@
       },
       {
         "id": 10
+      }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 2
+      },
+      {
+        "id": 3
+      },
+      {
+        "id": 4
+      },
+      {
+        "id": 8
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 18
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 12
+      },
+      {
+        "id": 14
+      },
+      {
+        "id": 17
       }
     ]
   },
@@ -450,6 +644,24 @@
       },
       {
         "id": 17
+      }
+    ],
+    "no_damage_to": [
+      {
+        "id": 1
+      }
+    ],
+    "half_damage_to": [
+      {
+        "id": 17
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 8
+      },
+      {
+        "id": 14
       }
     ]
   },
@@ -532,6 +744,32 @@
       {
         "id": 10
       }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 13
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 6
+      },
+      {
+        "id": 15
+      },
+      {
+        "id": 18
+      }
     ]
   },
   {
@@ -597,6 +835,35 @@
       {
         "id": 11
       }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 6
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 16
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 7
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 15
+      }
     ]
   },
   {
@@ -652,6 +919,29 @@
       },
       {
         "id": 13
+      }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 11
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 16
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 5
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 10
       }
     ]
   },
@@ -718,6 +1008,41 @@
       {
         "id": 15
       }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 3
+      },
+      {
+        "id": 4
+      },
+      {
+        "id": 7
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 16
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 5
+      },
+      {
+        "id": 6
+      },
+      {
+        "id": 11
+      }
     ]
   },
   {
@@ -767,6 +1092,30 @@
     "double_damage_from": [
       {
         "id": 5
+      }
+    ],
+    "no_damage_to": [
+      {
+        "id": 5
+      }
+    ],
+    "half_damage_to": [
+      {
+        "id": 12
+      },
+      {
+        "id": 13
+      },
+      {
+        "id": 16
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 3
+      },
+      {
+        "id": 11
       }
     ]
   },
@@ -821,6 +1170,27 @@
       {
         "id": 17
       }
+    ],
+    "no_damage_to": [
+      {
+        "id": 17
+      }
+    ],
+    "half_damage_to": [
+      {
+        "id": 9
+      },
+      {
+        "id": 14
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 2
+      },
+      {
+        "id": 4
+      }
     ]
   },
   {
@@ -873,6 +1243,35 @@
       },
       {
         "id": 10
+      }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      },
+      {
+        "id": 11
+      },
+      {
+        "id": 15
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 3
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": 12
+      },
+      {
+        "id": 16
       }
     ]
   },
@@ -933,6 +1332,21 @@
       {
         "id": 18
       }
+    ],
+    "no_damage_to": [
+      {
+        "id": 18
+      }
+    ],
+    "half_damage_to": [
+      {
+        "id": 9
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 16
+      }
     ]
   },
   {
@@ -989,6 +1403,26 @@
       },
       {
         "id": 18
+      }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 2
+      },
+      {
+        "id": 17
+      },
+      {
+        "id": 18
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 8
+      },
+      {
+        "id": 14
       }
     ]
   },
@@ -1047,6 +1481,29 @@
       {
         "id": 9
       }
+    ],
+    "no_damage_to": [],
+    "half_damage_to": [
+      {
+        "id": 4
+      },
+      {
+        "id": 9
+      },
+      {
+        "id": 10
+      }
+    ],
+    "double_damage_to": [
+      {
+        "id": 2
+      },
+      {
+        "id": 16
+      },
+      {
+        "id": 17
+      }
     ]
   },
   {
@@ -1083,6 +1540,9 @@
     ],
     "no_damage_from": [],
     "half_damage_from": [],
-    "double_damage_from": []
+    "double_damage_from": [],
+    "no_damage_to": [],
+    "half_damage_to": [],
+    "double_damage_to": []
   }
 ]
